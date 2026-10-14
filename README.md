@@ -1,6 +1,6 @@
 # RCS Bicycle
 
-South African road-bike configurator prototype. Dark equipment-selection interface, ZAR pricing, seven component groups, local build persistence, tire-clearance checks, illustrative build scores and downloadable sourcing briefs.
+South African road-bike sourcing configurator. Seven component groups, real manufacturer model references, local build persistence, shift-control mismatch checks and downloadable sourcing briefs.
 
 ## Development
 
@@ -17,32 +17,28 @@ npm run build
 npm run preview -- --port 4173
 ```
 
-No credentials, database or external services required. Fonts are bundled locally. Do not expose the development server as a production service.
+No credentials, database or external services are required to run the site. Fonts are bundled locally. Use the existing cloud checkout; tasks are isolated and no Git worktree is needed.
 
-## Current scope
+## Product data and evidence
 
-All catalog entries in `src/catalog.js` are fictional. Prices are demo estimates in ZAR, not retail offers. Scores demonstrate the interface and are not measured claims. Bike illustration does not render individual component changes. Only tire clearance is checked; no real-world compatibility guarantee is made. Brakes and levers are bundled pending verified component compatibility data.
+`src/catalog.js` contains named models from Specialized, Shimano, DT Swiss, Continental and PRO. These replace the original fictional demonstration products. Exact model years, sizes, variants, specifications, photography, local availability and prices have **not been reviewed** because manufacturer and retailer websites were blocked by the environment network policy during this update.
 
-Builds are stored only in the browser. The sourcing brief downloads as text; it is not submitted to the shop. No customer information is collected, payment accepted, inventory reserved or order created.
+Manufacturer links are catalog/research destinations, not citations to verified product-level specifications. There is no claimed supplier or brand partnership. Each entry records a pending verification status and null review date/source evidence. All prices, weights and scores remain unknown; unknown is never converted to zero or an invented star rating.
+
+Before verifying an entry, record the exact variant, reviewed product URL, review date, dimensions and standards, package contents and weight measurement basis. Prices need a South African source, currency, date, VAT treatment, stock status and unit basis (pair/single/bundle). Avoid double-counting bundled controls, seatposts or other parts. Add product photographs only from a source that permits the intended use and keep their source/usage record. The current bicycle illustration is explicitly generic. An entry's `image` can display an appropriately sourced selected-frame photograph later.
+
+Mechanical Shimano 105 and Di2 shift controls are checked for a control-system mismatch. No full physical-fit guarantee is made: frame sizing, tire clearance, axle/freehub standards, bottom bracket, headset, cockpit, seatpost, saddle rails, rotors and included small parts require review. Performance ratings require comparable measurement evidence; bike weight alone is not a climbing score.
+
+Builds stay in the browser. The sourcing brief downloads as text; it is not submitted to RCS. No customer data is collected, payment accepted, inventory reserved or order created.
 
 ## Validation
 
-`npm test` checks default totals, incompatible tire clearance and score/total bounds across all 144 combinations. Browser smoke checks during development covered selection, invalid-build blocking, persistence across reload, summary, downloaded brief, reset, mobile overflow and JavaScript errors.
+`npm test` covers null handling for unknown totals and evidence, mechanical/Di2 control mismatches, migration from saved fictional selections, and all 288 catalog combinations. Browser checks cover real model selection, source links, unknown pricing/ratings, mismatch blocking, persistence, brief download and mobile layout.
 
-## Next product phase
+## Public preview
 
-1. Add verified manufacturer specifications and source URLs, model years, supported sizes, standards, provenance and last-reviewed dates.
-2. Establish supplier relationships, availability, VAT treatment, assembly and shipping prices before displaying real offers.
-3. Replace demonstration scores with documented evidence and disclose uncertainty; assess rider fit separately.
-4. Add persistent quote submission, secure admin access and customer privacy/consent handling before collecting customer data.
-5. Add stock and payment integration only once fulfilment is established.
+The build uses relative asset URLs. The `gh-pages` branch contains the compiled preview and a `.nojekyll` marker. In GitHub **Settings → Pages**, choose **Deploy from a branch → gh-pages → / (root)**. Source changes on `main` do not automatically update `gh-pages`; publish a newly built tree to that branch after validation, preserving its current parent and avoiding force pushes.
 
-Use the existing checkout in cloud tasks; each task is isolated, so no Git worktree is needed.
+## Next phase
 
-## Public preview on GitHub Pages
-
-The production build uses relative asset URLs so it can be served at a GitHub Pages project path. The `gh-pages` branch contains the compiled preview with a `.nojekyll` marker.
-
-In the repository's **Settings → Pages**, select **Deploy from a branch**, choose **gh-pages** and **/ (root)**, and save. GitHub will show the public URL when deployment completes. This is a demonstration site with fictional products and prices, not a payment-enabled store.
-
-Changing source on `main` does not automatically update this preview branch; rebuild and republish the compiled files after changes.
+Verify official specifications and permitted photographs, establish South African supplier pricing and availability, then build evidence-based comparisons. Add secure quote submission and customer privacy handling before collecting personal data. Enable payment only once sourcing and fulfilment are established.

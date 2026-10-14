@@ -1,15 +1,21 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {catalog,defaults,evaluate} from './catalog.js';
-test('complete default build has expected totals and passes tire clearance',()=>{
- const b=evaluate(defaults);assert.equal(Object.keys(b.parts).length,7);assert.equal(b.price,30300);assert.equal(b.weight,8.6);assert.deepEqual(b.errors,[]);
+import {catalog,defaults,evaluate,money} from './catalog.js';
+test('unverified real references never produce invented prices, weight or ratings',()=>{
+ const b=evaluate(defaults);assert.equal(Object.keys(b.parts).length,7);assert.equal(b.price,null);assert.equal(b.weight,null);assert.equal(b.compatibilityVerified,false);assert.deepEqual(b.errors,[]);
+ assert.ok(Object.values(b.scores).every(score=>score===null));assert.equal(money(b.price),'Quote required');
+ for(const group of Object.values(catalog)) for(const p of group.items){assert.equal(p.verification.status,'pending');assert.equal(p.verification.sourceUrl,null);assert.equal(p.verification.reviewedAt,null);assert.match(p.manufacturerUrl,/^https:\/\//);assert.ok(p.brand);assert.equal(p.image,null);assert.equal(p.price,null);assert.equal(p.weight,null);}
 });
-test('frame changes enforce clearance and affect total and weight',()=>{
- const b=evaluate({...defaults,frame:'aero',tires:'endurance'});assert.equal(b.errors.length,1);assert.match(b.errors[0],/32 mm.*28 mm/);assert.equal(b.price,45100);
- assert.equal(evaluate({...defaults,frame:'aero',tires:'race'}).errors.length,0);
+test('mechanical and Di2 controls must match drivetrain',()=>{
+ assert.equal(evaluate({...defaults,drivetrain:'105-di2'}).errors.length,1);
+ assert.equal(evaluate({...defaults,drivetrain:'105-di2',brakes:'105-r7170'}).errors.length,0);
+ assert.equal(evaluate({...defaults,brakes:'105-r7170'}).errors.length,1);
 });
-test('all catalog combinations yield bounded scores and finite totals',()=>{
- let cases=[{}];for(const [key,g] of Object.entries(catalog)) cases=cases.flatMap(c=>g.items.map(p=>({...c,[key]:p.id})));
- for(const c of cases){const b=evaluate(c);assert.ok(b.price>0&&Number.isFinite(b.weight));for(const score of Object.values(b.scores))assert.ok(score>=1&&score<=10);}
- assert.equal(cases.length,144);
+test('legacy saved fictional products fall back to real references',()=>{
+ const b=evaluate({frame:'allroad',wheels:'carbon',drivetrain:'electronic'});assert.equal(b.parts.frame.id,'allez-sprint');assert.equal(b.parts.wheels.id,'e1800');assert.equal(b.parts.drivetrain.id,'105-mechanical');
+});
+test('all 288 combinations retain unknown pricing and flag all control mismatches',()=>{
+ let cases=[{}];for(const [key,g] of Object.entries(catalog))cases=cases.flatMap(c=>g.items.map(p=>({...c,[key]:p.id})));
+ let mismatches=0;for(const c of cases){const b=evaluate(c);assert.equal(b.price,null);assert.equal(b.weight,null);if(b.errors.length)mismatches++;}
+ assert.equal(cases.length,288);assert.equal(mismatches,144);
 });
