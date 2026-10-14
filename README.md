@@ -38,3 +38,11 @@ Builds are stored only in the browser. The sourcing brief downloads as text; it 
 5. Add stock and payment integration only once fulfilment is established.
 
 Use the existing checkout in cloud tasks; each task is isolated, so no Git worktree is needed.
+
+## Public preview on GitHub Pages
+
+The production build uses relative asset URLs so it can be served at a GitHub Pages project path. The `gh-pages` branch contains the compiled preview with a `.nojekyll` marker.
+
+In the repository's **Settings → Pages**, select **Deploy from a branch**, choose **gh-pages** and **/ (root)**, and save. GitHub will show the public URL when deployment completes. This is a demonstration site with fictional products and prices, not a payment-enabled store.
+
+Changing source on `main` does not automatically update this preview branch; rebuild and republish the compiled files after changes.
