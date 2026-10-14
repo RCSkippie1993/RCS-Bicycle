@@ -83,7 +83,7 @@ export function mountBuildBox() {
   const add=event.target.closest('[data-box-add]');if(!add)return;
   if(items.some(item=>item.productId===add.dataset.boxAdd&&item.quantity===maxBoxQuantity)){announce(`This product is already at the ${maxBoxQuantity}-package limit.`);return;}
   items=addToBox(items,add.dataset.boxAdd);persist();refresh();
-  const row=items.find(item=>item.productId===add.dataset.boxAdd);if(!row)return;add.textContent=`Added · ${row.quantity} in box`;announce('Product added to your build box.');
+  const row=items.find(item=>item.productId===add.dataset.boxAdd);if(!row)return;add.textContent='Added to build box +';announce('Product added to your build box.');
  });
  window.addEventListener('storage',event=>{if(event.key===boxStorageKey||event.key===null){load();refresh();}});
  window.addEventListener('pageshow',event=>{if(event.persisted){load();refresh();}});
