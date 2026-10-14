@@ -10,14 +10,18 @@ test('default reference subtotal uses actual listed line quantities and excludes
  assert.equal(b.parts.drivetrain.price, 6410);assert.equal(b.parts.brakes.price, 9640);
  assert.equal(b.weight, null);assert.equal(b.compatibilityVerified, false);
  assert.ok(Object.values(b.scores).every(score => score === null));
- assert.deepEqual(completeBikes.map(p => p.price), [49900, 50000, 62900]);
+ assert.deepEqual(completeBikes.slice(0,3).map(p => p.price), [49900, 50000, 62900]);
+ assert.equal(completeBikes.length, 24);
+ assert.equal(completeBikes.find(p => p.id === 'addict-30-26').price, 71900);
+ assert.match(completeBikes.find(p => p.id === 'addict-30-26').sources[0].variant, /Frozen Green \/ M/);
 });
 test('every catalog photo is local and has dated product-level price/source evidence', () => {
  const records = [...Object.values(catalog).flatMap(g => g.items), ...completeBikes];
- assert.equal(records.length, 18);
+ assert.equal(records.length, 62);
+ assert.equal(new Set(records.map(p=>p.id)).size, records.length);
  for (const p of records) {
   assert.ok(existsSync(new URL('../public/' + p.image, import.meta.url)), p.id);
-  assert.match(p.image, /^products\/[a-z0-9-]+\.(png|jpg)$/);
+  assert.match(p.image, /^products\/[a-z0-9-]+\.(png|jpg|webp)$/);
   assert.equal(p.verification.status, 'listing-reviewed');assert.equal(p.verification.reviewedAt, checkedAt);
   assert.match(p.photoSource.remoteUrl, /^https:\/\//);assert.match(p.photoSource.url, /^https:\/\//);
   for (const source of p.sources) {
@@ -44,11 +48,11 @@ test('retired selections fall back to available reference models', () => {
  const b = evaluate({ frame: 'aethos', wheels: 'e1800', drivetrain: 'electronic' });
  assert.equal(b.parts.frame.id, 'allez-sprint');assert.equal(b.parts.wheels.id, 'r470');assert.equal(b.parts.drivetrain.id, '105-mechanical');
 });
-test('all 192 combinations keep partial pricing explicit and detect 96 control mismatches', () => {
+test('all 31,680 combinations keep partial pricing explicit and detect 15,840 control mismatches', () => {
  let cases = [{}];for (const [key, g] of Object.entries(catalog)) cases = cases.flatMap(c => g.items.map(p => ({ ...c, [key]: p.id })));
  let mismatches = 0;for (const c of cases) {
   const b = evaluate(c);assert.ok(Number.isFinite(b.knownSubtotal) && b.knownSubtotal > 0);assert.equal(b.price === null, b.unpriced.length > 0);
   if (b.errors.length) mismatches++;
  }
- assert.equal(cases.length, 192);assert.equal(mismatches, 96);
+ assert.equal(cases.length, 31680);assert.equal(mismatches, 15840);
 });

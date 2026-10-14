@@ -162,7 +162,13 @@
           },
           "photoCaption": "Retailer product photo · confirm selected variant",
           "weightBasis": "Retailer-listed pair weight; axle details to confirm",
-          "image": "products/r470.jpg"
+          "image": "products/r470.jpg",
+          "profileEvidence": {
+            "weight": {
+              "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+              "excerpt": "Weight: 1810 grams as a pair."
+            }
+          }
         },
         {
           "id": "rd38",
@@ -200,7 +206,224 @@
           },
           "photoCaption": "Retailer wheelset photo · Shimano HG variant requested",
           "weightBasis": "Retailer-listed approximate pair weight",
-          "image": "products/rd38.jpg"
+          "image": "products/rd38.jpg",
+          "profileEvidence": {
+            "weight": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "Weight: +-1420g"
+            },
+            "rimDepthMm": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "Depth – 38mm"
+            }
+          },
+          "profileFacts": {
+            "rimDepthMm": 38
+          }
+        },
+        {
+          "id": "vision-team35",
+          "brand": "VISION",
+          "name": "VISION Team 35 DB Road Wheelset (OEM)",
+          "tag": "35 mm alloy · centerlock · Shimano 11sp listing",
+          "manufacturerUrl": null,
+          "price": 4900.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 4900.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Wheelset pair",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/IMG_3045_2c66a672-4ddc-4a2b-b254-efe76c883463.jpg?v=1759749838"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "weightBasis": "Weight not confirmed",
+          "fitNote": "Confirm Shimano HG freehub, 12×100 / 12×142 mm axle fit, centerlock hardware and tire/rim compatibility before sourcing.",
+          "profileFacts": {
+            "rimDepthMm": 35
+          },
+          "profileEvidence": {
+            "rimDepthMm": {
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "excerpt": "35mm depth alloy rim"
+            }
+          },
+          "image": "products/vision-team35.jpg"
+        },
+        {
+          "id": "rd50",
+          "brand": "ZeroTwo",
+          "name": "ZEROTWO RD50 Carbon Race Disc Road Wheelset",
+          "tag": "50 mm carbon · Shimano HG · tubeless ready",
+          "manufacturerUrl": null,
+          "price": 20590.0,
+          "weight": 1.49,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 20590.0,
+              "quantity": 1,
+              "variant": "Shimano HG",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Wheelset pair",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/6ad79574b39b8ad6ed3647f963ef5fae.jpg?v=1759305104"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "weightBasis": "Retailer-listed wheelset pair weight; size/tolerance and included accessories not independently verified",
+          "fitNote": "Confirm Shimano HG freehub, 12×100 / 12×142 mm axle fit, centerlock hardware and tire/rim compatibility before sourcing.",
+          "profileFacts": {
+            "rimDepthMm": 50
+          },
+          "profileEvidence": {
+            "rimDepthMm": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "Depth – 50mm"
+            },
+            "weight": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "Weight: +-1490g"
+            }
+          },
+          "image": "products/rd50.jpg"
+        },
+        {
+          "id": "hollowgram-r45",
+          "brand": "Cannondale",
+          "name": "CANNONDALE HollowGram R45 Road Disc Wheelset (OEM)",
+          "tag": "45 mm carbon · Shimano freehub · tubeless ready",
+          "manufacturerUrl": null,
+          "price": 19900.0,
+          "weight": 1.74,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 19900.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Wheelset pair",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/IMG_3042.jpg?v=1762596224"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "weightBasis": "Retailer-listed wheelset pair weight; size/tolerance and included accessories not independently verified",
+          "fitNote": "Confirm Shimano HG freehub, 12×100 / 12×142 mm axle fit, centerlock hardware and tire/rim compatibility before sourcing.",
+          "profileFacts": {
+            "rimDepthMm": 45
+          },
+          "profileEvidence": {
+            "rimDepthMm": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "45mm deep"
+            },
+            "weight": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "At 1740g a pair"
+            }
+          },
+          "image": "products/hollowgram-r45.jpg"
+        },
+        {
+          "id": "token-c25ad",
+          "brand": "TOKEN",
+          "name": "TOKEN Prime C25AD Alloy Disc Road Wheelset",
+          "tag": "25 mm alloy · freehub option requires confirmation",
+          "manufacturerUrl": null,
+          "price": 16490.0,
+          "weight": 1.494,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 16490.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Wheelset pair",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Capture_ee3025a6-2c4a-405a-aec2-c0049c0b8329.jpg?v=1725003049"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "weightBasis": "Retailer-listed wheelset pair weight; size/tolerance and included accessories not independently verified",
+          "fitNote": "Confirm Shimano HG freehub, 12×100 / 12×142 mm axle fit, centerlock hardware and tire/rim compatibility before sourcing.",
+          "profileFacts": {
+            "rimDepthMm": 25
+          },
+          "profileEvidence": {
+            "rimDepthMm": {
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "excerpt": "RIM HEIGHT 25 mm"
+            },
+            "weight": {
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "excerpt": "total: 1494 g"
+            }
+          },
+          "image": "products/token-c25ad.jpg"
         }
       ]
     },
@@ -243,7 +466,13 @@
           },
           "photoCaption": "Retailer tire model photo · 28C variant requested",
           "width": 28,
-          "image": "products/gp5000-28.png"
+          "image": "products/gp5000-28.png",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/continental-grand-prix-5000-road-tyre?variant=44641395573033",
+              "excerpt": "700 x 28c · Continental GP 5000 · 700 × 28C"
+            }
+          }
         },
         {
           "id": "gp5000-str-32",
@@ -281,7 +510,373 @@
           },
           "photoCaption": "Retailer tire model photo · 32C black variant requested",
           "width": 32,
-          "image": "products/gp5000-str-32.jpg"
+          "image": "products/gp5000-str-32.jpg",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/continental-gp-5000-s-tr-road-tyre-700-x-32c?variant=49940941701417",
+              "excerpt": "Black / Black · Continental GP 5000 S TR · 700 × 32C"
+            }
+          }
+        },
+        {
+          "id": "gatorskin-28",
+          "brand": "Continental",
+          "name": "CONTINENTAL Gatorskin Road Tyres (Foldable) · 28c (pair)",
+          "tag": "Tube-type · puncture-protection construction",
+          "manufacturerUrl": null,
+          "price": 2100.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/continental-gatorskin-tyres-foldable?variant=52020716208425",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1050.0,
+              "quantity": 2,
+              "variant": "28c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/continental-gatorskin-tyres-foldable?variant=52020716208425"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/continental-gatorskin-tyres-foldable?variant=52020716208425",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/ContinentalGatorSkinFoldingTire-700x25c.jpg?v=1672900362"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 28,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/continental-gatorskin-tyres-foldable?variant=52020716208425",
+              "excerpt": "28c"
+            }
+          },
+          "image": "products/gatorskin-28.jpg"
+        },
+        {
+          "id": "ultra-sport-28",
+          "brand": "Continental",
+          "name": "CONTINENTAL Ultra Sport III Road Tyre (Foldable) · 28c (pair)",
+          "tag": "Foldable · training tire",
+          "manufacturerUrl": null,
+          "price": 980.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/continental-ultra-sport-iii-road-tyre-foldable?variant=50884843700521",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 490.0,
+              "quantity": 2,
+              "variant": "28c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/continental-ultra-sport-iii-road-tyre-foldable?variant=50884843700521"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/continental-ultra-sport-iii-road-tyre-foldable?variant=50884843700521",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/ultra-sport-25-622-700x25c-black-black-se.png?v=1679038257"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 28,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/continental-ultra-sport-iii-road-tyre-foldable?variant=50884843700521",
+              "excerpt": "28c"
+            }
+          },
+          "image": "products/ultra-sport-28.png"
+        },
+        {
+          "id": "p7-sport-28",
+          "brand": "Pirelli",
+          "name": "PIRELLI P7 Sport Road Tyre · 700 x 28c (pair)",
+          "tag": "Training tire · TechBELT casing",
+          "manufacturerUrl": null,
+          "price": 1300.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pirelli-p7-sport-road-tyre?variant=52570704576809",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 650.0,
+              "quantity": 2,
+              "variant": "700 x 28c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pirelli-p7-sport-road-tyre?variant=52570704576809"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pirelli-p7-sport-road-tyre?variant=52570704576809",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Untitled_0ecb7611-9929-4f6d-a93b-01eb0a78bfb0.png?v=1772524545"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 28,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/pirelli-p7-sport-road-tyre?variant=52570704576809",
+              "excerpt": "700 x 28c"
+            }
+          },
+          "image": "products/p7-sport-28.png"
+        },
+        {
+          "id": "pzero-road-30",
+          "brand": "Pirelli",
+          "name": "PIRELLI P Zero Road Tyre · 700 x 30c (pair)",
+          "tag": "Road TLR · endurance-oriented listing",
+          "manufacturerUrl": null,
+          "price": 2180.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pirelli-p-zero-road-tyre?variant=51188544602409",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1090.0,
+              "quantity": 2,
+              "variant": "700 x 30c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pirelli-p-zero-road-tyre?variant=51188544602409"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pirelli-p-zero-road-tyre?variant=51188544602409",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/pzeroroad.jpg?v=1757578395"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 30,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/pirelli-p-zero-road-tyre?variant=51188544602409",
+              "excerpt": "700 x 30c"
+            }
+          },
+          "image": "products/pzero-road-30.jpg"
+        },
+        {
+          "id": "pzero-race-28",
+          "brand": "Pirelli",
+          "name": "PIRELLI P Zero Race Road Tyre · 700 x 28c (pair)",
+          "tag": "Race TLR · SPEEDCORE casing",
+          "manufacturerUrl": null,
+          "price": 2900.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pirelli-p-zero-race-road-tyre-1?variant=51188563247401",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1450.0,
+              "quantity": 2,
+              "variant": "700 x 28c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pirelli-p-zero-race-road-tyre-1?variant=51188563247401"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pirelli-p-zero-race-road-tyre-1?variant=51188563247401",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Untitled_49667918-bca8-4e26-8ab3-3cce5b8c9f58.jpg?v=1757579312"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 28,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/pirelli-p-zero-race-road-tyre-1?variant=51188563247401",
+              "excerpt": "700 x 28c"
+            }
+          },
+          "image": "products/pzero-race-28.jpg"
+        },
+        {
+          "id": "cinturato-32",
+          "brand": "Pirelli",
+          "name": "PIRELLI Cinturato Road Tyre · 700 x 32c (pair)",
+          "tag": "Road TLR · long-ride protection focus",
+          "manufacturerUrl": null,
+          "price": 2180.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pirelli-cinturato-road-tyre?variant=51188609843497",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1090.0,
+              "quantity": 2,
+              "variant": "700 x 32c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pirelli-cinturato-road-tyre?variant=51188609843497"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pirelli-cinturato-road-tyre?variant=51188609843497",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Untitled_97ad008f-c0f4-431c-887c-c859287e3c03.jpg?v=1757580537"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 32,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/pirelli-cinturato-road-tyre?variant=51188609843497",
+              "excerpt": "700 x 32c"
+            }
+          },
+          "image": "products/cinturato-32.jpg"
+        },
+        {
+          "id": "eagle-f1r-30",
+          "brand": "Goodyear",
+          "name": "GOODYEAR Eagle F1 R Tyre (Tubeless Complete) · Black / 700 x 30c (pair)",
+          "tag": "Tubeless Complete · race-oriented listing",
+          "manufacturerUrl": null,
+          "price": 2580.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/goodyear-eagle-f1-r-tyre-tubeless?variant=53284895818025",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1290.0,
+              "quantity": 2,
+              "variant": "Black / 700 x 30c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/goodyear-eagle-f1-r-tyre-tubeless?variant=53284895818025"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/goodyear-eagle-f1-r-tyre-tubeless?variant=53284895818025",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/page-88-1.jpg?v=1782224496"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 30,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/goodyear-eagle-f1-r-tyre-tubeless?variant=53284895818025",
+              "excerpt": "Black / 700 x 30c"
+            }
+          },
+          "image": "products/eagle-f1r-30.jpg"
+        },
+        {
+          "id": "gp5000-str-30",
+          "brand": "Continental",
+          "name": "CONTINENTAL GP 5000-S TR Road Tyre (700 x 30c) · Black / Black (pair)",
+          "tag": "S TR · 700 × 30C · tubeless-ready",
+          "manufacturerUrl": null,
+          "price": 3500.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/continental-grand-prix-5000-s-tr-road-tyre-700-x-30c?variant=49940937244969",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1750.0,
+              "quantity": 2,
+              "variant": "Black / Black",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/continental-grand-prix-5000-s-tr-road-tyre-700-x-30c?variant=49940937244969"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/continental-grand-prix-5000-s-tr-road-tyre-700-x-30c?variant=49940937244969",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/ContinentalGranPrix5000STubelessFoldableRoadTyre700x25_a96f45e6-8d26-41c2-88f6-72b65c942235.jpg?v=1740726116"
+          },
+          "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+          "width": 30,
+          "fitNote": "Two individual tires only. Confirm rim/hook compatibility, clearance, pressure limits and tube or sealant requirements.",
+          "profileEvidence": {
+            "width": {
+              "url": "https://bike-addict.co.za/products/continental-grand-prix-5000-s-tr-road-tyre-700-x-30c?variant=49940937244969",
+              "excerpt": "Product title: 700 x 30c"
+            }
+          },
+          "image": "products/gp5000-str-30.jpg"
         }
       ]
     },
@@ -603,6 +1198,104 @@
           },
           "photoCaption": "Handlebar shown; price includes the selected stem",
           "image": "products/pro-plt-carbon.jpg"
+        },
+        {
+          "id": "pro-lt",
+          "brand": "PRO",
+          "name": "PRO LT alloy cockpit",
+          "tag": "42 cm alloy bar + 100 mm PLT stem",
+          "manufacturerUrl": null,
+          "price": 1380.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-lt-compact-road-handlebar?variant=8135784398958",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 590.0,
+              "quantity": 1,
+              "variant": "42cm",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-plt-stem?variant=44628608745769",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 790.0,
+              "quantity": 1,
+              "variant": "100mm",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "Sum of SA listings",
+          "priceBasis": "Handlebar + stem; tape excluded",
+          "stockNote": "Retailer snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pro-lt-compact-road-handlebar?variant=8135784398958"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pro-lt-compact-road-handlebar?variant=8135784398958",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/PRHA0282.jpg?v=1571439788"
+          },
+          "photoCaption": "Source handlebar photo; the separately priced PLT stem is not pictured",
+          "fitNote": "Confirm handlebar diameter, steerer, routing, width and reach before sourcing. Listed bar-only weights are not a complete cockpit weight.",
+          "image": "products/pro-lt.jpg"
+        },
+        {
+          "id": "pro-vibe",
+          "brand": "PRO",
+          "name": "PRO Vibe carbon cockpit",
+          "tag": "42 cm carbon bar + 100 mm PLT stem",
+          "manufacturerUrl": null,
+          "price": 5280.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-vibe-di2-carbon-compact-42cm-road-handlebar?variant=44067284549929",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 4490.0,
+              "quantity": 1,
+              "variant": "42 cm",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-plt-stem?variant=44628608745769",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 790.0,
+              "quantity": 1,
+              "variant": "100mm",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "Sum of SA listings",
+          "priceBasis": "Handlebar + stem; tape excluded",
+          "stockNote": "Retailer snapshot; RCS supply unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pro-vibe-di2-carbon-compact-42cm-road-handlebar?variant=44067284549929"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pro-vibe-di2-carbon-compact-42cm-road-handlebar?variant=44067284549929",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/PRO_HA_VIBECARBON_2_4d326718-8a35-407c-a5ac-432ec6dbb03c.png?v=1571439799"
+          },
+          "photoCaption": "Source handlebar photo; the separately priced PLT stem is not pictured",
+          "fitNote": "Confirm handlebar diameter, steerer, routing, width and reach before sourcing. Listed bar-only weights are not a complete cockpit weight.",
+          "image": "products/pro-vibe.png"
         }
       ]
     },
@@ -680,6 +1373,339 @@
           },
           "photoCaption": "Manufacturer product photo · colour and size to confirm",
           "image": "products/power-expert.png"
+        },
+        {
+          "id": "power-evo-pro-with-mirror",
+          "brand": "Specialized",
+          "name": "Specialized Power EVO Pro with Mirror",
+          "tag": "2026 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-evo-pro-with-mirror/p/1000150973",
+          "price": 6500,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-evo-pro-with-mirror/p/1000150973",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 6500,
+              "quantity": 1,
+              "variant": "2026 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-evo-pro-with-mirror/p/1000150973"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-evo-pro-with-mirror/p/1000150973",
+            "remoteUrl": "https://resources.specialized.com/image/27126-670_SDDL_POWER-EVO-PRO-MIRROR-SADDLE-BLK_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/power-evo-pro-with-mirror.png"
+        },
+        {
+          "id": "power-evo-comp",
+          "brand": "Specialized",
+          "name": "Specialized Power EVO Comp",
+          "tag": "2026 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-evo-comp/p/1000150997",
+          "price": 2100,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-evo-comp/p/1000150997",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 2100,
+              "quantity": 1,
+              "variant": "2026 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-evo-comp/p/1000150997"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-evo-comp/p/1000150997",
+            "remoteUrl": "https://resources.specialized.com/image/27126-830_SDDL_POWER-EVO-COMP-SADDLE-BLK_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/power-evo-comp.png"
+        },
+        {
+          "id": "s-works-power-with-mirror",
+          "brand": "Specialized",
+          "name": "Specialized S-Works Power with Mirror",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/s-works-power-with-mirror/p/184353",
+          "price": 9500,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/s-works-power-with-mirror/p/184353",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 9500,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/s-works-power-with-mirror/p/184353"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/s-works-power-with-mirror/p/184353",
+            "remoteUrl": "https://resources.specialized.com/image/27120-850_SDDL_SW-POWER-CARBON-MAP3D-SADDLE-BLK-143_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/s-works-power-with-mirror.png"
+        },
+        {
+          "id": "s-works-romin-evo-with-mirror",
+          "brand": "Specialized",
+          "name": "Specialized S-Works Romin EVO with Mirror",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/s-works-romin-evo-with-mirror/p/205228",
+          "price": 9500,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/s-works-romin-evo-with-mirror/p/205228",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 9500,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/s-works-romin-evo-with-mirror/p/205228"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/s-works-romin-evo-with-mirror/p/205228",
+            "remoteUrl": "https://resources.specialized.com/image/27122-730_SDDL_SW-ROMIN-EVO-MIRROR-SADDLE-BLK-143_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/s-works-romin-evo-with-mirror.png"
+        },
+        {
+          "id": "power-pro-with-mirror",
+          "brand": "Specialized",
+          "name": "Specialized Power Pro with Mirror",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-pro-with-mirror/p/205611",
+          "price": 6500,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-pro-with-mirror/p/205611",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 6500,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-pro-with-mirror/p/205611"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-pro-with-mirror/p/205611",
+            "remoteUrl": "https://resources.specialized.com/image/27122-870_SDDL_POWER-PRO-MIRROR-SADDLE-BLK-143_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/power-pro-with-mirror.png"
+        },
+        {
+          "id": "power-arc-expert",
+          "brand": "Specialized",
+          "name": "Specialized Power Arc Expert",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-arc-expert/p/156800",
+          "price": 2900,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-arc-expert/p/156800",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 2900,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-arc-expert/p/156800"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-arc-expert/p/156800",
+            "remoteUrl": "https://resources.specialized.com/image/27118-153_SDDL_POWER-ARC-EXPERT_BLK_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/power-arc-expert.png"
+        },
+        {
+          "id": "power-comp-with-mimic",
+          "brand": "Specialized",
+          "name": "Specialized Power Comp with MIMIC",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-comp-with-mimic/p/159199",
+          "price": 2200,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-comp-with-mimic/p/159199",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 2200,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-comp-with-mimic/p/159199"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-comp-with-mimic/p/159199",
+            "remoteUrl": "https://resources.specialized.com/image/27119-830_SDDL_POWER-COMP-WMN_BLK_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/power-comp-with-mimic.png"
+        },
+        {
+          "id": "romin-evo-comp-gel",
+          "brand": "Specialized",
+          "name": "Specialized Romin EVO Comp Gel",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/romin-evo-comp-gel/p/155424",
+          "price": 2100,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/romin-evo-comp-gel/p/155424",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 2100,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/romin-evo-comp-gel/p/155424"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/romin-evo-comp-gel/p/155424",
+            "remoteUrl": "https://resources.specialized.com/image/27116-720_SDDL_ROMIN-EVO-COMP-GEL_BLK?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/romin-evo-comp-gel.png"
+        },
+        {
+          "id": "bridge-sport",
+          "brand": "Specialized",
+          "name": "Specialized Bridge Sport",
+          "tag": "2024 · Width, rails and fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/bridge-sport/p/174747",
+          "price": 1100,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/bridge-sport/p/174747",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1100,
+              "quantity": 1,
+              "variant": "2024 · [Black] · size/width to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/bridge-sport/p/174747"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/bridge-sport/p/174747",
+            "remoteUrl": "https://resources.specialized.com/image/27120-410_SDDL_BRIDGE-SPORT-SADDLE-BLK-143_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+          "fitNote": "Confirm saddle width, rail dimensions and seatpost clamp compatibility; shape and padding do not guarantee individual comfort.",
+          "image": "products/bridge-sport.png"
         }
       ]
     }
@@ -794,6 +1820,855 @@
       },
       "photoCaption": "Retailer complete-bike photograph",
       "image": "products/bianchi-sprint.jpg"
+    },
+    {
+      "id": "scultura-4000-26",
+      "brand": "Merida",
+      "name": "MERIDA Scultura 4000 Disc (2026)",
+      "tag": "2026 · carbon · Shimano 105",
+      "manufacturerUrl": null,
+      "price": 42990.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-scultura-4000-disc-2026?variant=52321241366825",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 42990.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-scultura-4000-disc-2026?variant=52321241366825"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-scultura-4000-disc-2026?variant=52321241366825",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/SCULTURA_4000_redgry_MY26.jpg?v=1766141294"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "image": "products/scultura-4000-26.jpg"
+    },
+    {
+      "id": "scultura-5000-26",
+      "brand": "Merida",
+      "name": "MERIDA Scultura 5000 Disc (2026)",
+      "tag": "2026 · carbon · Shimano 105 Di2",
+      "manufacturerUrl": null,
+      "price": 57990.0,
+      "weight": 8.6,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-scultura-5000-disc-2026?variant=51494978322729",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 57990.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-scultura-5000-disc-2026?variant=51494978322729"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-scultura-5000-disc-2026?variant=51494978322729",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/SCULTURA_5000_blured_MY26.jpg?v=1762504060"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-scultura-5000-disc-2026?variant=51494978322729",
+          "excerpt": "APPROX. WEIGHT 8.6 kg"
+        }
+      },
+      "image": "products/scultura-5000-26.jpg"
+    },
+    {
+      "id": "scultura-7000-25",
+      "brand": "Merida",
+      "name": "MERIDA Scultura 7000 Disc (2025)",
+      "tag": "2025 · carbon · SRAM Rival AXS",
+      "manufacturerUrl": null,
+      "price": 69900.0,
+      "weight": 8.1,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-scultura-7000-disc-2025?variant=49789014868265",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 69900.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-scultura-7000-disc-2025?variant=49789014868265"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-scultura-7000-disc-2025?variant=49789014868265",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/SCULTURA_7000_blkgry_MY25.jpg?v=1738655554"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-scultura-7000-disc-2025?variant=49789014868265",
+          "excerpt": "APPROX. WEIGHT 8.1 kg"
+        }
+      },
+      "image": "products/scultura-7000-25.jpg"
+    },
+    {
+      "id": "scultura-8000-26",
+      "brand": "Merida",
+      "name": "MERIDA Scultura 8000 Disc (2026)",
+      "tag": "2026 · carbon · Ultegra Di2 · Reynolds AR46",
+      "manufacturerUrl": null,
+      "price": 89990.0,
+      "weight": 7.6,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-scultura-8000-disc-2026?variant=52741351276841",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 89990.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-scultura-8000-disc-2026?variant=52741351276841"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-scultura-8000-disc-2026?variant=52741351276841",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/SCULTURA_8000_whtprp_MY26.jpg?v=1771920326"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-scultura-8000-disc-2026?variant=52741351276841",
+          "excerpt": "APPROX. WEIGHT 7.6 kg"
+        }
+      },
+      "image": "products/scultura-8000-26.jpg"
+    },
+    {
+      "id": "addict-30-26",
+      "brand": "SCOTT",
+      "name": "SCOTT Addict 30 Disc (2026)",
+      "tag": "2026 · endurance geometry · Shimano 105 Di2",
+      "manufacturerUrl": null,
+      "price": 71900.0,
+      "weight": 8.5,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/scott-addict-30-disc-2026?variant=53306770653481",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 71900.0,
+          "quantity": 1,
+          "variant": "Frozen Green / M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/scott-addict-30-disc-2026?variant=53306770653481"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/scott-addict-30-disc-2026?variant=53306770653481",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/2223056.jpg?v=1783061790"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/scott-addict-30-disc-2026?variant=53306770653481",
+          "excerpt": "Approx weight in KG 8.5"
+        }
+      },
+      "image": "products/addict-30-26.jpg"
+    },
+    {
+      "id": "addict-20-26",
+      "brand": "SCOTT",
+      "name": "SCOTT Addict 20 Disc (2026)",
+      "tag": "2026 · endurance geometry · Ultegra Di2",
+      "manufacturerUrl": null,
+      "price": 115000.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/scott-addict-20-disc-2026?variant=52770090058025",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 115000.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/scott-addict-20-disc-2026?variant=52770090058025"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/scott-addict-20-disc-2026?variant=52770090058025",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/4253558352_2223053_3.jpg?v=1772269154"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "image": "products/addict-20-26.jpg"
+    },
+    {
+      "id": "addict-rc30-26",
+      "brand": "SCOTT",
+      "name": "SCOTT Addict RC 30 Disc (2026)",
+      "tag": "2026 · race geometry · Shimano 105 Di2",
+      "manufacturerUrl": null,
+      "price": 90000.0,
+      "weight": 7.6,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/scott-addict-rc-30-disc-2026?variant=52692901789993",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 90000.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/scott-addict-rc-30-disc-2026?variant=52692901789993"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/scott-addict-rc-30-disc-2026?variant=52692901789993",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/4256868327_2232363_2.jpg?v=1771233308"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/scott-addict-rc-30-disc-2026?variant=52692901789993",
+          "excerpt": "Approx weight in KG 7.6"
+        }
+      },
+      "image": "products/addict-rc30-26.jpg"
+    },
+    {
+      "id": "addict-rc20-26",
+      "brand": "SCOTT",
+      "name": "SCOTT Addict RC 20 Disc (2026)",
+      "tag": "2026 · race geometry · Ultegra Di2",
+      "manufacturerUrl": null,
+      "price": 110000.0,
+      "weight": 7.3,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/scott-addict-rc-20-disc-2026?variant=51247537553705",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 110000.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/scott-addict-rc-20-disc-2026?variant=51247537553705"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/scott-addict-rc-20-disc-2026?variant=51247537553705",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/4256858341_2232361_2.png?v=1761551554"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/scott-addict-rc-20-disc-2026?variant=51247537553705",
+          "excerpt": "Approx weight in KG 7.3"
+        }
+      },
+      "image": "products/addict-rc20-26.png"
+    },
+    {
+      "id": "addict-rc10-26",
+      "brand": "SCOTT",
+      "name": "SCOTT Addict RC 10 Disc (2026)",
+      "tag": "2026 · race geometry · Ultegra Di2 · carbon cockpit",
+      "manufacturerUrl": null,
+      "price": 135000.0,
+      "weight": 7.0,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/scott-addict-rc-10-disc-2026?variant=51428921344297",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 135000.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/scott-addict-rc-10-disc-2026?variant=51428921344297"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/scott-addict-rc-10-disc-2026?variant=51428921344297",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/4256848096_2219877.png?v=1761551785"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/scott-addict-rc-10-disc-2026?variant=51428921344297",
+          "excerpt": "Approx weight in KG 7"
+        }
+      },
+      "image": "products/addict-rc10-26.png"
+    },
+    {
+      "id": "valerian-comp-26",
+      "brand": "Titan Racing",
+      "name": "TITAN RACING Valerian Carbon Comp (2026)",
+      "tag": "2026 · carbon · Shimano 105 Di2",
+      "manufacturerUrl": null,
+      "price": 52990.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/titan-racing-valerian-carbon-comp-2026?variant=52825520767273",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 52990.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/titan-racing-valerian-carbon-comp-2026?variant=52825520767273"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/titan-racing-valerian-carbon-comp-2026?variant=52825520767273",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/TR2026-27_Valerian_Comp.jpg?v=1775048377"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "image": "products/valerian-comp-26.jpg"
+    },
+    {
+      "id": "valerian-expert-26",
+      "brand": "Titan Racing",
+      "name": "TITAN RACING Valerian Carbon Expert (2026)",
+      "tag": "2026 · carbon · Shimano 105 mechanical",
+      "manufacturerUrl": null,
+      "price": 42990.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/titan-racing-valerian-carbon-expert-2026?variant=52825530827049",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 42990.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/titan-racing-valerian-carbon-expert-2026?variant=52825530827049"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/titan-racing-valerian-carbon-expert-2026?variant=52825530827049",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/TR2026-27_Valerian_Expert.jpg?v=1775048333"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "image": "products/valerian-expert-26.jpg"
+    },
+    {
+      "id": "valerian-expert-25",
+      "brand": "Titan Racing",
+      "name": "TITAN RACING Valerian Expert (2025)",
+      "tag": "2025 · alloy · microSHIFT Centos · mechanical disc",
+      "manufacturerUrl": null,
+      "price": 21590.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/titan-racing-valerian-expert-2025?variant=50648709038377",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 21590.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/titan-racing-valerian-expert-2025?variant=50648709038377"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/titan-racing-valerian-expert-2025?variant=50648709038377",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/expert-alloy.jpg?v=1778739893"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "image": "products/valerian-expert-25.jpg"
+    },
+    {
+      "id": "reacto-4000-26",
+      "brand": "Merida",
+      "name": "MERIDA Reacto 4000 Disc (2026)",
+      "tag": "2026 · carbon · Reacto road platform",
+      "manufacturerUrl": null,
+      "price": 38490.0,
+      "weight": 9.0,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-reacto-4000-disc-2026?variant=51494975373609",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 38490.0,
+          "quantity": 1,
+          "variant": "Standard / M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-reacto-4000-disc-2026?variant=51494975373609"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-reacto-4000-disc-2026?variant=51494975373609",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/REACTO_4000_blublk_MY26.jpg?v=1762503162"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-reacto-4000-disc-2026?variant=51494975373609",
+          "excerpt": "APPROX. WEIGHT 9 kg"
+        }
+      },
+      "image": "products/reacto-4000-26.jpg"
+    },
+    {
+      "id": "reacto-6000-26",
+      "brand": "Merida",
+      "name": "MERIDA Reacto 6000 Disc (2026)",
+      "tag": "2026 · carbon · Reacto road platform",
+      "manufacturerUrl": null,
+      "price": 59900.0,
+      "weight": 8.7,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-reacto-6000-disc-2026?variant=51216193880361",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 59900.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-reacto-6000-disc-2026?variant=51216193880361"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-reacto-6000-disc-2026?variant=51216193880361",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/REACTO_6000_redgry_MY26.jpg?v=1757419260"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-reacto-6000-disc-2026?variant=51216193880361",
+          "excerpt": "APPROX. WEIGHT 8.7 kg"
+        }
+      },
+      "image": "products/reacto-6000-26.jpg"
+    },
+    {
+      "id": "reacto-7000-26",
+      "brand": "Merida",
+      "name": "MERIDA Reacto 7000 Disc (2026)",
+      "tag": "2026 · carbon · Reacto road platform",
+      "manufacturerUrl": null,
+      "price": 69900.0,
+      "weight": 8.4,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-reacto-7000-disc-2026?variant=52741340397865",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 69900.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-reacto-7000-disc-2026?variant=52741340397865"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-reacto-7000-disc-2026?variant=52741340397865",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/REACTO_7000_blkslv_MY26.jpg?v=1771919458"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-reacto-7000-disc-2026?variant=52741340397865",
+          "excerpt": "APPROX. WEIGHT 8.4 kg"
+        }
+      },
+      "image": "products/reacto-7000-26.jpg"
+    },
+    {
+      "id": "reacto-8000-26",
+      "brand": "Merida",
+      "name": "MERIDA Reacto 8000 Disc (2026)",
+      "tag": "2026 · carbon · Reacto road platform",
+      "manufacturerUrl": null,
+      "price": 77900.0,
+      "weight": 8.7,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-reacto-8000-disc-2026?variant=52321314570537",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 77900.0,
+          "quantity": 1,
+          "variant": "M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike, selected variant",
+      "stockNote": "Retailer availability snapshot; RCS supply unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-reacto-8000-disc-2026?variant=52321314570537"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-reacto-8000-disc-2026?variant=52321314570537",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/REACTO_8000_gryprp_MY26.jpg?v=1775638623"
+      },
+      "photoCaption": "Source listing photo · selected reference variant; confirm final specification",
+      "weightBasis": "Approximate retailer-listed complete-bike weight; measurement size and accessories unspecified. Not independently measured.",
+      "profileEvidence": {
+        "weight": {
+          "url": "https://bike-addict.co.za/products/merida-reacto-8000-disc-2026?variant=52321314570537",
+          "excerpt": "APPROX. WEIGHT 8.7 kg"
+        }
+      },
+      "image": "products/reacto-8000-26.jpg"
+    },
+    {
+      "id": "s-works-aethos-2-sram-red-axs",
+      "brand": "Specialized",
+      "name": "Specialized S-Works Aethos 2 - SRAM RED AXS",
+      "tag": "2026 · Complete road bike",
+      "manufacturerUrl": "https://www.specialized.com/za/en/s-works-aethos-2-sram-red-axs/p/4221563",
+      "price": 220000,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Specialized South Africa",
+          "url": "https://www.specialized.com/za/en/s-works-aethos-2-sram-red-axs/p/4221563",
+          "kind": "manufacturer-msrp",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 220000,
+          "quantity": 1,
+          "variant": "2026 · [SANDSTONE METALLIC BASE / RED TINT] · size/width to confirm"
+        }
+      ],
+      "pricingLabel": "Manufacturer MSRP",
+      "priceBasis": "Complete bike",
+      "stockNote": "Dealer availability unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-aethos-2-sram-red-axs/p/4221563"
+      },
+      "photoSource": {
+        "name": "Specialized South Africa",
+        "url": "https://www.specialized.com/za/en/s-works-aethos-2-sram-red-axs/p/4221563",
+        "remoteUrl": "https://resources.specialized.com/image/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+      },
+      "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+      "image": "products/s-works-aethos-2-sram-red-axs.png"
+    },
+    {
+      "id": "s-works-aethos-2-shimano-dura-ace-di2",
+      "brand": "Specialized",
+      "name": "Specialized S-Works Aethos 2 - Shimano Dura-Ace Di2",
+      "tag": "2026 · Complete road bike",
+      "manufacturerUrl": "https://www.specialized.com/za/en/s-works-aethos-2-shimano-dura-ace-di2/p/4221562",
+      "price": 210000,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Specialized South Africa",
+          "url": "https://www.specialized.com/za/en/s-works-aethos-2-shimano-dura-ace-di2/p/4221562",
+          "kind": "manufacturer-msrp",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 210000,
+          "quantity": 1,
+          "variant": "2026 · [GLOSS PREMIUM FJORD METALLIC / DOLOMITE METALLIC] · size/width to confirm"
+        }
+      ],
+      "pricingLabel": "Manufacturer MSRP",
+      "priceBasis": "Complete bike",
+      "stockNote": "Dealer availability unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-aethos-2-shimano-dura-ace-di2/p/4221562"
+      },
+      "photoSource": {
+        "name": "Specialized South Africa",
+        "url": "https://www.specialized.com/za/en/s-works-aethos-2-shimano-dura-ace-di2/p/4221562",
+        "remoteUrl": "https://resources.specialized.com/image/97226-00_AETHOS-SW-DI2-PRMFJDMET-DLMMET_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+      },
+      "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+      "image": "products/s-works-aethos-2-shimano-dura-ace-di2.png"
+    },
+    {
+      "id": "aethos-2-expert-shimano-ultegra-di2",
+      "brand": "Specialized",
+      "name": "Specialized Aethos 2 Expert - Shimano Ultegra Di2",
+      "tag": "2026 · Complete road bike",
+      "manufacturerUrl": "https://www.specialized.com/za/en/aethos-2-expert-shimano-ultegra-di2/p/4221565",
+      "price": 109000,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Specialized South Africa",
+          "url": "https://www.specialized.com/za/en/aethos-2-expert-shimano-ultegra-di2/p/4221565",
+          "kind": "manufacturer-msrp",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 109000,
+          "quantity": 1,
+          "variant": "2026 · [GLOSS DOLOMITE METALLIC / BLUE PEARL OVER SHADOW SILVER] · size/width to confirm"
+        }
+      ],
+      "pricingLabel": "Manufacturer MSRP",
+      "priceBasis": "Complete bike",
+      "stockNote": "Dealer availability unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://www.specialized.com/za/en/aethos-2-expert-shimano-ultegra-di2/p/4221565"
+      },
+      "photoSource": {
+        "name": "Specialized South Africa",
+        "url": "https://www.specialized.com/za/en/aethos-2-expert-shimano-ultegra-di2/p/4221565",
+        "remoteUrl": "https://resources.specialized.com/image/97226-31_AETHOS-EXPERT-DI2-DLMMET-SHDWSIL-BLUPRL_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+      },
+      "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+      "image": "products/aethos-2-expert-shimano-ultegra-di2.png"
+    },
+    {
+      "id": "aethos-comp-shimano-105-di2",
+      "brand": "Specialized",
+      "name": "Specialized Aethos Comp - Shimano 105 Di2",
+      "tag": "2024 · Complete road bike",
+      "manufacturerUrl": "https://www.specialized.com/za/en/aethos-comp-shimano-105-di2/p/221468",
+      "price": 75000,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Specialized South Africa",
+          "url": "https://www.specialized.com/za/en/aethos-comp-shimano-105-di2/p/221468",
+          "kind": "manufacturer-msrp",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 75000,
+          "quantity": 1,
+          "variant": "2024 · [Gloss Metallic Pine Green Smoke] · size/width to confirm"
+        }
+      ],
+      "pricingLabel": "Manufacturer MSRP",
+      "priceBasis": "Complete bike",
+      "stockNote": "Dealer availability unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://www.specialized.com/za/en/aethos-comp-shimano-105-di2/p/221468"
+      },
+      "photoSource": {
+        "name": "Specialized South Africa",
+        "url": "https://www.specialized.com/za/en/aethos-comp-shimano-105-di2/p/221468",
+        "remoteUrl": "https://resources.specialized.com/image/97224-50_AETHOS-COMP-METPNGRN-SMK_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+      },
+      "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+      "image": "products/aethos-comp-shimano-105-di2.png"
+    },
+    {
+      "id": "aethos-expert",
+      "brand": "Specialized",
+      "name": "Specialized Aethos Expert",
+      "tag": "2023 · Complete road bike",
+      "manufacturerUrl": "https://www.specialized.com/za/en/aethos-expert/p/256976",
+      "price": 99000,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Specialized South Africa",
+          "url": "https://www.specialized.com/za/en/aethos-expert/p/256976",
+          "kind": "manufacturer-msrp",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 99000,
+          "quantity": 1,
+          "variant": "2023 ·  · size/width to confirm"
+        }
+      ],
+      "pricingLabel": "Manufacturer MSRP",
+      "priceBasis": "Complete bike",
+      "stockNote": "Dealer availability unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://www.specialized.com/za/en/aethos-expert/p/256976"
+      },
+      "photoSource": {
+        "name": "Specialized South Africa",
+        "url": "https://www.specialized.com/za/en/aethos-expert/p/256976",
+        "remoteUrl": "https://resources.specialized.com/image/97223-30_AETHOS-EXPERT-DPLAKEMET-DPLAKE_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+      },
+      "photoCaption": "Manufacturer product photo · colour and size/width to confirm",
+      "image": "products/aethos-expert.png"
     }
   ]
 }

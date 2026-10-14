@@ -29,7 +29,7 @@ The GLB import adapter supports reviewed frame and wheel assets with source/cred
 
 `src/catalog-data.json` records product-level source URLs, observed prices, quantities, reference variants, availability notes, check dates and original photo URLs. The 14 October 2026 review used Specialized South Africa manufacturer pages and public Bike Addict product listings. See [the source register](docs/product-sources.md).
 
-The builder contains 15 product/bundle options and a separate gallery of three complete-bike references. Eighteen source photos are stored without image editing under `public/products`; credits link to the corresponding listings. Photos show individual products or a source bundle, not a rendered assembled build. Source attribution records provenance; supplier image authorization should be confirmed before a commercial sales launch.
+The builder contains 38 product/bundle options and the collection browser includes 24 complete-bike references (62 total). Search, category, brand and price-source filters, sorting and incremental loading keep the collection manageable. Each reference links to local source photos under `public/products` and its exact source listing. Photos show individual products or a source bundle, not a rendered assembled build. Source attribution records provenance; supplier image authorization should be confirmed before a commercial sales launch.
 
 Manufacturer MSRP is distinguished from retailer listing prices. Reference variants and quantities are explicit: two individual tires; left and right mechanical lever/caliper kits; a handlebar plus stem; five separately listed items for the mechanical drivetrain. No retailer relationship, RCS inventory or RCS selling price is claimed. A manufacturer listing or a retailer availability flag does not establish an RCS sourcing commitment.
 
@@ -39,6 +39,10 @@ The Di2 groupset listing describes shift controls. Its exact caliper/rotor inclu
 
 Control-system mismatches and sourced maximum tire widths are checked. Unknown clearance remains unknown. Full size, axle/freehub, tire/rim, brake mount, BB, headset, cockpit, seatpost and rail compatibility require review. A frame that includes a stem may use the selected cockpit as an additional replacement; that is disclosed. Source-stated product weights retain their measurement basis and are not turned into complete-bike weight or performance stars.
 
+## Product reference profiles
+
+Every reference has an RCS profile with dated evidence and explanations, including 61 cost scores and one pending unpriced package. Budget accessibility describes listed spend, not quality or value. Additional scores describe rim depth, nominal tire width and listed wheelset/complete-bike mass when evidence exists. Higher means more of the named trait; it does not guarantee suitability or faster riding. Unknowns remain pending. Frameset and cockpit package weights are not scored because inclusions differ. No component-to-build performance averaging is performed. Source basis, fixed endpoints, rounding and limits are published in [the ratings method](docs/ratings.md) and on the website. Profiles also accompany each selected component in the sourcing export.
+
 ## Rider requirements and privacy
 
 Riding goal, whole-rand budget, height and cycling inseam are optional. Details save in local browser storage and appear in the downloaded brief. They support supplier/fitter review and do not calculate frame size. Clearing rider details removes that local profile; resetting components preserves it. There is no server submission, customer account, payment, stock reservation or order creation.
@@ -47,7 +51,7 @@ Riding goal, whole-rand budget, height and cycling inseam are optional. Details 
 
 `npm test` also verifies 3D provenance, metadata/alignment rules, schematic/data separation and valid self-contained GLB files. Real WebGL browser tests cover camera and mesh changes, no-WebGL fallback, resource disposal and the GLB loader with an unbranded test fixture.
 
-Catalog checks cover sourced quantities/subtotals, separate complete-bike pricing, local photo/source coverage, partial pricing for the Di2 package, all 192 component combinations (96 control mismatches), rider validation, source-aware exports and HTML escaping. Browser checks cover actual image loading and selection, totals, compatibility, budget warnings, source links, rider persistence, exports and mobile layout.
+Catalog checks cover sourced quantities/subtotals, separate complete-bike pricing, local photo/source coverage, partial pricing for the Di2 package, all 31,680 component combinations (15,840 control mismatches), rider validation, source-aware exports and HTML escaping. Browser checks cover all 62 catalog images, intersecting filters and empty results, pagination, product dialogs and evidence, selecting catalog components into the builder, option search, totals, compatibility, persistence, source-aware exports and mobile layout. Rating tests cover fixed endpoints, direction/clamping, evidence requirements, pending fields, coverage and search/sort behavior.
 
 ## Public preview
 
@@ -55,4 +59,4 @@ The production build uses relative asset URLs. `gh-pages` contains compiled prev
 
 ## Updating product evidence
 
-Open the exact product/variant source, reconfirm price/currency, package quantities, stock notes and model/colour/size. Update source and review dates, and compare any manufacturer MSRP against current promotions without silently treating it as a dealer offer. Price bundles by their line items, avoiding duplicate included controls or other parts. Keep unknown fields null. Refresh the original photo only from the correct product listing with an appropriate usage basis. Run tests/build and recheck the sourcing export before publishing. Performance ratings need independent comparable evidence.
+Open the exact product/variant source, reconfirm price/currency, package quantities, stock notes and model/colour/size. Update source and review dates, and compare any manufacturer MSRP against current promotions without silently treating it as a dealer offer. Price bundles by their line items, avoiding duplicate included controls or other parts. Keep unknown fields null. Refresh the original photo only from the correct product listing with an appropriate usage basis. Run tests/build and recheck the sourcing export before publishing. Performance ratings need independent comparable evidence. Reference profiles use the fixed, transparent cost/specification scales in [the ratings method](docs/ratings.md); they are not performance tests.

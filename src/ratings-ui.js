@@ -1,0 +1,18 @@
+import { productRatings } from './ratings.js';
+import { escapeHtml as esc, externalArrow } from './view-utils.js';
+
+export function ratingsPanel(product, category) {
+ const ratings = productRatings(product, category);
+ return `<div class="reference-ratings"><div class="performance-title">RCS REFERENCE PROFILE <a href="#rating-method">How scores work</a></div>
+ ${ratings.map(r => `<div class="stat"><span>${esc(r.label)}</span><div class="segments" aria-hidden="true">${Array.from({length:10}, (_, i) => `<i class="${r.score !== null && i < r.score ? 'on' : ''}"></i>`).join('')}</div><b class="${r.score === null ? 'unrated' : ''}">${r.score === null ? 'Pending' : r.score + '/10'}</b></div>`).join('')}
+ <p class="fine">Cost and specification scales · higher describes the named trait, not overall quality. No customer stars or laboratory performance rating.</p>
+ <details class="rating-evidence"><summary>Score explanations & evidence</summary>${ratings.map(r => `<p><strong>${esc(r.label)} · ${r.score === null ? 'Pending' : r.score + '/10'}</strong><br>${esc(r.basis)} <span class="rating-confidence">${esc(r.confidence)}</span></p>${r.evidence.map((url, i) => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Evidence ${i + 1} ${externalArrow}</a>`).join(' ')}`).join('')}</details>
+ <p class="fine performance-pending">Aero performance · climbing performance · rider comfort: pending comparable tests. No build-level average is calculated.</p></div>`;
+}
+
+export const ratingMethod = `<details id="rating-method" open><summary>RCS ratings: published method, version 1.0</summary>
+ <p>These 1–10 reference profiles translate dated source prices and selected specifications into fixed scales. They are RCS editorial comparison aids, not customer reviews, laboratory measurements, product recommendations or an overall quality score. Each product’s explanations link to its evidence. Unknown facts remain pending.</p>
+ <p>Budget accessibility rates the cost of the listed package: lower spend scores higher. Compare within a category and check contents; an MSRP is not a discounted retailer offer. It does not rate quality or value. Fixed ZAR endpoints (10 → 1): framesets 15,000 → 100,000; wheelsets 3,000 → 60,000; tire pairs 800 → 4,000; drivetrains 5,000 → 35,000; brake/control pairs 5,000 → 15,000; bar/stem cockpits 1,000 → 7,000; saddles 1,000 → 10,000; complete bikes 20,000 → 220,000. Partial and full groupsets have different contents.</p>
+ <p>Rim depth: 20 mm → 65 mm maps to 1 → 10. Deeper is not always faster or better in crosswinds. Tire width: nominal 25 mm → 35 mm maps to 1 → 10; wider is not a comfort or rolling-resistance rating. Low mass: wheelset pairs 2.00 kg → 1.20 kg and complete bikes 10.00 kg → 6.50 kg map to 1 → 10. Source weights are approximate and can use different sizes or accessories; they are not independently measured. Frameset and cockpit package masses are not scored because inclusions differ.</p>
+ <p>For each scale, calculate the linear position between endpoints, clamp it to 0–1, multiply by nine, add one and round to the nearest integer. Reverse the position for cost and mass. Scales are fixed and do not change when products are added. Scores apply to the displayed reference variant and quantities. A higher trait score does not prove better suitability.</p>
+ <p>Aerodynamics, climbing performance, stiffness, rolling resistance, braking power and individual comfort require comparable tests and rider context. They remain pending. Component scores are not averaged into invented complete-build performance. Prices and specifications are snapshots, not live inventory.</p></details>`;
