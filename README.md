@@ -1,6 +1,6 @@
 # RCS Bicycle
 
-South African road-bike sourcing configurator. Seven component groups, real manufacturer model references, local build persistence, shift-control mismatch checks and downloadable sourcing briefs.
+South African road-bike sourcing configurator. Seven component groups, real manufacturer model references, local build persistence, optional rider requirements, shift-control mismatch checks and downloadable sourcing briefs.
 
 ## Development
 
@@ -29,9 +29,11 @@ Before verifying an entry, record the exact variant, reviewed product URL, revie
 
 Mechanical Shimano 105 and Di2 shift controls are checked for a control-system mismatch. No full physical-fit guarantee is made: frame sizing, tire clearance, axle/freehub standards, bottom bracket, headset, cockpit, seatpost, saddle rails, rotors and included small parts require review. Performance ratings require comparable measurement evidence; bike weight alone is not a climbing score.
 
-Builds stay in the browser. The sourcing brief downloads as text; it is not submitted to RCS. No customer data is collected, payment accepted, inventory reserved or order created.
+Builds and optional rider requirements stay in the browser. Rider details include a riding goal, whole-rand budget target, height and cycling inseam. They support supplier and fitter review and do not calculate a frame size or establish affordability. All fields may be left blank. A clear action removes locally saved rider details; resetting components preserves those details. The sourcing brief includes provided rider details and downloads as text; it is not submitted to RCS. No customer data is collected, payment accepted, inventory reserved or order created.
 
 ## Validation
+
+Rider tests cover optional fields, numeric normalization, invalid and contradictory measurements, budget validation and unsafe stored values. Browser checks exercise rider save/reload, unsaved cancellation, clearing, optional empty details, exported measurements and budget, mobile dialogs and unavailable-browser-storage fallback.
 
 `npm test` covers null handling for unknown totals and evidence, mechanical/Di2 control mismatches, migration from saved fictional selections, and all 288 catalog combinations. Browser checks cover real model selection, source links, unknown pricing/ratings, mismatch blocking, persistence, brief download and mobile layout.
 
