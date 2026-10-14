@@ -1,6 +1,6 @@
 # RCS Bicycle
 
-South African road-bike sourcing configurator with actual product photos, dated ZAR price references, rider requirements, source links and downloadable sourcing briefs.
+South African road-bike sourcing configurator with actual product photos, dated ZAR price references, rider requirements, source links, a schematic 3D assembly viewer and downloadable sourcing briefs.
 
 ## Development
 
@@ -18,6 +18,12 @@ npm run preview -- --port 4173
 ```
 
 No credentials or external service is needed to run the app. Fonts and product photos are bundled locally. Use the existing cloud checkout; tasks are isolated and no Git worktree is needed.
+
+## 3D preview
+
+Choose **3D schematic** in the builder to rotate/zoom a generic assembly, switch wheel/frame styles, select camera presets or separate the component groups. The default view stays on sourced product photographs. No AI-generated or supplier product models exist in the current catalog; the mesh is explicitly schematic and does not establish real appearance or fit.
+
+The GLB import adapter supports reviewed frame and wheel assets with source/credit/usage metadata, metre units and reviewed assembly anchors. See [the asset contract](docs/3d-assets.md) and [first model production brief](docs/model-production-brief.md). The viewer falls back to photos if WebGL is unavailable, and to schematic geometry if a registered product asset fails. The engine is lazy-loaded and renders only on interaction/resize.
 
 ## Sourced catalog
 
@@ -39,7 +45,9 @@ Riding goal, whole-rand budget, height and cycling inseam are optional. Details 
 
 ## Validation
 
-`npm test` checks sourced quantities/subtotals, separate complete-bike pricing, local photo/source coverage, partial pricing for the Di2 package, all 192 component combinations (96 control mismatches), rider validation, source-aware exports and HTML escaping. Browser checks cover actual image loading and selection, totals, compatibility, budget warnings, source links, rider persistence, exports and mobile layout.
+`npm test` also verifies 3D provenance, metadata/alignment rules, schematic/data separation and valid self-contained GLB files. Real WebGL browser tests cover camera and mesh changes, no-WebGL fallback, resource disposal and the GLB loader with an unbranded test fixture.
+
+Catalog checks cover sourced quantities/subtotals, separate complete-bike pricing, local photo/source coverage, partial pricing for the Di2 package, all 192 component combinations (96 control mismatches), rider validation, source-aware exports and HTML escaping. Browser checks cover actual image loading and selection, totals, compatibility, budget warnings, source links, rider persistence, exports and mobile layout.
 
 ## Public preview
 
