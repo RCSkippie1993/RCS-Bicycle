@@ -1,6 +1,6 @@
 # RCS Bicycle
 
-South African road-bike sourcing configurator. Seven component groups, real manufacturer model references, local build persistence, optional rider requirements, shift-control mismatch checks and downloadable sourcing briefs.
+South African road-bike sourcing configurator with actual product photos, dated ZAR price references, rider requirements, source links and downloadable sourcing briefs.
 
 ## Development
 
@@ -17,30 +17,34 @@ npm run build
 npm run preview -- --port 4173
 ```
 
-No credentials, database or external services are required to run the site. Fonts are bundled locally. Use the existing cloud checkout; tasks are isolated and no Git worktree is needed.
+No credentials or external service is needed to run the app. Fonts and product photos are bundled locally. Use the existing cloud checkout; tasks are isolated and no Git worktree is needed.
 
-## Product data and evidence
+## Sourced catalog
 
-`src/catalog.js` contains named models from Specialized, Shimano, DT Swiss, Continental and PRO. These replace the original fictional demonstration products. Exact model years, sizes, variants, specifications, photography, local availability and prices have **not been reviewed** because manufacturer and retailer websites were blocked by the environment network policy during this update.
+`src/catalog-data.json` records product-level source URLs, observed prices, quantities, reference variants, availability notes, check dates and original photo URLs. The 14 October 2026 review used Specialized South Africa manufacturer pages and public Bike Addict product listings. See [the source register](docs/product-sources.md).
 
-Manufacturer links are catalog/research destinations, not citations to verified product-level specifications. There is no claimed supplier or brand partnership. Each entry records a pending verification status and null review date/source evidence. All prices, weights and scores remain unknown; unknown is never converted to zero or an invented star rating.
+The builder contains 15 product/bundle options and a separate gallery of three complete-bike references. Eighteen source photos are stored without image editing under `public/products`; credits link to the corresponding listings. Photos show individual products or a source bundle, not a rendered assembled build. Source attribution records provenance; supplier image authorization should be confirmed before a commercial sales launch.
 
-Before verifying an entry, record the exact variant, reviewed product URL, review date, dimensions and standards, package contents and weight measurement basis. Prices need a South African source, currency, date, VAT treatment, stock status and unit basis (pair/single/bundle). Avoid double-counting bundled controls, seatposts or other parts. Add product photographs only from a source that permits the intended use and keep their source/usage record. The current bicycle illustration is explicitly generic. An entry's `image` can display an appropriately sourced selected-frame photograph later.
+Manufacturer MSRP is distinguished from retailer listing prices. Reference variants and quantities are explicit: two individual tires; left and right mechanical lever/caliper kits; a handlebar plus stem; five separately listed items for the mechanical drivetrain. No retailer relationship, RCS inventory or RCS selling price is claimed. A manufacturer listing or a retailer availability flag does not establish an RCS sourcing commitment.
 
-Mechanical Shimano 105 and Di2 shift controls are checked for a control-system mismatch. No full physical-fit guarantee is made: frame sizing, tire clearance, axle/freehub standards, bottom bracket, headset, cockpit, seatpost, saddle rails, rotors and included small parts require review. Performance ratings require comparable measurement evidence; bike weight alone is not a climbing score.
+The default selected-parts reference subtotal is R51,610. This is not a complete-bike quote: confirm VAT treatment, exact fit and missing parts, rotors, bottom bracket, tubes/sealant, tape, pedals, assembly and delivery. Manufacturer MSRP can differ from promotional or dealer prices. The snapshots do not refresh automatically.
 
-Builds and optional rider requirements stay in the browser. Rider details include a riding goal, whole-rand budget target, height and cycling inseam. They support supplier and fitter review and do not calculate a frame size or establish affordability. All fields may be left blank. A clear action removes locally saved rider details; resetting components preserves those details. The sourcing brief includes provided rider details and downloads as text; it is not submitted to RCS. No customer data is collected, payment accepted, inventory reserved or order created.
+The Di2 groupset listing describes shift controls. Its exact caliper/rotor inclusions remain unconfirmed, so the matching brake package remains unpriced rather than adding a duplicate controls charge or inventing a zero-price kit. The UI displays a partial subtotal and an unpriced-category warning for that build.
+
+Control-system mismatches and sourced maximum tire widths are checked. Unknown clearance remains unknown. Full size, axle/freehub, tire/rim, brake mount, BB, headset, cockpit, seatpost and rail compatibility require review. A frame that includes a stem may use the selected cockpit as an additional replacement; that is disclosed. Source-stated product weights retain their measurement basis and are not turned into complete-bike weight or performance stars.
+
+## Rider requirements and privacy
+
+Riding goal, whole-rand budget, height and cycling inseam are optional. Details save in local browser storage and appear in the downloaded brief. They support supplier/fitter review and do not calculate frame size. Clearing rider details removes that local profile; resetting components preserves it. There is no server submission, customer account, payment, stock reservation or order creation.
 
 ## Validation
 
-Rider tests cover optional fields, numeric normalization, invalid and contradictory measurements, budget validation and unsafe stored values. Browser checks exercise rider save/reload, unsaved cancellation, clearing, optional empty details, exported measurements and budget, mobile dialogs and unavailable-browser-storage fallback.
-
-`npm test` covers null handling for unknown totals and evidence, mechanical/Di2 control mismatches, migration from saved fictional selections, and all 288 catalog combinations. Browser checks cover real model selection, source links, unknown pricing/ratings, mismatch blocking, persistence, brief download and mobile layout.
+`npm test` checks sourced quantities/subtotals, separate complete-bike pricing, local photo/source coverage, partial pricing for the Di2 package, all 192 component combinations (96 control mismatches), rider validation, source-aware exports and HTML escaping. Browser checks cover actual image loading and selection, totals, compatibility, budget warnings, source links, rider persistence, exports and mobile layout.
 
 ## Public preview
 
-The build uses relative asset URLs. The `gh-pages` branch contains the compiled preview and a `.nojekyll` marker. In GitHub **Settings → Pages**, choose **Deploy from a branch → gh-pages → / (root)**. Source changes on `main` do not automatically update `gh-pages`; publish a newly built tree to that branch after validation, preserving its current parent and avoiding force pushes.
+The production build uses relative asset URLs. `gh-pages` contains compiled preview files plus `.nojekyll`. GitHub **Settings → Pages** uses **Deploy from a branch → gh-pages → / (root)**. Source changes on `main` do not automatically rebuild `gh-pages`; publish a validated build tree while preserving the current deployment parent, without force pushing.
 
-## Next phase
+## Updating product evidence
 
-Verify official specifications and permitted photographs, establish South African supplier pricing and availability, then build evidence-based comparisons. Add secure quote submission and customer privacy handling before collecting personal data. Enable payment only once sourcing and fulfilment are established.
+Open the exact product/variant source, reconfirm price/currency, package quantities, stock notes and model/colour/size. Update source and review dates, and compare any manufacturer MSRP against current promotions without silently treating it as a dealer offer. Price bundles by their line items, avoiding duplicate included controls or other parts. Keep unknown fields null. Refresh the original photo only from the correct product listing with an appropriate usage basis. Run tests/build and recheck the sourcing export before publishing. Performance ratings need independent comparable evidence.

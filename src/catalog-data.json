@@ -1,0 +1,799 @@
+{
+  "checkedAt": "2026-10-14",
+  "currency": "ZAR",
+  "catalog": {
+    "frame": {
+      "label": "Frameset",
+      "items": [
+        {
+          "id": "allez-sprint",
+          "brand": "Specialized",
+          "name": "Specialized Allez Sprint Frameset - D'Aluisio Smartweld Alloy",
+          "tag": "2024 · E5 alloy · fork and seatpost listed",
+          "manufacturerUrl": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508",
+          "price": 25000,
+          "weight": 2.35,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 25000,
+              "quantity": 1,
+              "variant": "2024 · Gloss Blue Onyx + Sapphire Blue Strata Astral Blue · size to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Frameset only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508",
+            "remoteUrl": "https://resources.specialized.com/image/70024-72_ALLEZ-SPRINT-FRMSET-BLUONYX-SPHR-ASTRLBLU_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size to confirm",
+          "maxTire": null,
+          "weightBasis": "Manufacturer-listed product weight, size 56",
+          "fitNote": "Threaded BB; exact tire clearance and fit require review.",
+          "image": "products/allez-sprint.png"
+        },
+        {
+          "id": "tarmac-sl8-10r",
+          "brand": "Specialized",
+          "name": "Specialized Tarmac SL8 Frameset - FACT 10r Carbon",
+          "tag": "2026 · FACT 10r carbon · stem and seatpost listed",
+          "manufacturerUrl": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+          "price": 55000,
+          "weight": 1.69,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 55000,
+              "quantity": 1,
+              "variant": "2026 · SATIN CARBON / 100% CQV REFLEX SUPER RED PEARL FRONT EDGE FADE / METALLIC WHITE SILVER · size to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Frameset only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+            "remoteUrl": "https://resources.specialized.com/image/74926-11_TARMAC-SL8-FRMSET-CARB-REDPRL-METWHTSIL_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size to confirm",
+          "maxTire": 32,
+          "weightBasis": "Manufacturer-listed product weight, size 56",
+          "fitNote": "Manufacturer lists a stem with this frameset; selected cockpit is an optional replacement, priced in full.",
+          "image": "products/tarmac-sl8-10r.png"
+        },
+        {
+          "id": "tarmac-sl8",
+          "brand": "Specialized",
+          "name": "Specialized S-Works Tarmac SL8 Frameset - FACT 12r Carbon",
+          "tag": "2026 · S-Works FACT 12r carbon · seatpost listed",
+          "manufacturerUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+          "price": 85000,
+          "weight": 1.38,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 85000,
+              "quantity": 1,
+              "variant": "2026 · GLOSS CARBON / BORDEAUX METALLIC + NEBULA DIRECTIONAL BRUSH / PEARL OVER WHITE · size to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Frameset only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+            "remoteUrl": "https://resources.specialized.com/image/74926-06_TARMAC-SL8-SW-FRMSET-CARB-NBLMET-MGNGLDCMLN_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size to confirm",
+          "maxTire": 32,
+          "weightBasis": "Manufacturer-listed product weight, size 56",
+          "image": "products/tarmac-sl8.png"
+        }
+      ]
+    },
+    "wheels": {
+      "label": "Wheelset",
+      "items": [
+        {
+          "id": "r470",
+          "brand": "DT Swiss",
+          "name": "DT Swiss R470 Wheelset (OEM)",
+          "tag": "700c · Shimano HG 11/10-speed freehub · pair",
+          "manufacturerUrl": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+          "price": 3900.0,
+          "weight": 1.81,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 3900.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Selected listed items",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/IMG_3197.jpg?v=1761114870"
+          },
+          "photoCaption": "Retailer product photo · confirm selected variant",
+          "weightBasis": "Retailer-listed pair weight; axle details to confirm",
+          "image": "products/r470.jpg"
+        },
+        {
+          "id": "rd38",
+          "brand": "ZeroTwo",
+          "name": "ZeroTwo RD38 Carbon Race Disc Wheelset",
+          "tag": "38 mm carbon · Shimano HG variant · pair",
+          "manufacturerUrl": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+          "price": 19990.0,
+          "weight": 1.42,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 19990.0,
+              "quantity": 1,
+              "variant": "Shimano HG",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Selected listed items",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/3_e521e0a6-a7d5-43cb-b097-5a1f78ee3873.jpg?v=1675323243"
+          },
+          "photoCaption": "Retailer wheelset photo · Shimano HG variant requested",
+          "weightBasis": "Retailer-listed approximate pair weight",
+          "image": "products/rd38.jpg"
+        }
+      ]
+    },
+    "tires": {
+      "label": "Tires",
+      "items": [
+        {
+          "id": "gp5000-28",
+          "brand": "Continental",
+          "name": "Continental GP 5000 · 700 × 28C",
+          "tag": "Tube-type · two tires at R1,390 each",
+          "manufacturerUrl": "https://bike-addict.co.za/products/continental-grand-prix-5000-road-tyre?variant=44641395573033",
+          "price": 2780.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/continental-grand-prix-5000-road-tyre?variant=44641395573033",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1390.0,
+              "quantity": 2,
+              "variant": "700 x 28c",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/continental-grand-prix-5000-road-tyre?variant=44641395573033"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/continental-grand-prix-5000-road-tyre?variant=44641395573033",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/grand-prix-5000-quer.png?v=1571439844"
+          },
+          "photoCaption": "Retailer tire model photo · 28C variant requested",
+          "width": 28,
+          "image": "products/gp5000-28.png"
+        },
+        {
+          "id": "gp5000-str-32",
+          "brand": "Continental",
+          "name": "Continental GP 5000 S TR · 700 × 32C",
+          "tag": "Tubeless-ready · two black tires at R1,690 each",
+          "manufacturerUrl": "https://bike-addict.co.za/products/continental-gp-5000-s-tr-road-tyre-700-x-32c?variant=49940941701417",
+          "price": 3380.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/continental-gp-5000-s-tr-road-tyre-700-x-32c?variant=49940941701417",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1690.0,
+              "quantity": 2,
+              "variant": "Black / Black",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Pair of tires",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/continental-gp-5000-s-tr-road-tyre-700-x-32c?variant=49940941701417"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/continental-gp-5000-s-tr-road-tyre-700-x-32c?variant=49940941701417",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/ContinentalGranPrix5000STubelessFoldableRoadTyre700x25_a96f45e6-8d26-41c2-88f6-72b65c942235.jpg?v=1740726116"
+          },
+          "photoCaption": "Retailer tire model photo · 32C black variant requested",
+          "width": 32,
+          "image": "products/gp5000-str-32.jpg"
+        }
+      ]
+    },
+    "drivetrain": {
+      "label": "Drivetrain",
+      "items": [
+        {
+          "id": "105-mechanical",
+          "brand": "Shimano",
+          "name": "Shimano 105 R7100 mechanical bundle",
+          "tag": "Crankset + front/rear derailleurs + cassette + chain",
+          "manufacturerUrl": "https://bike-addict.co.za/products/shimano-105-fcr7100-12-speed-crankset?variant=47675045249321",
+          "price": 6410.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-fcr7100-12-speed-crankset?variant=47675045249321",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 3190.0,
+              "quantity": 1,
+              "variant": "172.5mm / 50-34T",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-rd-r7100-12-speed-rear-derailleur-mech?variant=47675106263337",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 990.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-fd-r7100-12-speed-front-derailleur-mech?variant=47675243233577",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 690.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-cs-r7101-12-speed-cassette?variant=47675420475689",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 1050.0,
+              "quantity": 1,
+              "variant": "11-34T",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-slx-m7100-12-speed-mtb-chain?variant=49354261791017",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 490.0,
+              "quantity": 1,
+              "variant": "116 Links",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "Sum of SA listings",
+          "priceBasis": "Five separately listed items; controls/BB excluded",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/shimano-105-fcr7100-12-speed-crankset?variant=47675045249321"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/shimano-105-fcr7100-12-speed-crankset?variant=47675045249321",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/FC-R7100-50-34T-shic6-primary_1_750_750.jpg?v=1708505164"
+          },
+          "photoCaption": "Crankset photo; price sums five separately listed drivetrain items",
+          "controlSystem": "mechanical-12",
+          "image": "products/105-mechanical.jpg"
+        },
+        {
+          "id": "105-di2",
+          "brand": "Shimano",
+          "name": "Shimano 105 Di2 12-speed groupset",
+          "tag": "172.5 mm · 50/34T · retailer groupset bundle",
+          "manufacturerUrl": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969",
+          "price": 29900.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 29900.0,
+              "quantity": 1,
+              "variant": "172.5mm (50 x 34T)",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Retailer groupset package; exact contents to confirm",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/105.jpg?v=1669793666"
+          },
+          "photoCaption": "Retailer product photo · confirm selected variant",
+          "controlSystem": "di2-12",
+          "fitNote": "Listing describes ST-R7170 controls. Calipers, rotors and full package contents require retailer confirmation; do not add a separate controls price.",
+          "image": "products/105-di2.jpg"
+        }
+      ]
+    },
+    "brakes": {
+      "label": "Brakes & levers",
+      "items": [
+        {
+          "id": "105-r7120",
+          "brand": "Shimano",
+          "name": "Shimano 105 ST-R7120 / BR-R7170 pair",
+          "tag": "Left + right mechanical-shift hydraulic lever/caliper kits",
+          "manufacturerUrl": "https://bike-addict.co.za/products/shimano-105-str7120-left-front-shifter-br-r7170-disc-brake-calliper-mech?variant=47674901528873",
+          "price": 9640.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-str7120-left-front-shifter-br-r7170-disc-brake-calliper-mech?variant=47674901528873",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 4790.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-str7120-right-rear-shifter-br-r7170-disc-brake-calliper-mech?variant=47674903757097",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 4850.0,
+              "quantity": 1,
+              "variant": "Default Title",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "Sum of SA listings",
+          "priceBasis": "Left and right kits; rotors not priced",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/shimano-105-str7120-left-front-shifter-br-r7170-disc-brake-calliper-mech?variant=47674901528873"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/shimano-105-str7120-left-front-shifter-br-r7170-disc-brake-calliper-mech?variant=47674901528873",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Left_29153290-ff8f-4bb7-8b59-2baa90b536de.jpg?v=1708503886"
+          },
+          "photoCaption": "Left kit shown; price sums left and right kits",
+          "controlSystem": "mechanical-12",
+          "image": "products/105-r7120.jpg"
+        },
+        {
+          "id": "105-r7170",
+          "brand": "Shimano",
+          "name": "Di2 controls / calipers package check",
+          "tag": "Use groupset controls; confirm calipers and any extra cost",
+          "manufacturerUrl": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969",
+          "price": null,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 29900.0,
+              "quantity": 1,
+              "variant": "172.5mm (50 x 34T)",
+              "listedAvailable": true,
+              "referenceOnly": true
+            }
+          ],
+          "pricingLabel": "Package confirmation needed",
+          "priceBasis": "Controls described in groupset; caliper inclusion not confirmed",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/105.jpg?v=1669793666"
+          },
+          "photoCaption": "Groupset reference photo; this is not a separately priced brake kit",
+          "controlSystem": "di2-12",
+          "fitNote": "No extra controls price is added. Confirm whether calipers are included and quote any missing parts.",
+          "image": "products/105-r7170.jpg"
+        }
+      ]
+    },
+    "cockpit": {
+      "label": "Cockpit",
+      "items": [
+        {
+          "id": "pro-plt",
+          "brand": "PRO",
+          "name": "PRO PLT alloy cockpit",
+          "tag": "42 cm compact bar + 100 mm PLT stem",
+          "manufacturerUrl": "https://bike-addict.co.za/products/pro-plt-compact-road-handlebar?variant=39741565698132",
+          "price": 1780.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-plt-compact-road-handlebar?variant=39741565698132",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 990.0,
+              "quantity": 1,
+              "variant": "42cm",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-plt-stem?variant=44628608745769",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 790.0,
+              "quantity": 1,
+              "variant": "100mm",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "Sum of SA listings",
+          "priceBasis": "Handlebar + stem; tape excluded",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pro-plt-compact-road-handlebar?variant=39741565698132"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pro-plt-compact-road-handlebar?variant=39741565698132",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/products/PRHA0342.jpg?v=1571439788"
+          },
+          "photoCaption": "Handlebar shown; price includes the selected stem",
+          "image": "products/pro-plt.jpg"
+        },
+        {
+          "id": "pro-plt-carbon",
+          "brand": "PRO",
+          "name": "PRO PLT carbon cockpit",
+          "tag": "42 cm carbon compact bar + 100 mm PLT stem",
+          "manufacturerUrl": "https://bike-addict.co.za/products/pro-plt-carbon-compact-road-handlebar?variant=49866375135529",
+          "price": 4380.0,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-plt-carbon-compact-road-handlebar?variant=49866375135529",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 3590.0,
+              "quantity": 1,
+              "variant": "42cm / 31.8mm",
+              "listedAvailable": true
+            },
+            {
+              "name": "Bike Addict",
+              "url": "https://bike-addict.co.za/products/pro-plt-stem?variant=44628608745769",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 790.0,
+              "quantity": 1,
+              "variant": "100mm",
+              "listedAvailable": true
+            }
+          ],
+          "pricingLabel": "Sum of SA listings",
+          "priceBasis": "Handlebar + stem; tape excluded",
+          "stockNote": "Listed available at retailer; reconfirm",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://bike-addict.co.za/products/pro-plt-carbon-compact-road-handlebar?variant=49866375135529"
+          },
+          "photoSource": {
+            "name": "Bike Addict",
+            "url": "https://bike-addict.co.za/products/pro-plt-carbon-compact-road-handlebar?variant=49866375135529",
+            "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Capture_1d16aa77-4e04-40c8-a844-2d79a9fda648.jpg?v=1739518626"
+          },
+          "photoCaption": "Handlebar shown; price includes the selected stem",
+          "image": "products/pro-plt-carbon.jpg"
+        }
+      ]
+    },
+    "saddle": {
+      "label": "Saddle",
+      "items": [
+        {
+          "id": "power-comp",
+          "brand": "Specialized",
+          "name": "Specialized Power Comp",
+          "tag": "Power Comp · width and rail fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-comp/p/155836",
+          "price": 2100,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-comp/p/155836",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 2100,
+              "quantity": 1,
+              "variant": "2024 · Black · size to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-comp/p/155836"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-comp/p/155836",
+            "remoteUrl": "https://resources.specialized.com/image/27116-180_SDDL_POWER-COMP_BLK?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size to confirm",
+          "image": "products/power-comp.png"
+        },
+        {
+          "id": "power-expert",
+          "brand": "Specialized",
+          "name": "Specialized Power Expert with Mirror",
+          "tag": "Power Expert with Mirror · width and rail fit to confirm",
+          "manufacturerUrl": "https://www.specialized.com/za/en/power-expert-with-mirror/p/1000148806",
+          "price": 3900,
+          "weight": null,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/power-expert-with-mirror/p/1000148806",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 3900,
+              "quantity": 1,
+              "variant": "2024 · Black · size to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Saddle only",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/power-expert-with-mirror/p/1000148806"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/power-expert-with-mirror/p/1000148806",
+            "remoteUrl": "https://resources.specialized.com/image/27123-860_SDDL_POWER-EXPERT-MIRROR-SADDLE-BLK-143_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · colour and size to confirm",
+          "image": "products/power-expert.png"
+        }
+      ]
+    }
+  },
+  "completeBikes": [
+    {
+      "id": "reacto-5000",
+      "brand": "Merida",
+      "name": "Merida Reacto 5000 Disc (2026)",
+      "tag": "Standard build · M reference variant",
+      "manufacturerUrl": "https://bike-addict.co.za/products/merida-reacto-5000-disc-2026?variant=51216197222697",
+      "price": 49900.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/merida-reacto-5000-disc-2026?variant=51216197222697",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 49900.0,
+          "quantity": 1,
+          "variant": "Standard / M",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike listing; standard build",
+      "stockNote": "Listed available at retailer; reconfirm",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/merida-reacto-5000-disc-2026?variant=51216197222697"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/merida-reacto-5000-disc-2026?variant=51216197222697",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/REACTO_5000_whtblk_MY26.jpg?v=1757418909"
+      },
+      "photoCaption": "Retailer complete-bike photograph",
+      "image": "products/reacto-5000.jpg"
+    },
+    {
+      "id": "aethos-sport",
+      "brand": "Specialized",
+      "name": "Specialized Aethos Sport - Shimano 105",
+      "tag": "Aethos Sport · Shimano 105 · size/colour to confirm",
+      "manufacturerUrl": "https://www.specialized.com/za/en/aethos-sport-shimano-105/p/218234",
+      "price": 50000,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Specialized South Africa",
+          "url": "https://www.specialized.com/za/en/aethos-sport-shimano-105/p/218234",
+          "kind": "manufacturer-msrp",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 50000,
+          "quantity": 1,
+          "variant": "2024 ·  · size to confirm"
+        }
+      ],
+      "pricingLabel": "Manufacturer MSRP",
+      "priceBasis": "Complete bike MSRP",
+      "stockNote": "Dealer availability unconfirmed",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://www.specialized.com/za/en/aethos-sport-shimano-105/p/218234"
+      },
+      "photoSource": {
+        "name": "Specialized South Africa",
+        "url": "https://www.specialized.com/za/en/aethos-sport-shimano-105/p/218234",
+        "remoteUrl": "https://resources.specialized.com/image/97224-61_AETHOS-SPORT-FOGTNT-DUNEWHT_HERO?bg=f1f1f1&w=1280&h=1280&q=75"
+      },
+      "photoCaption": "Manufacturer product photo · colour and size to confirm",
+      "image": "products/aethos-sport.png"
+    },
+    {
+      "id": "bianchi-sprint",
+      "brand": "Bianchi",
+      "name": "Bianchi Sprint 105 12-Speed",
+      "tag": "Celeste · 53 cm reference variant",
+      "manufacturerUrl": "https://bike-addict.co.za/products/bianchi-sprint-105-12-speed?variant=48111283700009",
+      "price": 62900.0,
+      "weight": null,
+      "sources": [
+        {
+          "name": "Bike Addict",
+          "url": "https://bike-addict.co.za/products/bianchi-sprint-105-12-speed?variant=48111283700009",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-14",
+          "currency": "ZAR",
+          "unitPrice": 62900.0,
+          "quantity": 1,
+          "variant": "Celeste / 53cm",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Complete bike listing",
+      "stockNote": "Listed available at retailer; reconfirm",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-14",
+        "sourceUrl": "https://bike-addict.co.za/products/bianchi-sprint-105-12-speed?variant=48111283700009"
+      },
+      "photoSource": {
+        "name": "Bike Addict",
+        "url": "https://bike-addict.co.za/products/bianchi-sprint-105-12-speed?variant=48111283700009",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0966/8862/files/Sprint105.jpg?v=1707807343"
+      },
+      "photoCaption": "Retailer complete-bike photograph",
+      "image": "products/bianchi-sprint.jpg"
+    }
+  ]
+}
