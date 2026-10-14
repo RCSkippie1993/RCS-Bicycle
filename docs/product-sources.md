@@ -1,6 +1,6 @@
 # Product source register
 
-Checked: 14 October 2026. Currency: ZAR. 62 references: 24 complete bikes and 38 component/bundle options. These are manufacturer MSRP and South African retailer reference prices, not RCS selling offers.
+Checked: 14 October 2026. Currency of verified SA prices: ZAR. 68 references: 24 complete bikes and 44 component/bundle options, including nine framesets. These are manufacturer MSRP and retailer reference prices, not RCS selling offers. Three manufacturer US frameset references have no verified SA price; no currency conversion or import price has been invented.
 
 ## Complete-bike references
 
@@ -38,6 +38,12 @@ Checked: 14 October 2026. Currency: ZAR. 62 references: 24 complete bikes and 38
 | Specialized Allez Sprint Frameset - D'Aluisio Smartweld Alloy | R25,000 | Manufacturer MSRP; Frameset only<br>1 × 2024 · Gloss Blue Onyx + Sapphire Blue Strata Astral Blue · size to confirm | [Specialized South Africa](https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508) |
 | Specialized Tarmac SL8 Frameset - FACT 10r Carbon | R55,000 | Manufacturer MSRP; Frameset only<br>1 × 2026 · SATIN CARBON / 100% CQV REFLEX SUPER RED PEARL FRONT EDGE FADE / METALLIC WHITE SILVER · size to confirm | [Specialized South Africa](https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552) |
 | Specialized S-Works Tarmac SL8 Frameset - FACT 12r Carbon | R85,000 | Manufacturer MSRP; Frameset only<br>1 × 2026 · GLOSS CARBON / BORDEAUX METALLIC + NEBULA DIRECTIONAL BRUSH / PEARL OVER WHITE · size to confirm | [Specialized South Africa](https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575) |
+| Specialized S-Works Tarmac SL9 Frameset - FACT 12r Carbon | R120,000 | Manufacturer MSRP; Frameset; listed frame, fork and seatpost<br>1 × 2027 · [GLOSS CARBON / RED TO BLUE PEARL / WHITE] · size to confirm | [Specialized South Africa](https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537) |
+| Pinarello Dogma F Disc Road Frameset (2024) | R124,999.99 | SA retailer reference; Road frameset; exact package inclusions to confirm<br>1 × Sonic Blue · 57.5 cm reference size | [CWC](https://cwcycles.co.za/product/1018229-frame-road-pinarello-dogma-f-disc-frame-kit-my24) |
+| Colnago V4Rs carbon road frame (retailer: VR4S) | R147,999.99 | SA retailer reference; Frame only; fork, headset and axles excluded<br>1 × Black White · 53 reference size | [CWC](https://cwcycles.co.za/product/1018468-frame-road-colnago-vr4s-framekit--dctech-t47-bb) |
+| Specialized Aethos 2 Frameset - FACT 10r Carbon | SA quote / package check required | SA quote required; Frameset; no verified South African price or import estimate<br>1 × 2026 manufacturer reference; local variant/size/supply to confirm | [Specialized US · specifications only](https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561) |
+| Specialized S-Works Aethos 2 Frameset - FACT 12r Carbon | SA quote / package check required | SA quote required; Frameset; no verified South African price or import estimate<br>1 × 2026 manufacturer reference; local variant/size/supply to confirm | [Specialized US · specifications only](https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567) |
+| Specialized S-Works Roubaix SL8 Frameset - FACT 12r Carbon | SA quote / package check required | SA quote required; Frameset; no verified South African price or import estimate<br>1 × 2027 manufacturer reference; local variant/size/supply to confirm | [Specialized US · specifications only](https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272) |
 
 ## Wheelset
 
@@ -77,7 +83,7 @@ Checked: 14 October 2026. Currency: ZAR. 62 references: 24 complete bikes and 38
 | Product | Reference price | Basis / reference variant | Sources |
 | --- | ---: | --- | --- |
 | Shimano 105 ST-R7120 / BR-R7170 pair | R9,640 | Sum of SA listings; Left and right kits; rotors not priced<br>1 × Default Title<br>1 × Default Title | [Bike Addict](https://bike-addict.co.za/products/shimano-105-str7120-left-front-shifter-br-r7170-disc-brake-calliper-mech?variant=47674901528873)<br>[Bike Addict](https://bike-addict.co.za/products/shimano-105-str7120-right-rear-shifter-br-r7170-disc-brake-calliper-mech?variant=47674903757097) |
-| Di2 controls / calipers package check | Quote / package check | Package confirmation needed; Controls described in groupset; caliper inclusion not confirmed<br>1 × 172.5mm (50 x 34T) | [Bike Addict](https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969) |
+| Di2 controls / calipers package check | SA quote / package check required | Package confirmation needed; Controls described in groupset; caliper inclusion not confirmed<br>1 × 172.5mm (50 x 34T) | [Bike Addict](https://bike-addict.co.za/products/shimano-105-di2-12-speed-groupset?variant=47253801500969) |
 
 ## Cockpit
 
@@ -104,6 +110,14 @@ Checked: 14 October 2026. Currency: ZAR. 62 references: 24 complete bikes and 38
 | Specialized Romin EVO Comp Gel | R2,100 | Manufacturer MSRP; Saddle only<br>1 × 2024 · [Black] · size/width to confirm | [Specialized South Africa](https://www.specialized.com/za/en/romin-evo-comp-gel/p/155424) |
 | Specialized Bridge Sport | R1,100 | Manufacturer MSRP; Saddle only<br>1 × 2024 · [Black] · size/width to confirm | [Specialized South Africa](https://www.specialized.com/za/en/bridge-sport/p/174747) |
 
+## Additional frames and purpose evidence
+
+The SA Specialized regional frameset collection and product pages support the Tarmac SL9 MSRP of R120,000 and its frame/fork/seatpost specification. CWC exact product pages support the Pinarello Dogma F 2024 frameset at R124,999.99 (Sonic Blue, 57.5 cm reference) and the Colnago V4Rs frame at R147,999.99 (Black White, 53 reference). The retailer title spells the Colnago model “VR4S”; the description identifies V4Rs. It explicitly excludes fork, headset and axles. The Pinarello source illustration shows faded complete-bike parts for context; this is not a complete-bike price.
+
+Manufacturer US pages verify Aethos 2 FACT 10r, S-Works Aethos 2 FACT 12r and S-Works Roubaix SL8 FACT 12r framesets, with original manufacturer photos and source-listed package weights. These models did not have a verified South African listing price in this research; their source lines are specification-only, currency/price are null and SA supply remains unconfirmed. No USD-to-ZAR conversion, import estimate or availability claim is made. Aethos 2 nominal 35 mm tire clearance is stated by the manufacturer. Roubaix lists 38c/40 mm; the builder uses the conservative nominal 38C limit.
+
+Each frame retains a reviewed description excerpt and product URL in `buildEvidence.designFocus`. The race/aero/lightweight/endurance class is an RCS editorial interpretation of the description, not a manufacturer rating. These classes feed only the published [build goal-match rubric](build-ratings.md). Package masses do not feed the goal score.
+
 ## Review method and limits
 
 Specialized South Africa regional category records supplied model names, model year, product-specific URLs, images and explicit ZAR MSRP. Manufacturer MSRP remains MSRP even when a swatch advertises a promotional price. Bike Addict public Shopify product responses supplied product descriptions, images and exact selected variant IDs, prices in integer cents, and availability snapshots. Search suggestions were used only for discovery. Manufacturer-photo references are credited to Specialized; retailer-photo references are credited to Bike Addict rather than asserting manufacturer ownership of every retailer image.
@@ -116,4 +130,4 @@ Tires are consistently priced as pairs. Cockpits include a bar plus a separately
 
 ## Reference profiles
 
-See [the ratings method](ratings.md). All 62 records expose a profile: 61 priced packages have a budget-accessibility score and the unpriced package remains pending. Additional wheel depth, wheel-pair mass, tire-width and complete-bike-mass scores require reviewed specification evidence in `profileEvidence`. Source excerpts and product URLs remain visible alongside the score. No price-derived quality ranking, customer reviews, overall stars or fabricated aero/climbing/comfort performance is supplied.
+See [the ratings method](ratings.md). All 68 records expose a profile: 64 priced packages have a budget-accessibility score; three manufacturer frameset references and the Di2 package remain unpriced. Additional wheel depth, wheel-pair mass, tire-width and complete-bike-mass scores require reviewed specification evidence in `profileEvidence`. Source excerpts and product URLs remain visible alongside the score. No price-derived quality ranking, customer reviews, overall stars or fabricated aero/climbing/comfort performance is supplied.

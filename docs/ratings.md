@@ -33,7 +33,7 @@ Listed wheelset and complete-bike masses are not weighed by RCS. Sizes, toleranc
 
 A deeper rim is not necessarily faster and can behave differently in crosswinds. Tire nominal width is not mounted width, comfort, rolling resistance or compatibility. Neither profile replaces tire/rim/pressure/clearance review. Higher describes more depth or width, not better suitability.
 
-No source data presently supports comparable aero, climbing, rolling resistance, stiffness, braking power or individual comfort scores. These remain pending. There is no overall product star rating and no averaging of components into a supposed complete-build performance score.
+No source data presently supports comparable aero, climbing, rolling resistance, stiffness, braking power or individual comfort scores. These remain pending. There is no overall product star rating and no averaging of components into a supposed complete-build measured-performance score. A separate [editorial build goal match](build-ratings.md) now describes documented specification preferences with explicit weights, evidence coverage and limitations; it does not alter these product cost/specification scales.
 
 ## Maintenance
 

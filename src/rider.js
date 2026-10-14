@@ -5,7 +5,8 @@ export const goals = {
  unsure: 'Not decided',
  endurance: 'Comfort & endurance',
  allround: 'Balanced road riding',
- race: 'Racing & speed'
+ race: 'Racing & speed',
+ climbing: 'Climbing & low-mass focus'
 };
 export const ranges = { heightCm: [80, 250], inseamCm: [30, 130], budgetZar: [1000, 2000000] };
 const labels = { heightCm: 'Height', inseamCm: 'Cycling inseam', budgetZar: 'Budget' };

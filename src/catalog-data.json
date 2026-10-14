@@ -42,7 +42,16 @@
           "maxTire": null,
           "weightBasis": "Manufacturer-listed product weight, size 56",
           "fitNote": "Threaded BB; exact tire clearance and fit require review.",
-          "image": "products/allez-sprint.png"
+          "image": "products/allez-sprint.png",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "race",
+              "url": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508",
+              "excerpt": "Whether you’re launching a sprint out of the final corner or attacking from the gun",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          }
         },
         {
           "id": "tarmac-sl8-10r",
@@ -81,7 +90,16 @@
           "maxTire": 32,
           "weightBasis": "Manufacturer-listed product weight, size 56",
           "fitNote": "Manufacturer lists a stem with this frameset; selected cockpit is an optional replacement, priced in full.",
-          "image": "products/tarmac-sl8-10r.png"
+          "image": "products/tarmac-sl8-10r.png",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "race",
+              "url": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+              "excerpt": "Demi and Remco Made in Racing",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          }
         },
         {
           "id": "tarmac-sl8",
@@ -119,7 +137,313 @@
           "photoCaption": "Manufacturer product photo · colour and size to confirm",
           "maxTire": 32,
           "weightBasis": "Manufacturer-listed product weight, size 56",
-          "image": "products/tarmac-sl8.png"
+          "image": "products/tarmac-sl8.png",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "race",
+              "url": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+              "excerpt": "Demi and Remco Made in Racing",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          }
+        },
+        {
+          "id": "tarmac-sl9",
+          "brand": "Specialized",
+          "name": "Specialized S-Works Tarmac SL9 Frameset - FACT 12r Carbon",
+          "tag": "2027 · FACT 12r carbon · fork and seatpost listed",
+          "manufacturerUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+          "price": 120000,
+          "weight": 1.39,
+          "sources": [
+            {
+              "name": "Specialized South Africa",
+              "url": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+              "kind": "manufacturer-msrp",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 120000,
+              "quantity": 1,
+              "variant": "2027 · [GLOSS CARBON / RED TO BLUE PEARL / WHITE] · size to confirm"
+            }
+          ],
+          "pricingLabel": "Manufacturer MSRP",
+          "priceBasis": "Frameset; listed frame, fork and seatpost",
+          "stockNote": "Dealer availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537"
+          },
+          "photoSource": {
+            "name": "Specialized South Africa",
+            "url": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+            "remoteUrl": "https://resources.specialized.com/image/74927-04_TARMAC-SL9-SW-FRMSET-CARB-BLUREDCMLN-WHT_HERO-PDP?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer product photo · exact colour, size and package to confirm",
+          "maxTire": null,
+          "weightBasis": "Manufacturer-listed product package weight, size 56. Not a bare-frame mass or complete bike.",
+          "fitNote": "Tire clearance and exact controls/routing require confirmation. Confirm headset, stem, seatpost and all package inclusions; optional cockpit is priced separately.",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "race",
+              "url": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+              "excerpt": "At a Glance Use Road Racing",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          },
+          "image": "products/tarmac-sl9.png"
+        },
+        {
+          "id": "dogma-f-2024",
+          "brand": "Pinarello",
+          "name": "Pinarello Dogma F Disc Road Frameset (2024)",
+          "tag": "Disc road · 2024 · carbon · 57.5 cm reference",
+          "manufacturerUrl": null,
+          "price": 124999.99,
+          "weight": null,
+          "sources": [
+            {
+              "name": "CWC",
+              "url": "https://cwcycles.co.za/product/1018229-frame-road-pinarello-dogma-f-disc-frame-kit-my24",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 124999.99,
+              "quantity": 1,
+              "variant": "Sonic Blue · 57.5 cm reference size"
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Road frameset; exact package inclusions to confirm",
+          "stockNote": "Retailer listing snapshot; RCS availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://cwcycles.co.za/product/1018229-frame-road-pinarello-dogma-f-disc-frame-kit-my24"
+          },
+          "photoSource": {
+            "name": "CWC",
+            "url": "https://cwcycles.co.za/product/1018229-frame-road-pinarello-dogma-f-disc-frame-kit-my24",
+            "remoteUrl": "https://cwcycles.co.za/uploads/products/286550CC-4CA8-4C38-B0DB-C4554142C49D.png"
+          },
+          "photoCaption": "Retailer frameset illustration · greyed complete-bike components provide context and are not priced as included parts. Confirm exact package and reference size.",
+          "maxTire": null,
+          "fitNote": "The verified retailer reference size is 57.5 cm, not an automatic fit recommendation. Confirm fork, seatpost, headset, axles, routing and all standards before sourcing.",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "aero",
+              "url": "https://cwcycles.co.za/product/1018229-frame-road-pinarello-dogma-f-disc-frame-kit-my24",
+              "excerpt": "the 2024 Pinarello Dogma F Disc Road Frameset is a cutting-edge and aerodynamically optimized platform",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          },
+          "image": "products/dogma-f-2024.jpg"
+        },
+        {
+          "id": "colnago-v4rs-frame",
+          "brand": "Colnago",
+          "name": "Colnago V4Rs carbon road frame (retailer: VR4S)",
+          "tag": "Disc road · frame only · fork excluded",
+          "manufacturerUrl": null,
+          "price": 147999.99,
+          "weight": null,
+          "sources": [
+            {
+              "name": "CWC",
+              "url": "https://cwcycles.co.za/product/1018468-frame-road-colnago-vr4s-framekit--dctech-t47-bb",
+              "kind": "retailer-listing",
+              "checkedAt": "2026-10-14",
+              "currency": "ZAR",
+              "unitPrice": 147999.99,
+              "quantity": 1,
+              "variant": "Black White · 53 reference size"
+            }
+          ],
+          "pricingLabel": "SA retailer reference",
+          "priceBasis": "Frame only; fork, headset and axles excluded",
+          "stockNote": "Retailer listing snapshot; RCS availability unconfirmed",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://cwcycles.co.za/product/1018468-frame-road-colnago-vr4s-framekit--dctech-t47-bb"
+          },
+          "photoSource": {
+            "name": "CWC",
+            "url": "https://cwcycles.co.za/product/1018468-frame-road-colnago-vr4s-framekit--dctech-t47-bb",
+            "remoteUrl": "https://cwcycles.co.za/uploads/products/E4945226-D937-499C-B95B-C18E47EFA57F.png"
+          },
+          "photoCaption": "Retailer frame photo. Listing explicitly excludes fork, headset and axles.",
+          "maxTire": null,
+          "fitNote": "FRAME ONLY: the retailer explicitly excludes the fork, headset and axles. These are missing costs outside this subtotal. A matching fork is required before this can become a rideable build. Reference size 53 is not a fit recommendation.",
+          "missingEssentials": [
+            "matching fork",
+            "headset",
+            "axles"
+          ],
+          "buildEvidence": {
+            "designFocus": {
+              "value": "race",
+              "url": "https://cwcycles.co.za/product/1018468-frame-road-colnago-vr4s-framekit--dctech-t47-bb",
+              "excerpt": "Race-proven carbon frameset developed with WorldTour input for elite-level performance",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          },
+          "image": "products/colnago-v4rs-frame.jpg"
+        },
+        {
+          "id": "aethos-2-10r",
+          "brand": "Specialized",
+          "name": "Specialized Aethos 2 Frameset - FACT 10r Carbon",
+          "tag": "2026 · Lightweight road · performance endurance fit · SA quote required",
+          "manufacturerUrl": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+          "price": null,
+          "weight": 1.37,
+          "sources": [
+            {
+              "name": "Specialized US · specifications only",
+              "url": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+              "kind": "manufacturer-specification",
+              "checkedAt": "2026-10-14",
+              "currency": null,
+              "unitPrice": null,
+              "quantity": 1,
+              "variant": "2026 manufacturer reference; local variant/size/supply to confirm",
+              "referenceOnly": true,
+              "referenceNote": "Manufacturer specifications only; South African price not verified"
+            }
+          ],
+          "pricingLabel": "SA quote required",
+          "priceBasis": "Frameset; no verified South African price or import estimate",
+          "stockNote": "South African supply and pricing unconfirmed; manufacturer reference only",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561"
+          },
+          "photoSource": {
+            "name": "Specialized US",
+            "url": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+            "remoteUrl": "https://resources.specialized.com/image/77226-70_AETHOS-FRMSET-NBLMET-BNTGLDMET_HERO-SQUARE?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer US product photo · a model reference, not confirmed South African inventory",
+          "maxTire": 35,
+          "weightBasis": "Manufacturer-listed product package weight, size 56. Includes listed fork/seatpost; not bare-frame or complete-bike weight.",
+          "fitNote": "Manufacturer reference only: request a South African supplier quote, exact local package, import/VAT treatment and routing/fit confirmation before sourcing. 35 mm nominal tire clearance is manufacturer-listed; confirm mounted width and compatible rims.",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "lightweight",
+              "url": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+              "excerpt": "With a 705g frame, the Aethos 2 is the lightest in its class.",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          },
+          "image": "products/aethos-2-10r.webp"
+        },
+        {
+          "id": "aethos-2-12r",
+          "brand": "Specialized",
+          "name": "Specialized S-Works Aethos 2 Frameset - FACT 12r Carbon",
+          "tag": "2026 · Lightweight road · performance endurance fit · SA quote required",
+          "manufacturerUrl": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+          "price": null,
+          "weight": 1.24,
+          "sources": [
+            {
+              "name": "Specialized US · specifications only",
+              "url": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+              "kind": "manufacturer-specification",
+              "checkedAt": "2026-10-14",
+              "currency": null,
+              "unitPrice": null,
+              "quantity": 1,
+              "variant": "2026 manufacturer reference; local variant/size/supply to confirm",
+              "referenceOnly": true,
+              "referenceNote": "Manufacturer specifications only; South African price not verified"
+            }
+          ],
+          "pricingLabel": "SA quote required",
+          "priceBasis": "Frameset; no verified South African price or import estimate",
+          "stockNote": "South African supply and pricing unconfirmed; manufacturer reference only",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567"
+          },
+          "photoSource": {
+            "name": "Specialized US",
+            "url": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+            "remoteUrl": "https://resources.specialized.com/image/77226-03_AETHOS-SW-FRMSET-SHDWSIL-SILDST-BLKPRL_HERO-SQUARE?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer US product photo · a model reference, not confirmed South African inventory",
+          "maxTire": 35,
+          "weightBasis": "Manufacturer-listed product package weight, size 56. Includes listed fork/seatpost; not bare-frame or complete-bike weight.",
+          "fitNote": "Manufacturer reference only: request a South African supplier quote, exact local package, import/VAT treatment and routing/fit confirmation before sourcing. 35 mm nominal tire clearance is manufacturer-listed; confirm mounted width and compatible rims.",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "lightweight",
+              "url": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+              "excerpt": "At just 595 grams, the S-Works Aethos 2 is the lightest production road frame in the world.",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          },
+          "image": "products/aethos-2-12r.webp"
+        },
+        {
+          "id": "roubaix-sl8-12r",
+          "brand": "Specialized",
+          "name": "Specialized S-Works Roubaix SL8 Frameset - FACT 12r Carbon",
+          "tag": "2027 · Endurance · Future Shock 3.3 · SA quote required",
+          "manufacturerUrl": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+          "price": null,
+          "weight": 2.11,
+          "sources": [
+            {
+              "name": "Specialized US · specifications only",
+              "url": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+              "kind": "manufacturer-specification",
+              "checkedAt": "2026-10-14",
+              "currency": null,
+              "unitPrice": null,
+              "quantity": 1,
+              "variant": "2027 manufacturer reference; local variant/size/supply to confirm",
+              "referenceOnly": true,
+              "referenceNote": "Manufacturer specifications only; South African price not verified"
+            }
+          ],
+          "pricingLabel": "SA quote required",
+          "priceBasis": "Frameset; no verified South African price or import estimate",
+          "stockNote": "South African supply and pricing unconfirmed; manufacturer reference only",
+          "verification": {
+            "status": "listing-reviewed",
+            "reviewedAt": "2026-10-14",
+            "sourceUrl": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272"
+          },
+          "photoSource": {
+            "name": "Specialized US",
+            "url": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+            "remoteUrl": "https://resources.specialized.com/image/74427-00_ROUBAIX-SW-FRMSET-CYNPRPCMLN-METWHTSIL-WHT_HERO-SQUARE?bg=f1f1f1&w=1280&h=1280&q=75"
+          },
+          "photoCaption": "Manufacturer US product photo · a model reference, not confirmed South African inventory",
+          "maxTire": 38,
+          "weightBasis": "Manufacturer-listed product package weight, size 56. Includes listed fork/seatpost; not bare-frame or complete-bike weight.",
+          "fitNote": "Manufacturer reference only: request a South African supplier quote, exact local package, import/VAT treatment and routing/fit confirmation before sourcing. Future Shock uses proprietary fit/headset parts; verify stem and suspension inclusions.",
+          "buildEvidence": {
+            "designFocus": {
+              "value": "endurance",
+              "url": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+              "excerpt": "The Roubaix’s endurance geometry delivers an “IN” the bike, not “ON” the bike feel that’s ideal for long rides.",
+              "checkedAt": "2026-10-14",
+              "classificationBy": "RCS editorial"
+            }
+          },
+          "image": "products/roubaix-sl8-12r.webp"
         }
       ]
     },

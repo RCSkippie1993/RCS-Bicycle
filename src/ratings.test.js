@@ -4,8 +4,8 @@ import { catalog, completeBikes } from './catalog.js';
 import { productRatings, budgetBands } from './ratings.js';
 import { productRecords, filterProducts } from './product-browser.js';
 
-test('all 62 references get profiles; 61 priced packages get cost scores and unpriced stays pending', () => {
- assert.equal(productRecords.length,62);
+test('all 68 references get profiles; 64 priced packages get cost scores and four unpriced stay pending', () => {
+ assert.equal(productRecords.length,68);
  let scored=0;
  for (const {category,product} of productRecords) {
   const ratings=productRatings(product,category);
@@ -18,7 +18,7 @@ test('all 62 references get profiles; 61 priced packages get cost scores and unp
    assert.ok(r.basis.length>20);
   }
  }
- assert.equal(scored,61);
+ assert.equal(scored,64);
 });
 test('fixed budget scales clamp and reverse cost without implying expensive is better', () => {
  for(const category in budgetBands) {

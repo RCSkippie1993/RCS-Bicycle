@@ -17,7 +17,8 @@ test('default reference subtotal uses actual listed line quantities and excludes
 });
 test('every catalog photo is local and has dated product-level price/source evidence', () => {
  const records = [...Object.values(catalog).flatMap(g => g.items), ...completeBikes];
- assert.equal(records.length, 62);
+ assert.equal(records.length, 68);
+ assert.equal(catalog.frame.items.length,9);
  assert.equal(new Set(records.map(p=>p.id)).size, records.length);
  for (const p of records) {
   assert.ok(existsSync(new URL('../public/' + p.image, import.meta.url)), p.id);
@@ -25,8 +26,11 @@ test('every catalog photo is local and has dated product-level price/source evid
   assert.equal(p.verification.status, 'listing-reviewed');assert.equal(p.verification.reviewedAt, checkedAt);
   assert.match(p.photoSource.remoteUrl, /^https:\/\//);assert.match(p.photoSource.url, /^https:\/\//);
   for (const source of p.sources) {
-   assert.ok(['www.specialized.com', 'bike-addict.co.za'].includes(new URL(source.url).hostname));
-   assert.equal(source.checkedAt, checkedAt);assert.equal(source.currency, 'ZAR');assert.ok(source.unitPrice > 0 && source.quantity > 0);
+   assert.ok(['www.specialized.com', 'bike-addict.co.za','cwcycles.co.za'].includes(new URL(source.url).hostname));
+   assert.equal(source.checkedAt, checkedAt);assert.ok(source.quantity > 0);
+   if(source.kind==='manufacturer-specification') {
+    assert.equal(source.unitPrice,null);assert.equal(source.currency,null);assert.equal(source.referenceOnly,true);assert.equal(p.price,null);assert.match(p.pricingLabel,/SA quote required/);
+   }else {assert.equal(source.currency,'ZAR');assert.ok(source.unitPrice>0);}
   }
   if (Number.isFinite(p.price)) assert.equal(p.price, p.sources.filter(s => !s.referenceOnly).reduce((sum, s) => sum + s.quantity * s.unitPrice, 0));
  }
@@ -48,11 +52,20 @@ test('retired selections fall back to available reference models', () => {
  const b = evaluate({ frame: 'aethos', wheels: 'e1800', drivetrain: 'electronic' });
  assert.equal(b.parts.frame.id, 'allez-sprint');assert.equal(b.parts.wheels.id, 'r470');assert.equal(b.parts.drivetrain.id, '105-mechanical');
 });
-test('all 31,680 combinations keep partial pricing explicit and detect 15,840 control mismatches', () => {
+test('all 95,040 combinations keep partial pricing explicit and detect 47,520 control mismatches', () => {
  let cases = [{}];for (const [key, g] of Object.entries(catalog)) cases = cases.flatMap(c => g.items.map(p => ({ ...c, [key]: p.id })));
  let mismatches = 0;for (const c of cases) {
   const b = evaluate(c);assert.ok(Number.isFinite(b.knownSubtotal) && b.knownSubtotal > 0);assert.equal(b.price === null, b.unpriced.length > 0);
   if (b.errors.length) mismatches++;
  }
- assert.equal(cases.length, 31680);assert.equal(mismatches, 15840);
+ assert.equal(cases.length, 95040);assert.equal(mismatches, 47520);
+});
+test('new frames retain actual SA cents, explicit foreign-reference pricing gaps and missing fork exclusions',()=>{
+ const frames=catalog.frame.items;
+ assert.equal(frames.find(p=>p.id==='dogma-f-2024').price,124999.99);
+ assert.match(money(124999.99),/124\s*999[.,]99/);
+ assert.deepEqual(frames.filter(p=>p.price===null).map(p=>p.id),['aethos-2-10r','aethos-2-12r','roubaix-sl8-12r']);
+ assert.deepEqual(frames.find(p=>p.id==='colnago-v4rs-frame').missingEssentials,['matching fork','headset','axles']);
+ const build=evaluate({frame:'aethos-2-10r'});assert.equal(build.knownSubtotal,26610);assert.equal(build.price,null);assert.equal(build.unpriced.length,1);
+ assert.ok(build.warnings.some(note=>/South African supplier quote/.test(note)));
 });
