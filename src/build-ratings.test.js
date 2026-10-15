@@ -35,7 +35,7 @@ test('detected control mismatches and documented missing essentials withhold the
 });
 test('all frame/goal choices produce bounded estimates with cited classification evidence and no measured-performance claim',()=>{
  for(const frame of catalog.frame.items){
-  assert.ok(frame.buildEvidence.designFocus.excerpt.length>15);assert.match(frame.buildEvidence.designFocus.url,/^https:\/\//);
+  if(frame.buildEvidence?.designFocus){assert.ok(frame.buildEvidence.designFocus.excerpt.length>15);assert.match(frame.buildEvidence.designFocus.url,/^https:\/\//);}else assert.equal(rateBuild(evaluate({frame:frame.id})).signals.find(s=>s.key==='frame').score,null);
   for(const goal in buildGoals){const rating=rateBuild(evaluate({frame:frame.id,wheels:'rd38'}),goal);for(const score of [rating.overall,rating.provisional])assert.ok(score===null||(score>=1&&score<=10));}
  }
  assert.equal(rateBuild(evaluate(),'bad-goal').goal,'allround');

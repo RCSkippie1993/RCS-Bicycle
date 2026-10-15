@@ -18,8 +18,8 @@ test('default reference subtotal uses actual listed line quantities and excludes
 });
 test('every catalog photo is local and has dated product-level price/source evidence', () => {
  const records = productRecords.map(r=>r.product);
- assert.equal(records.length, 237);
- assert.equal(catalog.frame.items.length,9);
+ assert.equal(records.length, 261);
+ assert.equal(catalog.frame.items.length,32);
  assert.equal(new Set(records.map(p=>p.id)).size, records.length);
  for (const p of records) {
   assert.ok(existsSync(new URL('../public/' + p.image, import.meta.url)), p.id);
@@ -27,7 +27,7 @@ test('every catalog photo is local and has dated product-level price/source evid
   assert.equal(p.verification.status, 'listing-reviewed');assert.ok(['2026-10-14','2026-10-15'].includes(p.verification.reviewedAt));
   assert.match(p.photoSource.remoteUrl, /^https:\/\//);assert.match(p.photoSource.url, /^https:\/\//);
   for (const source of p.sources) {
-   assert.ok(['www.specialized.com','bike-addict.co.za','cwcycles.co.za','www.cyclelab.com','www.olympiccycles.co.za','www.lynnwoodcyclery.co.za','evobikes.co.za','solomonscycles.co.za'].includes(new URL(source.url).hostname));
+   assert.ok(['www.specialized.com','bike-addict.co.za','cwcycles.co.za','www.cyclelab.com','www.olympiccycles.co.za','www.lynnwoodcyclery.co.za','evobikes.co.za','solomonscycles.co.za','www.mellowvelo.co.za','www.complete-cyclist.com','www.crowncycles.co.za','winspacecyclessa.co.za'].includes(new URL(source.url).hostname));
    assert.equal(source.checkedAt,p.verification.reviewedAt);assert.ok(source.quantity > 0);
    if(source.kind==='manufacturer-specification') {
     assert.equal(source.unitPrice,null);assert.equal(source.currency,null);assert.equal(source.referenceOnly,true);assert.equal(p.price,null);assert.match(p.pricingLabel,/SA quote required/);
@@ -53,13 +53,19 @@ test('retired selections fall back to available reference models', () => {
  const b = evaluate({ frame: 'aethos', wheels: 'e1800', drivetrain: 'electronic' });
  assert.equal(b.parts.frame.id, 'allez-sprint');assert.equal(b.parts.wheels.id, 'r470');assert.equal(b.parts.drivetrain.id, '105-mechanical');
 });
-test('every builder combination keeps partial pricing explicit and detects control mismatches', () => {
- let cases = [{}];for (const [key, g] of Object.entries(catalog)) cases = cases.flatMap(c => g.items.map(p => ({ ...c, [key]: p.id })));
- let mismatches = 0;for (const c of cases) {
-  const b = evaluate(c);assert.ok(Number.isFinite(b.knownSubtotal) && b.knownSubtotal > 0);assert.equal(b.price === null, b.unpriced.length > 0);
-  if (b.errors.length) mismatches++;
+test('every builder combination preserves partial pricing and detects its control-family mismatch', () => {
+ const keys=Object.keys(catalog),selection={};let cases=0,controlMismatches=0;
+ // Stream combinations: frame additions must not create a multi-million-object array in memory.
+ function visit(index){
+  if(index<keys.length){const key=keys[index];for(const p of catalog[key].items){selection[key]=p.id;visit(index+1);}return;}
+  const b=evaluate(selection);cases++;
+  assert.ok(Number.isFinite(b.knownSubtotal)&&b.knownSubtotal>0);assert.equal(b.price===null,b.unpriced.length>0);
+  const conflict=b.parts.drivetrain.controlSystem!==b.parts.brakes.controlSystem;
+  assert.equal(b.compatibility.checks.find(c=>c.id==='controls').status==='conflict',conflict);
+  if(conflict){controlMismatches++;assert.ok(b.errors.length);}
  }
- assert.equal(cases.length,Object.values(catalog).reduce((n,g)=>n*g.items.length,1));assert.equal(mismatches,cases.length/2);
+ visit(0);
+ assert.equal(cases,Object.values(catalog).reduce((n,g)=>n*g.items.length,1));assert.equal(controlMismatches,cases/2);
 });
 test('new frames retain actual SA cents, explicit foreign-reference pricing gaps and missing fork exclusions',()=>{
  const frames=catalog.frame.items;

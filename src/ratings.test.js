@@ -5,7 +5,7 @@ import { productRatings, budgetBands } from './ratings.js';
 import { productRecords, filterProducts } from './product-browser.js';
 
 test('all collection references get profiles; unpriced packages stay pending', () => {
- assert.equal(productRecords.length,237);
+ assert.equal(productRecords.length,261);
  let scored=0;
  for (const {category,product} of productRecords) {
   const ratings=productRatings(product,category);
@@ -18,7 +18,7 @@ test('all collection references get profiles; unpriced packages stay pending', (
    assert.ok(r.basis.length>20);
   }
  }
- assert.equal(scored,233);
+ assert.equal(scored,257);
 });
 test('fixed budget scales clamp and reverse cost without implying expensive is better', () => {
  for(const category in budgetBands) {

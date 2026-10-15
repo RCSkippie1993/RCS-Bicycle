@@ -1,8 +1,11 @@
 import data from './catalog-data.json' with { type: 'json' };
 import wheelData from './wheel-data.json' with {type:'json'};
+import frameData from './frame-data.json' with {type:'json'};
 import { inspectParts } from './compatibility.js';
 
-export const catalog = {...data.catalog,wheels:{...data.catalog.wheels,items:[...data.catalog.wheels.items,...wheelData.wheelsets.filter(p=>p.buildEligible)]}};
+export const catalog = {...data.catalog,frame:{...data.catalog.frame,items:[...data.catalog.frame.items,...frameData.framesets.filter(p=>p.buildEligible)]},wheels:{...data.catalog.wheels,items:[...data.catalog.wheels.items,...wheelData.wheelsets.filter(p=>p.buildEligible)]}};
+export const frameReferences=frameData.framesets.filter(p=>!p.buildEligible);
+export const frameCoverage=frameData.coverage;
 export const wheelReferences=wheelData.wheelsets.filter(p=>!p.buildEligible);
 export const wheelCoverage=wheelData.coverage;
 export const completeBikes = data.completeBikes;

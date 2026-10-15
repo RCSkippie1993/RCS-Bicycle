@@ -1,0 +1,2142 @@
+{
+  "reviewedAt": "2026-10-15",
+  "framesets": [
+    {
+      "id": "giant-propel-pro-2027",
+      "brand": "Giant",
+      "name": "Giant Propel Advanced Pro Frame 2027",
+      "tag": "Aero focus · Package details below · Mellow Velo",
+      "price": 46799.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/giant-propel-advanced-pro-frame-2027?variant=53539417325857",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 46799.0,
+          "quantity": 1,
+          "variant": "Default Title",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/giant-propel-advanced-pro-frame-2027?variant=53539417325857"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/giant-propel-advanced-pro-frame-2027?variant=53539417325857",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_7c024b2c-34f5-4a04-8c15-56f66a6db23b.png?v=1789976928",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_7c024b2c-34f5-4a04-8c15-56f66a6db23b.png?v=1789976928&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-giant-propel-pro-2027.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/giant-propel-advanced-pro-frame-2027?variant=53539417325857",
+          "excerpt": "the fast group, go for the sprint, cheat the wind on a solo ride. The new Propel Advanced Pro is now lighter, smoother and more efficient, delivering",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "No exact size/colour selected by the source listing; confirm with supplier.",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/giant-propel-advanced-pro-frame-2027?variant=53539417325857",
+          "excerpt": "the fast group, go for the sprint, cheat the wind on a solo ride. The new Propel Advanced Pro is now lighter, smoother and more efficient, delivering",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Default Title"
+      ]
+    },
+    {
+      "id": "giant-tcr-pro-2026",
+      "brand": "Giant",
+      "name": "Giant TCR Advanced Pro Frame 2026",
+      "tag": "Road racing · Package details below · Mellow Velo",
+      "price": 34999.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/giant-tcr-advanced-pro-frame-2026?variant=53539409527073",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 34999.0,
+          "quantity": 1,
+          "variant": "Default Title",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/giant-tcr-advanced-pro-frame-2026?variant=53539409527073"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/giant-tcr-advanced-pro-frame-2026?variant=53539409527073",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_cd37d04b-86cc-4477-9ed3-18c1f1b8334a.png?v=1789975961",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_cd37d04b-86cc-4477-9ed3-18c1f1b8334a.png?v=1789975961&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-giant-tcr-pro-2026.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/giant-tcr-advanced-pro-frame-2026?variant=53539409527073",
+          "excerpt": "cient and rides like a dream. This well-rounded race bike blends industry-leading composite frame engineering with fully integrated components to help you cl",
+          "checkedAt": "2026-10-15",
+          "value": "race",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "No exact size/colour selected by the source listing; confirm with supplier.",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/giant-tcr-advanced-pro-frame-2026?variant=53539409527073",
+          "excerpt": "cient and rides like a dream. This well-rounded race bike blends industry-leading composite frame engineering with fully integrated components to help you cl",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Default Title"
+      ]
+    },
+    {
+      "id": "factor-ostro-vam-2",
+      "brand": "Factor",
+      "name": "Factor Ostro VAM 2 Frameset",
+      "tag": "Aero focus · Package details below · Mellow Velo",
+      "price": 97995.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 97995.0,
+          "quantity": 1,
+          "variant": "Black",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/ladies_dbaedf5f-a83e-43f2-8247-eea20c238965.png?v=1742984544",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/ladies_dbaedf5f-a83e-43f2-8247-eea20c238965.png?v=1742984544&width=1000"
+      },
+      "photoCaption": "Retailer frameset illustration · faded complete-bike components provide context; package inclusions require confirmation",
+      "image": "products/frame-factor-ostro-vam-2.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame and Ostro Wide Stance fork listed; confirm headset, seatpost, axles and Black Inc cockpit contents. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905",
+          "excerpt": "Factor Ostro VAM 2 Frameset Black Harnessing aerodynamics, lightness, responsiveness and comfort in one bike is no longer a dream. Thanks to our engineers' e",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": null,
+        "package": "Frame and Ostro Wide Stance fork listed; confirm headset, seatpost, axles and Black Inc cockpit contents.",
+        "sizeNote": "Black",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905",
+          "excerpt": "m. Thanks to our engineers' expert carbon fibre lay-up techniques, our commitment to premium materials, and the unique control our own factor",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905",
+          "excerpt": "eme, Toray, Nippon Graphite Carbon Fork-Ostro Wide Stance Fork ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/factor-ostro-vam-frameset?variant=51472975855905",
+          "excerpt": "Factor Ostro VAM 2 Frameset Black Harnessing aerodynamics, lightness, responsiveness and comfort in one bike is no longer a dream. Thanks to our engineers' e",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Black",
+        "White Chrome",
+        "Gloss Chrome",
+        "Blue Icon",
+        "Water Colour Edition"
+      ]
+    },
+    {
+      "id": "enve-melee",
+      "brand": "ENVE",
+      "name": "Enve Melee Frame set",
+      "tag": "Road racing · Frame + fork ONLY · Mellow Velo",
+      "price": 94999.0,
+      "weight": null,
+      "maxTire": 35,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 94999.0,
+          "quantity": 1,
+          "variant": "Aegean Blue",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame and fork only; complete-bike parts excluded",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/nov_b82a46c3-b743-4652-a866-33296cddb12b.png?v=1737018408",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/nov_b82a46c3-b743-4652-a866-33296cddb12b.png?v=1737018408&width=1000"
+      },
+      "photoCaption": "Retailer complete-bike illustration · ONLY the frame and fork are priced; wheels and other build components are excluded",
+      "image": "products/frame-enve-melee.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame and fork ONLY. The pictured wheels, drivetrain and other complete-bike parts are not part of this reference price. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649",
+          "excerpt": "r dream build today The Melee is a modern road racer that delivers on ENVE’s Real-World Fast™ design philosophy. Built for agility and response, with 35",
+          "checkedAt": "2026-10-15",
+          "value": "race",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame and fork ONLY. The pictured wheels, drivetrain and other complete-bike parts are not part of this reference price.",
+        "sizeNote": "Aegean Blue",
+        "clearance": "35 mm source-listed limit; mounted width and exact frame size require confirmation."
+      },
+      "frameEvidence": {
+        "package": {
+          "url": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649",
+          "excerpt": "Enve Melee Frame set Aegean Blue Frame set and Fork ONLY Enquire about your dream build today The Melee is a modern road racer that delivers on ENVE’s Real-",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649",
+          "excerpt": "ilt for agility and response, with 35 mm of tire clearance, the Melee is ready for criteriums and classics alike. ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/enve-melee-frame-set?variant=50802262671649",
+          "excerpt": "r dream build today The Melee is a modern road racer that delivers on ENVE’s Real-World Fast™ design philosophy. Built for agility and response, with 35",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Aegean Blue",
+        "Black",
+        "Damascus"
+      ]
+    },
+    {
+      "id": "enve-fray",
+      "brand": "ENVE",
+      "name": "Enve Fray Frame set",
+      "tag": "Endurance / all-road · Frame + fork ONLY · Mellow Velo",
+      "price": 94999.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/enve-fray-frame-set?variant=50802247991585",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 94999.0,
+          "quantity": 1,
+          "variant": "Venom",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame and fork only; complete-bike parts excluded",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/enve-fray-frame-set?variant=50802247991585"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/enve-fray-frame-set?variant=50802247991585",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/nov_b1ec9918-03b3-4d4a-b2d3-54518292dd48.png?v=1737018019",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/nov_b1ec9918-03b3-4d4a-b2d3-54518292dd48.png?v=1737018019&width=1000"
+      },
+      "photoCaption": "Retailer complete-bike illustration · ONLY the frame and fork are priced; wheels and other build components are excluded",
+      "image": "products/frame-enve-fray.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame and fork ONLY. The pictured wheels, drivetrain and other complete-bike parts are not part of this reference price. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/enve-fray-frame-set?variant=50802247991585",
+          "excerpt": "quire about your dream build today All Road or Endurance, call it what you want. The Fray is for riders who want speed, versatility, and max performance – i",
+          "checkedAt": "2026-10-15",
+          "value": "endurance",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame and fork ONLY. The pictured wheels, drivetrain and other complete-bike parts are not part of this reference price.",
+        "sizeNote": "Venom",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "package": {
+          "url": "https://www.mellowvelo.co.za/products/enve-fray-frame-set?variant=50802247991585",
+          "excerpt": "Enve Fray Frame set Venom Frame set and Fork ONLY Enquire about your dream build today All Road or Endurance, call it what you want. The Fray is for ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/enve-fray-frame-set?variant=50802247991585",
+          "excerpt": "quire about your dream build today All Road or Endurance, call it what you want. The Fray is for riders who want speed, versatility, and max performance – i",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Venom",
+        "Ash",
+        "Salt"
+      ]
+    },
+    {
+      "id": "time-alpe-dhuez-x",
+      "brand": "TIME",
+      "name": "Time Alpe D'Huez X Frameset",
+      "tag": "Endurance / all-road · Package details below · Mellow Velo",
+      "price": 89000.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-x-frameset?variant=50306241298721",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 89000.0,
+          "quantity": 1,
+          "variant": "Default Title",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-x-frameset?variant=50306241298721"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-x-frameset?variant=50306241298721",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_477acd58-877d-4770-845e-745301a4764d.png?v=1726567958",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_477acd58-877d-4770-845e-745301a4764d.png?v=1726567958&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-time-alpe-dhuez-x.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-x-frameset?variant=50306241298721",
+          "excerpt": "ation for challenging group rides. Versatile and comfortable, Alpe d’Huez X excels on any route over any road, ensuring you’re ready to do it again tomorrow. ",
+          "checkedAt": "2026-10-15",
+          "value": "endurance",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "No exact size/colour selected by the source listing; confirm with supplier.",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-x-frameset?variant=50306241298721",
+          "excerpt": "ation for challenging group rides. Versatile and comfortable, Alpe d’Huez X excels on any route over any road, ensuring you’re ready to do it again tomorrow. ",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Default Title"
+      ]
+    },
+    {
+      "id": "time-alpe-dhuez-rim",
+      "brand": "TIME",
+      "name": "Time Alpe D'Huez Frameset · rim brake",
+      "tag": "Road frameset reference · Rim brake · Mellow Velo",
+      "price": 89000.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-rim-frameset?variant=50306236580129",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 89000.0,
+          "quantity": 1,
+          "variant": "Default Title",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-rim-frameset?variant=50306236580129"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-rim-frameset?variant=50306236580129",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_e6cb6d57-f2ee-4744-a15d-eb6cb0afc0ad.png?v=1726567757",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_e6cb6d57-f2ee-4744-a15d-eb6cb0afc0ad.png?v=1726567757&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-time-alpe-dhuez-rim.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {},
+      "frameSpecs": {
+        "material": null,
+        "brake": "rim",
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "No exact size/colour selected by the source listing; confirm with supplier.",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "brake": {
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-rim-frameset?variant=50306236580129",
+          "excerpt": "The retailer product URL identifies this offer as time-alpe-dhuez-rim-frameset. Exact mount and package confirmation required.",
+          "checkedAt": "2026-10-15",
+          "basis": "Product URL, not a quoted manufacturer specification."
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": false,
+      "builderNote": "Collection reference: this offer is the rim-brake TIME frameset; the current builder uses disc-road controls and wheels.",
+      "variantOptions": [
+        "Default Title"
+      ]
+    },
+    {
+      "id": "time-alpe-dhuez-disc",
+      "brand": "TIME",
+      "name": "Time Alpe D'Huez Frameset · disc brake",
+      "tag": "Road frameset reference · Package details below · Mellow Velo",
+      "price": 89000.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-disc-frameset?variant=50306232746273",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 89000.0,
+          "quantity": 1,
+          "variant": "Default Title",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-disc-frameset?variant=50306232746273"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-disc-frameset?variant=50306232746273",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_bff5d04a-79f6-4045-9faa-0beeecc1731c.png?v=1726567625",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/webpic_bff5d04a-79f6-4045-9faa-0beeecc1731c.png?v=1726567625&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-time-alpe-dhuez-disc.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {},
+      "frameSpecs": {
+        "material": null,
+        "brake": "disc",
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "No exact size/colour selected by the source listing; confirm with supplier.",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "brake": {
+          "url": "https://www.mellowvelo.co.za/products/time-alpe-dhuez-disc-frameset?variant=50306232746273",
+          "excerpt": "Time Alpe D'Huez Frameset · disc brake Default Title Alpe d'Huez is more than a climb in Le Tour. Helicopters, police escorts, blue ",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Default Title"
+      ]
+    },
+    {
+      "id": "cervelo-soloist",
+      "brand": "Cervélo",
+      "name": "Cervelo Soloist Frame Embers Grey",
+      "tag": "Road racing · Package details below · Mellow Velo",
+      "price": 81995.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/cervelo-soloist-frame-embers-grey?variant=45006968291617",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 81995.0,
+          "quantity": 1,
+          "variant": "54mm",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/cervelo-soloist-frame-embers-grey?variant=45006968291617"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/cervelo-soloist-frame-embers-grey?variant=45006968291617",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/Webpic_c927914e-d580-4ba0-9fc7-e0b932234c18.png?v=1682415499",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/Webpic_c927914e-d580-4ba0-9fc7-e0b932234c18.png?v=1682415499&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-cervelo-soloist.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/cervelo-soloist-frame-embers-grey?variant=45006968291617",
+          "excerpt": "designed for the week-in, week-out rider and racer who can only justify one high-performance bike. It balances light weight and aerodynamic advantages",
+          "checkedAt": "2026-10-15",
+          "value": "race",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "54mm",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/cervelo-soloist-frame-embers-grey?variant=45006968291617",
+          "excerpt": "designed for the week-in, week-out rider and racer who can only justify one high-performance bike. It balances light weight and aerodynamic advantages",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "54mm",
+        "58mm"
+      ]
+    },
+    {
+      "id": "cervelo-s5",
+      "brand": "Cervélo",
+      "name": "Cervelo S5 Frameset 56cm",
+      "tag": "Aero focus · Package details below · Mellow Velo",
+      "price": 129995.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Mellow Velo",
+          "url": "https://www.mellowvelo.co.za/products/cervelo-s5-frameset-56cm?variant=45006958330145",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 129995.0,
+          "quantity": 1,
+          "variant": "Five Black",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.mellowvelo.co.za/products/cervelo-s5-frameset-56cm?variant=45006958330145"
+      },
+      "photoSource": {
+        "name": "Mellow Velo",
+        "url": "https://www.mellowvelo.co.za/products/cervelo-s5-frameset-56cm?variant=45006958330145",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/Webpic_6ca1aa9a-5010-4546-a788-3b182c5c5f26.png?v=1682415242",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0549/2994/8741/files/Webpic_6ca1aa9a-5010-4546-a788-3b182c5c5f26.png?v=1682415242&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-cervelo-s5.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. Proprietary S5 V-stem/cockpit and routing require review; the generic selected bar/stem is not a verified replacement.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.mellowvelo.co.za/products/cervelo-s5-frameset-56cm?variant=45006958330145",
+          "excerpt": "ervelo S5 Frameset 56cm Five Black In pursuit of speed, everyone wants to try different positions to find their most aggressive fit. The S5's iconic V-ste",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Five Black",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://www.mellowvelo.co.za/products/cervelo-s5-frameset-56cm?variant=45006958330145",
+          "excerpt": "ervelo S5 Frameset 56cm Five Black In pursuit of speed, everyone wants to try different positions to find their most aggressive fit. The S5's iconic V-ste",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Five Black",
+        "Tiger Eye Red"
+      ]
+    },
+    {
+      "id": "sworks-aethos-original",
+      "brand": "Specialized",
+      "name": "Specialized S-Works Aethos Frameset · original generation",
+      "tag": "Lightweight focus · Package details below · Complete Cyclist",
+      "price": 39000.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Complete Cyclist",
+          "url": "https://www.complete-cyclist.com/products/s-works-aethos-frameset-2?variant=48184416731443",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 39000.0,
+          "quantity": 1,
+          "variant": "Carbon / Gold Pearl / Metallic Obsidian / 56",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.complete-cyclist.com/products/s-works-aethos-frameset-2?variant=48184416731443"
+      },
+      "photoSource": {
+        "name": "Complete Cyclist",
+        "url": "https://www.complete-cyclist.com/products/s-works-aethos-frameset-2?variant=48184416731443",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0734/6723/2563/files/S-Works-Aethos-Frameset-Complete-Cyclist-Specialized.png?v=1717488149",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0734/6723/2563/files/S-Works-Aethos-Frameset-Complete-Cyclist-Specialized.png?v=1717488149&width=1000"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-sworks-aethos-original.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. Original Aethos generation: the source describes a 585 g bare S-Works frame. This is not Aethos 2, not a frameset mass or complete-bike weight.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.complete-cyclist.com/products/s-works-aethos-frameset-2?variant=48184416731443",
+          "excerpt": "performance, and happens to be the lightest frame out there, but with no compromise to style. Aethos: Billions of calculations in the pursuit of one ",
+          "checkedAt": "2026-10-15",
+          "value": "lightweight",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Carbon / Gold Pearl / Metallic Obsidian / 56",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://www.complete-cyclist.com/products/s-works-aethos-frameset-2?variant=48184416731443",
+          "excerpt": "hos Frameset · original generation Carbon / Gold Pearl / Metallic Obsidian / 56 Don’t get us wrong, we’re all for racing. Grand Tour top step",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://www.complete-cyclist.com/products/s-works-aethos-frameset-2?variant=48184416731443",
+          "excerpt": "performance, and happens to be the lightest frame out there, but with no compromise to style. Aethos: Billions of calculations in the pursuit of one ",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Carbon / Gold Pearl / Metallic Obsidian / 52",
+        "Carbon / Gold Pearl / Metallic Obsidian / 54",
+        "Carbon / Gold Pearl / Metallic Obsidian / 56"
+      ]
+    },
+    {
+      "id": "titan-valerian-das",
+      "brand": "Titan Racing",
+      "name": "Titan Racing Valerian DAS Hutchinson Team Carbon Frame",
+      "tag": "Lightweight focus · Package details below · Crown Cycles",
+      "price": 25000.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Crown Cycles",
+          "url": "https://www.crowncycles.co.za/products/titan-racing-road-valerian-das-hutchinson-team-carbon-frame?variant=49442520695011",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 25000.0,
+          "quantity": 1,
+          "variant": "XS",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://www.crowncycles.co.za/products/titan-racing-road-valerian-das-hutchinson-team-carbon-frame?variant=49442520695011"
+      },
+      "photoSource": {
+        "name": "Crown Cycles",
+        "url": "https://www.crowncycles.co.za/products/titan-racing-road-valerian-das-hutchinson-team-carbon-frame?variant=49442520695011",
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0641/7144/2403/files/TITAN_RACING_ROAD_VALERIAN_DAS_HUTCHINSON_TEAM_CARBON_FRAME.jpg?v=1784884343",
+        "downloadedUrl": "https://cdn.shopify.com/s/files/1/0641/7144/2403/files/TITAN_RACING_ROAD_VALERIAN_DAS_HUTCHINSON_TEAM_CARBON_FRAME.jpg?v=1784884343&width=1000"
+      },
+      "photoCaption": "Retailer frame-detail/promotional photo · complete frame package contents require confirmation",
+      "image": "products/frame-titan-valerian-das.jpg",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Carbon frame listing. Fork, headset, seatpost, axles and cockpit inclusions are unconfirmed; request an itemised package quote. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. Retailer photo is a frame detail/promotional image; it does not establish the included package.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://www.crowncycles.co.za/products/titan-racing-road-valerian-das-hutchinson-team-carbon-frame?variant=49442520695011",
+          "excerpt": "n a Frame that weighs in at a mere 800g (UCL Ultra Carbon Lite) to give you a bike that can go flats, and winding your way up a mountain pa",
+          "checkedAt": "2026-10-15",
+          "value": "lightweight",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": null,
+        "package": "Carbon frame listing. Fork, headset, seatpost, axles and cockpit inclusions are unconfirmed; request an itemised package quote.",
+        "sizeNote": "XS",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://www.crowncycles.co.za/products/titan-racing-road-valerian-das-hutchinson-team-carbon-frame?variant=49442520695011",
+          "excerpt": "acing Valerian DAS Hutchinson Team Carbon Frame XS The Titan Valerian Frame perfectly combines fast and light in a Frame that weighs in at a ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://www.crowncycles.co.za/products/titan-racing-road-valerian-das-hutchinson-team-carbon-frame?variant=49442520695011",
+          "excerpt": "n a Frame that weighs in at a mere 800g (UCL Ultra Carbon Lite) to give you a bike that can go flats, and winding your way up a mountain pa",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "XS",
+        "Small"
+      ]
+    },
+    {
+      "id": "winspace-t1600-ultra",
+      "brand": "Winspace",
+      "name": "Winspace T1600 Ultra Frameset",
+      "tag": "Aero focus · Package details below · Winspace South Africa",
+      "price": 42299,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/t1600-uitra/?variation_id=3795&attribute_size=Large&attribute_colour=Nebula+Green",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 42299,
+          "quantity": 1,
+          "variant": "Large / Nebula Green",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/t1600-uitra/?variation_id=3795&attribute_size=Large&attribute_colour=Nebula+Green"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/t1600-uitra/?variation_id=3795&attribute_size=Large&attribute_colour=Nebula+Green",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2026/07/t1600ultraFramenebulagreen.webp",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2026/07/t1600ultraFramenebulagreen.webp"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-t1600-ultra.webp",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. Supplier describes unrestricted aerodynamic design. Confirm approval for the intended event; no event eligibility is certified here.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/t1600-uitra/?variation_id=3795&attribute_size=Large&attribute_colour=Nebula+Green",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Large / Nebula Green",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/t1600-uitra/?variation_id=3795&attribute_size=Large&attribute_colour=Nebula+Green",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "Pearl White",
+        "Obsidian Gold",
+        "Nebula Green"
+      ]
+    },
+    {
+      "id": "winspace-m6",
+      "brand": "Winspace",
+      "name": "Winspace M6 Frameset",
+      "tag": "Aero focus · Package details below · Winspace South Africa",
+      "price": 26149,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-m6/?variation_id=3693&attribute_size=Small&attribute_colour=Carbon+Black",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 26149,
+          "quantity": 1,
+          "variant": "Small / Carbon Black",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-m6/?variation_id=3693&attribute_size=Small&attribute_colour=Carbon+Black"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-m6/?variation_id=3693&attribute_size=Small&attribute_colour=Carbon+Black",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2026/03/2.png",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2026/03/2.png"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-m6.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-m6/?variation_id=3693&attribute_size=Small&attribute_colour=Carbon+Black",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Small / Carbon Black",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-m6/?variation_id=3693&attribute_size=Small&attribute_colour=Carbon+Black",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Extra Small",
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "XXL",
+        "Chameleon White",
+        "Carbon Black",
+        "Emerald Lake",
+        "Ice Blue",
+        "Crimson Flame",
+        "Mystic Purple",
+        "Frost White",
+        "Frost Black"
+      ]
+    },
+    {
+      "id": "winspace-t1600",
+      "brand": "Winspace",
+      "name": "Winspace T1600 Aero Frameset",
+      "tag": "Aero focus · Package details below · Winspace South Africa",
+      "price": 36499,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-t1600-aero/?variation_id=3632&attribute_size=Extra+Large&attribute_colour=Yellow%2FBlack",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 36499,
+          "quantity": 1,
+          "variant": "Extra Large / Yellow/Black",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-t1600-aero/?variation_id=3632&attribute_size=Extra+Large&attribute_colour=Yellow%2FBlack"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-t1600-aero/?variation_id=3632&attribute_size=Extra+Large&attribute_colour=Yellow%2FBlack",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/05/IMG_7699-拷贝-1-scaled.jpg",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/05/IMG_7699-%E6%8B%B7%E8%B4%9D-1-scaled.jpg"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-t1600.jpg",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-t1600-aero/?variation_id=3632&attribute_size=Extra+Large&attribute_colour=Yellow%2FBlack",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Extra Large / Yellow/Black",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-t1600-aero/?variation_id=3632&attribute_size=Extra+Large&attribute_colour=Yellow%2FBlack",
+          "excerpt": " Orders with the new paint scheme (Carbon Black, Predator, Flarestorm, Blue Velocity, Falcon, Deep Space) will ship in approximately 20–25 da",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-t1600-aero/?variation_id=3632&attribute_size=Extra+Large&attribute_colour=Yellow%2FBlack",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "White/Black",
+        "Black/White",
+        "Yellow/Black",
+        "Carbon Black",
+        "Predator",
+        "Flarestorm",
+        "Blue Velocity",
+        "Falcon"
+      ]
+    },
+    {
+      "id": "winspace-c5",
+      "brand": "Winspace",
+      "name": "Winspace C5 Frameset",
+      "tag": "Endurance / all-road · Package details below · Winspace South Africa",
+      "price": 25799,
+      "weight": null,
+      "maxTire": 32,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 25799,
+          "quantity": 1,
+          "variant": "Small / Pink",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame, fork, seatpost, headset and listed small parts",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2024/10/C5粉-600x600-2.png",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2024/10/C5%E7%B2%89-600x600-2.png"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-c5.png",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty: Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "his year, blending aerodynamic and endurance qualities. Its unique One-Piece Molding process makes it more durable and resilient, allowing you to enjoy th",
+          "checkedAt": "2026-10-15",
+          "value": "endurance",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": "disc",
+        "package": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty:",
+        "sizeNote": "Small / Pink",
+        "clearance": "32 mm source-listed limit; mounted width and exact frame size require confirmation."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "er Chainstay Length X-Ray Examined T800 Carbon with Silicone + EPS + Ventilation Channels Tech UCI Approved One-Piece Molding Geometry Intr",
+          "checkedAt": "2026-10-15"
+        },
+        "brake": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": " Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Derailleur Routing: Mechanical / Di2 /Campy EPS / SRAM eTAP Tire cleara",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "or M size (Unpainted) UCI approved Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty: Limited 3yr warranty on the frameset Features Angled T-Tail Similar to the Ag",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "py EPS / SRAM eTAP Tire clearance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T700+T800 Weight: Frame 1010+/-30g for M ",
+          "checkedAt": "2026-10-15"
+        },
+        "axles": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "earance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T700+T800 Weight: Frame 1010+/-30g for M size (Unpainted) UCI approved Contents: Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "R 1.5″/ACR/STD (headset included.) BB: BB86 Seatpost: Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Derailleur Rout",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "his year, blending aerodynamic and endurance qualities. Its unique One-Piece Molding process makes it more durable and resilient, allowing you to enjoy th",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {
+        "frontAxle": {
+          "value": "12x100",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "earance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T700+T800 Weight: Frame 1010+/-30g for M size (Unpainted) UCI approved Contents: Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "value": "12x142",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "earance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T700+T800 Weight: Frame 1010+/-30g for M size (Unpainted) UCI approved Contents: Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "value": "BB86",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-c5-2/?variation_id=3439&attribute_size=Small&attribute_colour=Pink",
+          "excerpt": "R 1.5″/ACR/STD (headset included.) BB: BB86 Seatpost: Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Derailleur Rout",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Light Blue",
+        "Pink",
+        "Black",
+        "White",
+        "Roubaix Tribute",
+        "Rainbow Rush",
+        "Coastal Line",
+        "Solar Flare"
+      ]
+    },
+    {
+      "id": "winspace-c5-aero",
+      "brand": "Winspace",
+      "name": "Winspace C5 Aero Frameset",
+      "tag": "Aero focus · Package details below · Winspace South Africa",
+      "price": 27699,
+      "weight": null,
+      "maxTire": 32,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 27699,
+          "quantity": 1,
+          "variant": "Small / Le Tour Edition",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/01/环法车架-C5-Aero-600x600-1.jpg",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/01/%E7%8E%AF%E6%B3%95%E8%BD%A6%E6%9E%B6-C5-Aero-600x600-1.jpg"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-c5-aero.jpg",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Small / Le Tour Edition",
+        "clearance": "32 mm source-listed limit; mounted width and exact frame size require confirmation."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition",
+          "excerpt": "er Chainstay Length X-Ray Examined T800 Carbon with Silicone + EPS + Ventilation Channels Tech UCI Approved One-Piece Molding  Categories: ",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition",
+          "excerpt": "further. Angled T-Tail Support for Up to 32mm Tire Clearance BB86 Bottom Bracket Longer Chainstay Length X-Ray Examined T800 Carbon with Silicone + EPS + Ventil",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-c5-aero/?variation_id=3303&attribute_size=Small&attribute_colour=Le+Tour+Edition",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Le Tour Edition",
+        "Graffiti",
+        "Twilight Glow",
+        "Chameleon White",
+        "Roubaix White",
+        "Roubaix Black"
+      ]
+    },
+    {
+      "id": "winspace-t1550-gen2",
+      "brand": "Winspace",
+      "name": "Winspace T1550 2nd Gen Frameset",
+      "tag": "Aero focus · Package details below · Winspace South Africa",
+      "price": 31449,
+      "weight": null,
+      "maxTire": 32,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 31449,
+          "quantity": 1,
+          "variant": "Small / Black Viper",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame, fork, seatpost, headset and listed small parts",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/07/jiaolong.webp",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/07/jiaolong.webp"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-t1550-gen2.webp",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty: Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing , T1550 FRAME",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": "disc",
+        "package": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty:",
+        "sizeNote": "Small / Black Viper",
+        "clearance": "32 mm source-listed limit; mounted width and exact frame size require confirmation."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "lian design meets our expertise in carbon fiber, creating a perfect blend.  The T1550 2nd Gen. is a bike builder’s dream. Fully UCI certified",
+          "checkedAt": "2026-10-15"
+        },
+        "brake": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": " Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Derailleur Routing: Mechanical / Di2 /Campy EPS / SRAM eTAP Tire cleara",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "or M size (Unpainted) UCI approved Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty: Limited 3yr warranty on the frameset Features T1000+T800 Carbon Fiber One-Pie",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "py EPS / SRAM eTAP Tire clearance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: Toray T1000 + T800 Carbon Weight: frame 8",
+          "checkedAt": "2026-10-15"
+        },
+        "axles": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "earance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: Toray T1000 + T800 Carbon Weight: frame 828+/-35g for M size (Unpainted) UCI approved",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "R 1.5″/ACR/STD (headset included.) BB: T47 (internal symmetric 85.5mm) Seatpost: Proprietary Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Der",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing , T1550 FRAME",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {
+        "frontAxle": {
+          "value": "12x100",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "earance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: Toray T1000 + T800 Carbon Weight: frame 828+/-35g for M size (Unpainted) UCI approved",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "value": "12x142",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "earance: Max. 700C*32C Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: Toray T1000 + T800 Carbon Weight: frame 828+/-35g for M size (Unpainted) UCI approved",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "value": "T47 (internal symmetric 85.5mm)",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-2nd-gen/?variation_id=3407&attribute_size=Small&attribute_colour=Black+Viper",
+          "excerpt": "R 1.5″/ACR/STD (headset included.) BB: T47 (internal symmetric 85.5mm) Seatpost: Proprietary Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Der",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Flavoured Black",
+        "Retro Blue",
+        "Black and White",
+        "Panda",
+        "Vuelta Tribute",
+        "Turbulent Blue",
+        "Tropical Green",
+        "2025 Team Edition",
+        "Black Viper",
+        "Chameleon White"
+      ]
+    },
+    {
+      "id": "winspace-t1550",
+      "brand": "Winspace",
+      "name": "WINSPACE T1550 Frameset",
+      "tag": "Aero focus · Package details below · Winspace South Africa",
+      "price": 26699,
+      "weight": null,
+      "maxTire": 28,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 26699,
+          "quantity": 1,
+          "variant": "Small / Black / Disc Break",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame, fork, seatpost, headset and listed small parts",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2023/12/T1500-Frameset-Main-Pictures-3-600x600-1.jpg",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2023/12/T1500-Frameset-Main-Pictures-3-600x600-1.jpg"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-t1550.jpg",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Spare Derailleur Hanger Warranty: Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. The selected variant is Disc Break, not the rim-brake version. The source says fully internal routing is only for disc with electronic groupsets; confirm the mechanical cable route.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing , T1550 FRAME",
+          "checkedAt": "2026-10-15",
+          "value": "aero",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": "disc",
+        "package": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Spare Derailleur Hanger Warranty:",
+        "sizeNote": "Small / Black / Disc Break",
+        "clearance": "28 mm source-listed limit; mounted width and exact frame size require confirmation."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": " Asymmetric Chainstays ACR Headset T800 Carbon Fiber EPS+LATEX Molding Process Aggressive Geometry Flexible Handling Performance Specificat",
+          "checkedAt": "2026-10-15"
+        },
+        "brake": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "ACE T1550 Frameset Small / Black / Disc Break In Stock – Delivery Available The Winspace T1550 frameset is a top-of-the-line option for roa",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "or M size (Unpainted) UCI approved Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Spare Derailleur Hanger Warranty: Limited 3yr warranty on the frameset * Notes: Fully internal only for disc brake wit",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "py EPS / SRAM eTAP Tire clearance: Max. 700C*28C Wheel Axle: Rim Brake: 9mm QR F100mm R130mm / Disc Brake: 12mm through axle F100mm R142mm Carbon fi",
+          "checkedAt": "2026-10-15"
+        },
+        "axles": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "9mm QR F100mm R130mm / Disc Brake: 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700 Weight: frame 1050+/-30g for M size (Unpainted) UCI approved Cont",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "1 1/2” Tapered (headset included.) BB: BB86 Seatpost: Proprietary Aero Seat Post (Included.) Brake: direct mount rim brake / flat mount disc brake Front ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "ategories: ALL PRODUCTS , FRAMES , Aero Racing , T1550 FRAME",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {
+        "frontAxle": {
+          "value": "12x100",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "9mm QR F100mm R130mm / Disc Brake: 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700 Weight: frame 1050+/-30g for M size (Unpainted) UCI approved Cont",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "value": "12x142",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "9mm QR F100mm R130mm / Disc Brake: 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700 Weight: frame 1050+/-30g for M size (Unpainted) UCI approved Cont",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "value": "BB86",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/t1550-frameset/?variation_id=3376&attribute_size=Small&attribute_colour=Black&attribute_break-type=Disc+Break",
+          "excerpt": "1 1/2” Tapered (headset included.) BB: BB86 Seatpost: Proprietary Aero Seat Post (Included.) Brake: direct mount rim brake / flat mount disc brake Front ",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Black",
+        "White",
+        "Red",
+        "Rim Break",
+        "Disc Break"
+      ]
+    },
+    {
+      "id": "winspace-agile",
+      "brand": "Winspace",
+      "name": "Winspace Agile Frameset",
+      "tag": "Road racing · Package details below · Winspace South Africa",
+      "price": 19539,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 19539,
+          "quantity": 1,
+          "variant": "Small / Almond White",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame, fork, seatpost, headset and listed small parts",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/07/17467806681809.webp",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/07/17467806681809.webp"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-agile.webp",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty: Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. The listing states up to 32 mm generally but only 28 mm for size M. Confirm the actual frame size and mounted tire width before choosing a tire; a universal clearance pass is withheld.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": " / Almond White Agile is our first all-round high-performance road bike frame, true to its name, it promises an extraordinary handling experience and an exceptional ride quality",
+          "checkedAt": "2026-10-15",
+          "value": "race",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": "disc",
+        "package": "Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty:",
+        "sizeNote": "Small / Almond White",
+        "clearance": "The listing states up to 32 mm generally but only 28 mm for size M. Confirm the actual frame size and mounted tire width before choosing a tire; a universal clearance pass is withheld."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "ve Trail Value Setting ACR Headset T800+T1000 Carbon Fiber EPS+LATEX Molding Process Aggressive Geometry * Raw carbon option now available ",
+          "checkedAt": "2026-10-15"
+        },
+        "brake": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "ied, currently available only in a disc brake version. Specifications Model name: Agile Sizes: XS (410mm), S (440mm), M (470mm), L (510mm), XL (550mm) He",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "or M size (Unpainted) UCI approved Contents: Frame, Fork, Seatpost, Headset, Di2 cable stoppers, Direct Mount Derailleur Hanger Warranty: Limited 3yr warranty on the frameset Features Horizontal Angled T-Tail With t",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "TAP Tire clearance: Max. 700C*32C, 700C*28C for M size Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T800+T1000 Weight: frame 850+/-35g for M ",
+          "checkedAt": "2026-10-15"
+        },
+        "axles": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "C, 700C*28C for M size Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T800+T1000 Weight: frame 850+/-35g for M size (Unpainted) UCI approved Contents: Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "R 1.5″/ACR/STD (headset included.) BB: T47-85.5 Seatpost: Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Derailleur Rout",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": " / Almond White Agile is our first all-round high-performance road bike frame, true to its name, it promises an extraordinary handling experience and an exceptional ride quality",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {
+        "frontAxle": {
+          "value": "12x100",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "C, 700C*28C for M size Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T800+T1000 Weight: frame 850+/-35g for M size (Unpainted) UCI approved Contents: Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "value": "12x142",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "C, 700C*28C for M size Wheel Axle: 12mm through axle F100mm R142mm Carbon fiber: T800+T1000 Weight: frame 850+/-35g for M size (Unpainted) UCI approved Contents: Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "value": "T47-85.5",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-agile/?variation_id=3415&attribute_size=Small&attribute_colour=Almond+White",
+          "excerpt": "R 1.5″/ACR/STD (headset included.) BB: T47-85.5 Seatpost: Aero Seat Post (Included.) Brake: Flat mount disc brake Front derailleur: Brazed on Derailleur Rout",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Aqua Blue",
+        "Polar White",
+        "Inferno Red",
+        "Almond White"
+      ],
+      "clearanceNote": "The listing states up to 32 mm generally but only 28 mm for size M. Confirm the actual frame size and mounted tire width before choosing a tire; a universal clearance pass is withheld."
+    },
+    {
+      "id": "winspace-slc2",
+      "brand": "Winspace",
+      "name": "WINSPACE 2.0 SLC Frameset",
+      "tag": "Lightweight focus · Package details below · Winspace South Africa",
+      "price": 25799,
+      "weight": null,
+      "maxTire": 28,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 25799,
+          "quantity": 1,
+          "variant": "Small / Kanazawa(Black w/ Gold) / Disk Break",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Frame, fork, seatpost, headset and listed small parts",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/07/2021_slc_kbl_side_04bcea47-4486-4cc9-b450-7d18e8a84863.webp",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/07/2021_slc_kbl_side_04bcea47-4486-4cc9-b450-7d18e8a84863.webp"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-slc2.webp",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Components: Frame, Fork, Seat post, Headset, Spacers, Di2 Cable stoppers *Optional Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": ".0 is the second generation of our Super Light Climber. This frame was made to take on the mountains with its super lightweight 780g frame and make sure e",
+          "checkedAt": "2026-10-15",
+          "value": "lightweight",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": "disc",
+        "package": "Components: Frame, Fork, Seat post, Headset, Spacers, Di2 Cable stoppers *Optional",
+        "sizeNote": "Small / Kanazawa(Black w/ Gold) / Disk Break",
+        "clearance": "28 mm source-listed limit; mounted width and exact frame size require confirmation."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "or 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700, UD Weight: 1,Gloss logo on matt finish without paint about 780g+/-50g f",
+          "checkedAt": "2026-10-15"
+        },
+        "brake": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": " Small / Kanazawa(Black w/ Gold) / Disk Break The SLC2.0 is the second generation of our Super Light Climber. This frame was made to take o",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "t 100~150g:950g+/- 50g for M size. Components: Frame, Fork, Seat post, Headset, Spacers, Di2 Cable stoppers *Optional parts: Integrated handlebar  Categories: ALL PRODUCTS , FRAMES , Superlight , SLC 2.0 FRAME",
+          "checkedAt": "2026-10-15"
+        },
+        "clearance": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "ical/Di2/Campy EPS Tyre clearance: Max. 700C*28C Axle: 9mm QR F100mm R130mm or 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700, UD",
+          "checkedAt": "2026-10-15"
+        },
+        "axles": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "*28C Axle: 9mm QR F100mm R130mm or 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700, UD Weight: 1,Gloss logo on matt finish without paint about 780g+",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "550/580mm Headtube: 1 1/8”-1 1/2”; BB: BB86; Seat post: 27.2mm Brake: direct mount rim brake or flat mount disc brake; Front Derailleur: brazed ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": ".0 is the second generation of our Super Light Climber. This frame was made to take on the mountains with its super lightweight 780g frame and make sure e",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {
+        "frontAxle": {
+          "value": "12x100",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "*28C Axle: 9mm QR F100mm R130mm or 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700, UD Weight: 1,Gloss logo on matt finish without paint about 780g+",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "value": "12x142",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "*28C Axle: 9mm QR F100mm R130mm or 12mm through axle F100mm R142mm Carbon fiber: Toray T800 and T700, UD Weight: 1,Gloss logo on matt finish without paint about 780g+",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "value": "BB86",
+          "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-2-0-slc/?variation_id=3309&attribute_size=Small&attribute_colour=Kanazawa%28Black+w%2F+Gold%29&attribute_break-type=Disk+Break",
+          "excerpt": "550/580mm Headtube: 1 1/8”-1 1/2”; BB: BB86; Seat post: 27.2mm Brake: direct mount rim brake or flat mount disc brake; Front Derailleur: brazed ",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Kanazawa(Black w/ Gold)",
+        "Disk Break"
+      ]
+    },
+    {
+      "id": "winspace-slc3",
+      "brand": "Winspace",
+      "name": "Winspace SLC 3.0 Frameset",
+      "tag": "Lightweight focus · Package details below · Winspace South Africa",
+      "price": 23999,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-slc3/?variation_id=3431&attribute_size=Small&attribute_colour=Frostbite+Blue",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 23999,
+          "quantity": 1,
+          "variant": "Small / Frostbite Blue",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-slc3/?variation_id=3431&attribute_size=Small&attribute_colour=Frostbite+Blue"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-slc3/?variation_id=3431&attribute_size=Small&attribute_colour=Frostbite+Blue",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2024/08/SLC_3_Frostbite_Blue.webp",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2024/08/SLC_3_Frostbite_Blue.webp"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-slc3.webp",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-slc3/?variation_id=3431&attribute_size=Small&attribute_colour=Frostbite+Blue",
+          "excerpt": "ssor, the SLC3 is no longer just a super-light climbing frame but a true all terrain master that also excels in aerodynamics. We’ve used aerospace-grade ma",
+          "checkedAt": "2026-10-15",
+          "value": "lightweight",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Small / Frostbite Blue",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-slc3/?variation_id=3431&attribute_size=Small&attribute_colour=Frostbite+Blue",
+          "excerpt": "ssor, the SLC3 is no longer just a super-light climbing frame but a true all terrain master that also excels in aerodynamics. We’ve used aerospace-grade ma",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Superlight Black",
+        "Polar White",
+        "Polar Black",
+        "Glaze",
+        "Venom",
+        "Frostbite Blue",
+        "Scarlet Red"
+      ]
+    },
+    {
+      "id": "winspace-slc5",
+      "brand": "Winspace",
+      "name": "Winspace SLC5.0 Frameset",
+      "tag": "Lightweight focus · Package details below · Winspace South Africa",
+      "price": 47999,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Winspace South Africa",
+          "url": "https://winspacecyclessa.co.za/product/winspace-slc5/?variation_id=3633&attribute_size=Large&attribute_colour=Jungle",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 47999,
+          "quantity": 1,
+          "variant": "Large / Jungle",
+          "listedAvailable": null,
+          "vatIncluded": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Supplier marks delivery stock dependent; confirm exact size/colour, lead time and availability",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://winspacecyclessa.co.za/product/winspace-slc5/?variation_id=3633&attribute_size=Large&attribute_colour=Jungle"
+      },
+      "photoSource": {
+        "name": "Winspace South Africa",
+        "url": "https://winspacecyclessa.co.za/product/winspace-slc5/?variation_id=3633&attribute_size=Large&attribute_colour=Jungle",
+        "remoteUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/11/4.webp",
+        "downloadedUrl": "https://winspacecyclessa.co.za/wp-content/uploads/2025/11/4.webp"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-winspace-slc5.webp",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-slc5/?variation_id=3633&attribute_size=Large&attribute_colour=Jungle",
+          "excerpt": "LL PRODUCTS , FRAMES , Endurance , Superlight",
+          "checkedAt": "2026-10-15",
+          "value": "lightweight",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": null,
+        "brake": null,
+        "package": "Frame listing; fork, headset, seatpost, axles and cockpit inclusions require supplier confirmation.",
+        "sizeNote": "Large / Jungle",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "purpose": {
+          "url": "https://winspacecyclessa.co.za/product/winspace-slc5/?variation_id=3633&attribute_size=Large&attribute_colour=Jungle",
+          "excerpt": "LL PRODUCTS , FRAMES , Endurance , Superlight",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {},
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large",
+        "Mirage",
+        "Black w/ White Decals",
+        "Black w/ Gold Decals",
+        "White",
+        "Jungle",
+        "Purple Planet",
+        "Nebula",
+        "Monarch",
+        "Riot",
+        "Carbon Black"
+      ]
+    },
+    {
+      "id": "bianchi-infinito-cv-disc",
+      "brand": "Bianchi",
+      "name": "Bianchi Infinito CV Disc Carbon Frameset -55cm",
+      "tag": "Endurance / all-road · Package details below · Evo Bikes",
+      "price": 44995.0,
+      "weight": null,
+      "maxTire": null,
+      "sources": [
+        {
+          "name": "Evo Bikes",
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "kind": "retailer-listing",
+          "checkedAt": "2026-10-15",
+          "currency": "ZAR",
+          "unitPrice": 44995.0,
+          "quantity": 1,
+          "variant": "55 cm · listed disc frameset",
+          "listedAvailable": true
+        }
+      ],
+      "pricingLabel": "SA retailer reference",
+      "priceBasis": "Listed frame package; confirm exact inclusions",
+      "stockNote": "Listing marked available at retailer; exact variant and supply require confirmation",
+      "verification": {
+        "status": "listing-reviewed",
+        "reviewedAt": "2026-10-15",
+        "sourceUrl": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/"
+      },
+      "photoSource": {
+        "name": "Evo Bikes",
+        "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+        "remoteUrl": "https://evobikes.co.za/wp-content/uploads/2019/05/products-51462_bianchi_infinito_cv_disc_carbon_frameset.jpg",
+        "downloadedUrl": "https://evobikes.co.za/wp-content/uploads/2019/05/products-51462_bianchi_infinito_cv_disc_carbon_frameset.jpg"
+      },
+      "photoCaption": "Retailer reference photo · confirm priced size, colour and package contents",
+      "image": "products/frame-bianchi-infinito-cv-disc.jpg",
+      "weightBasis": "Comparable complete frameset/package mass not verified; bare-frame marketing weights are not used as package weights.",
+      "fitNote": "Frame, Bianchi full-carbon fork and FSA Orbit C-40-ACB headset listed; seatpost, axles and cockpit contents require confirmation. Confirm exact frame size, brake mounts, axle standards, drivetrain routing and seatpost/cockpit interfaces before sourcing. Reference sizes and colours are not fit recommendations. The retailer lists a 135×12 mm rear axle, which differs from 142×12 mm road wheel options. Confirm this specification with the supplier; do not assume compatibility.",
+      "buildEvidence": {
+        "designFocus": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "The Bianchi Infinito CV Disc frameset is a Endurance lightweight, comfortable and sportive style frame",
+          "checkedAt": "2026-10-15",
+          "value": "endurance",
+          "classificationBy": "RCS editorial"
+        }
+      },
+      "frameSpecs": {
+        "material": "Carbon",
+        "brake": "disc",
+        "package": "Frame, Bianchi full-carbon fork and FSA Orbit C-40-ACB headset listed; seatpost, axles and cockpit contents require confirmation.",
+        "sizeNote": "55 cm · listed disc frameset",
+        "clearance": "Not confirmed for the exact size/variant."
+      },
+      "frameEvidence": {
+        "material": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "Bianchi Infinito CV Disc Carbon Frameset -55cm 55 cm · listed disc frameset Description Bianchi Infinito CV Disc Carbon Frameset Th",
+          "checkedAt": "2026-10-15"
+        },
+        "brake": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "Bianchi Infinito CV Disc Carbon Frameset -55cm 55 cm · listed disc frameset Description Bianchi Infinito CV Disc Carbon Fram",
+          "checkedAt": "2026-10-15"
+        },
+        "package": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "0mm thru axle Bottom Bracket: PF30 Headset: Fsa Orbit C-40-ACB ",
+          "checkedAt": "2026-10-15"
+        },
+        "frontAxle": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "chi Full Carbon, 1 1/8″x1.5″ Disc, 12x100mm thru axle Bottom Bracket: PF30 Headset: Fsa Orbit C-40-ACB ",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "et Frame: Infinito CV Carbon Disc, 135×12 Thru Axle Fork: Bianchi Full Carbon, 1 1/8″x1.5″ Disc, 12x100mm thru axle Bottom Bracket: PF30 Head",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "12x100mm thru axle Bottom Bracket: PF30 Headset: Fsa Orbit C-40-ACB ",
+          "checkedAt": "2026-10-15"
+        },
+        "purpose": {
+          "url": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "The Bianchi Infinito CV Disc frameset is a Endurance lightweight, comfortable and sportive style frame",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "frameFacts": {
+        "frontAxle": {
+          "value": "12x100",
+          "sourceUrl": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "chi Full Carbon, 1 1/8″x1.5″ Disc, 12x100mm thru axle Bottom Bracket: PF30 Headset: Fsa Orbit C-40-ACB ",
+          "checkedAt": "2026-10-15"
+        },
+        "rearAxle": {
+          "value": "12x135",
+          "sourceUrl": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "et Frame: Infinito CV Carbon Disc, 135×12 Thru Axle Fork: Bianchi Full Carbon, 1 1/8″x1.5″ Disc, 12x100mm thru axle Bottom Bracket: PF30 Head",
+          "checkedAt": "2026-10-15"
+        },
+        "bottomBracket": {
+          "value": "PF30",
+          "sourceUrl": "https://evobikes.co.za/product/bianchi-infinito-cv-disc-carbon-frameset-55cm/",
+          "excerpt": "12x100mm thru axle Bottom Bracket: PF30 Headset: Fsa Orbit C-40-ACB ",
+          "checkedAt": "2026-10-15"
+        }
+      },
+      "buildEligible": true,
+      "builderNote": "",
+      "variantOptions": [
+        "55 cm"
+      ]
+    }
+  ],
+  "coverage": {
+    "reviewedAt": "2026-10-15",
+    "scope": "Additional road frameset references with SA retailer prices. One reference per reviewed model/brake generation; size-only and colour-only duplicates are not counted as extra models.",
+    "stores": [
+      "Complete Cyclist",
+      "Crown Cycles",
+      "Evo Bikes",
+      "Mellow Velo",
+      "Winspace South Africa"
+    ],
+    "excluded": [
+      {
+        "name": "Mellow Velo Cervelo S5 54 cm",
+        "reason": "Size-only duplicate of the S5 model reference; retained 56 cm source for one model entry."
+      },
+      {
+        "name": "Winspace SLC 2.0 XL",
+        "reason": "Duplicate model/size-only listing with a different price and unclear package; retained the documented SLC 2.0 frameset offer."
+      },
+      {
+        "name": "TIME ADHX",
+        "reason": "Overlapping Alpe d’Huez X naming; retained one reviewed Alpe d’Huez X reference until generation differences are confirmed."
+      },
+      {
+        "name": "MTB, gravel, TT modules and complete bikes",
+        "reason": "Outside the current road-frameset expansion; complete-bike and instalment prices are not used as frameset prices."
+      }
+    ]
+  }
+}

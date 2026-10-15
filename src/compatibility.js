@@ -5,9 +5,14 @@ export const checkLabels={matched:'Documented match',conflict:'Conflict',review:
 // A match applies only to the named interface, never to the whole bicycle.
 export function inspectParts(parts,rawSettings={}) {
  const settings=normalizeSettings(rawSettings),checks=[],requiredExtras=[];
- const fact=(part,key)=>part?.wheelFacts?.[key]||evidence.products[part?.id]?.[key];
+ const fact=(part,key)=>part?.frameFacts?.[key]||part?.wheelFacts?.[key]||evidence.products[part?.id]?.[key];
  const add=(id,title,status,detail,sources=[])=>checks.push({id,title,status,detail,sources:sources.filter(Boolean)});
  const {frame,wheels,tires,drivetrain,brakes,cockpit,saddle}=parts;
+ if(frame?.buildEligible===false)add('frame-variant','Frameset variant','conflict',frame.builderNote||'This frame variant has not been reviewed for the current disc-road builder.');
+ if(frame?.frameSpecs&&brakes){
+  const detail=frame.frameEvidence?.brake;
+  add('frame-brakes','Frame & brake type',frame.frameSpecs.brake==='rim'?'conflict':'review',frame.frameSpecs.brake==='rim'?'This frame listing uses rim brakes; the selected road brake packages are disc systems.':frame.frameSpecs.brake==='disc'?'A disc-brake frame variant is listed. Confirm flat-mount interfaces, rotor sizes, hoses and routing for the exact frame and control package.':'Brake type and mount details have not been documented for this exact frame package. Confirm a disc-compatible version, mounts and hose routing with the supplier.',detail?[{sourceUrl:detail.url,excerpt:detail.excerpt,checkedAt:detail.checkedAt}]:[]);
+ }
  if(wheels?.buildEligible===false)add('wheel-variant','Wheelset variant','conflict',wheels.builderNote||'This collection wheelset has not been reviewed for the current Shimano disc-road builder.');
  if(drivetrain&&brakes){
   const same=drivetrain.controlSystem===brakes.controlSystem;
@@ -15,7 +20,8 @@ export function inspectParts(parts,rawSettings={}) {
  }
  if(frame&&tires){
   const known=Number.isFinite(frame.maxTire),over=known&&tires.width>frame.maxTire;
-  add('clearance','Frame tire clearance',over?'conflict':known?'matched':'review',over?`${tires.width} mm tires exceed this frame’s ${frame.maxTire} mm manufacturer-listed clearance.`:known?`${tires.width} mm nominal tires are within the listed ${frame.maxTire} mm limit. Check actual inflated width, rim width and required clearance.`:'This frameset has no confirmed tire-clearance limit in the catalog. Ask the supplier before selecting a tire size.');
+  const proof=frame.frameEvidence?.clearance;
+  add('clearance','Frame tire clearance',over?'conflict':known?'matched':'review',over?`${tires.width} mm tires exceed this frame’s ${frame.maxTire} mm source-listed clearance.`:known?`${tires.width} mm nominal tires are within the listed ${frame.maxTire} mm limit. Check actual inflated width, rim width and required clearance.`:frame.clearanceNote||'This frameset has no confirmed tire-clearance limit in the catalog. Ask the supplier before selecting a tire size.',proof?[{sourceUrl:proof.url,excerpt:proof.excerpt,checkedAt:proof.checkedAt}]:[]);
  }
  if(frame&&wheels)for(const[key,label]of [['frontAxle','Front axle'],['rearAxle','Rear axle']]){
   const f=fact(frame,key),w=fact(wheels,key),known=Boolean(f&&w);

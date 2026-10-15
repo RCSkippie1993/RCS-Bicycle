@@ -136,3 +136,8 @@ See [the ratings method](ratings.md). All 68 records expose a profile: 64 priced
 ## Wheelset expansion — 15 October 2026
 
 The collection now includes 175 wheelset listing references across seven South African retailers. The [wheelset source register](wheelsets.md) lists the 169 additions, exact product URLs, package prices, builder eligibility, coverage limits and held-back entries. `src/wheel-data.json` holds per-offer variants, quantities, dates, availability, local-photo provenance and specification excerpts. Original reference prices retain their 14 October date; new offers are dated 15 October.
+
+
+## Frameset expansion — 15 October 2026
+
+Twenty-four additional priced frame references are recorded in `src/frame-data.json`, bringing the collection to 33 frame references and the road builder to 32 options across 11 brands. The [frameset source register](framesets.md) lists exact SA product/variant links, retailer prices, package and photo limits, clearance/axle exceptions and held-back duplicates. The TIME rim-brake offer stays collection-only. Existing manufacturer-only Aethos 2/Roubaix prices remain unknown.
