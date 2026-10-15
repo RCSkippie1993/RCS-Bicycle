@@ -492,6 +492,28 @@
               "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
               "excerpt": "Weight: 1810 grams as a pair."
             }
+          },
+          "wheelSpecs": {
+            "depthMm": null,
+            "usage": "road",
+            "tireSystem": "tubeless",
+            "material": "alloy",
+            "brake": null,
+            "freehub": "shimano"
+          },
+          "wheelEvidence": {
+            "material": {
+              "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+              "excerpt": "iff yet lightweight medium-profile aluminium rim. Stiffness is generated via the big cross-section and thanks to "
+            },
+            "freehub": {
+              "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+              "excerpt": "c 28H DT Swiss R470 Hubs - Shimano Shimano HG 11/10 speed freehub Internal Width: 20mm Weight: 1810 grams as a pair."
+            },
+            "tireSystem": {
+              "url": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+              "excerpt": "o the 20 mm internal width and the tubeless-ready design, it is ideally equipped for the use of modern road "
+            }
           }
         },
         {
@@ -543,6 +565,36 @@
           },
           "profileFacts": {
             "rimDepthMm": 38
+          },
+          "wheelSpecs": {
+            "depthMm": 38,
+            "usage": "road",
+            "tireSystem": "tubeless",
+            "material": "carbon",
+            "brake": "disc",
+            "freehub": "shimano"
+          },
+          "wheelEvidence": {
+            "material": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "Carbon Race - Disc Brake - RD38 - Brake Type – Disc Brake - Centre lock only"
+            },
+            "brake": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "Carbon Race - Disc Brake - RD38 - Brake Type – Disc Brake - Centre lock only - Clincher –"
+            },
+            "freehub": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "ed bearing hubs - Thru Axle Hubs - Shimano HG or XDR freehub - Weight: +-1420g"
+            },
+            "tireSystem": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "ke - Centre lock only - Clincher – Tubeless-ready - Applied terrain – road/gravel - Recommended tyre size – "
+            },
+            "depthMm": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+              "excerpt": "Depth – 38mm"
+            }
           }
         },
         {
@@ -591,7 +643,37 @@
               "excerpt": "35mm depth alloy rim"
             }
           },
-          "image": "products/vision-team35.jpg"
+          "image": "products/vision-team35.jpg",
+          "wheelSpecs": {
+            "depthMm": 35,
+            "usage": "road",
+            "tireSystem": "tubeless",
+            "material": "alloy",
+            "brake": "disc",
+            "freehub": "shimano"
+          },
+          "wheelEvidence": {
+            "material": {
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "excerpt": "S: Artisan built, entirely by hand 35mm depth alloy rim - tubeless ready clincher Centerlock rotor mount 24 spoke front "
+            },
+            "brake": {
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "excerpt": "lloy rim - tubeless ready clincher Centerlock rotor mount 24 spoke front and rear, 2:1 laced Round non-butted straight pul"
+            },
+            "freehub": {
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "excerpt": "hined aluminum hubs Available with Shimano 11spd freehub Includes spoke protector and cassette spacer Tubeless valves and"
+            },
+            "tireSystem": {
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "excerpt": "ely by hand 35mm depth alloy rim - tubeless ready clincher Centerlock rotor mount 24 spoke front and rear, 2"
+            },
+            "depthMm": {
+              "url": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+              "excerpt": "35mm depth alloy rim"
+            }
+          }
         },
         {
           "id": "rd50",
@@ -643,7 +725,37 @@
               "excerpt": "Weight: +-1490g"
             }
           },
-          "image": "products/rd50.jpg"
+          "image": "products/rd50.jpg",
+          "wheelSpecs": {
+            "depthMm": 50,
+            "usage": "road",
+            "tireSystem": "tubeless",
+            "material": "carbon",
+            "brake": "disc",
+            "freehub": "shimano"
+          },
+          "wheelEvidence": {
+            "material": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "Carbon Race - Disc Brake - RD50 - Brake Type – Disc Brake - Centre lock only"
+            },
+            "brake": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "Carbon Race - Disc Brake - RD50 - Brake Type – Disc Brake - Centre lock only - Clincher –"
+            },
+            "freehub": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "ed bearing hubs - Thru Axle Hubs - Shimano HG or XDR freehub - Weight: +-1490g"
+            },
+            "tireSystem": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "ke - Centre lock only - Clincher – Tubeless-ready - Applied terrain – road/gravel - Recommended tyre size – "
+            },
+            "depthMm": {
+              "url": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+              "excerpt": "Depth – 50mm"
+            }
+          }
         },
         {
           "id": "hollowgram-r45",
@@ -695,7 +807,37 @@
               "excerpt": "At 1740g a pair"
             }
           },
-          "image": "products/hollowgram-r45.jpg"
+          "image": "products/hollowgram-r45.jpg",
+          "wheelSpecs": {
+            "depthMm": 45,
+            "usage": "road",
+            "tireSystem": "tubeless",
+            "material": "carbon",
+            "brake": "disc",
+            "freehub": "shimano"
+          },
+          "wheelEvidence": {
+            "material": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "32mm Rim Inner Width 21mm Rim Type Carbon clincher, hooked, tubeless ready Nipple Type Sapim Up side down, brass Ef"
+            },
+            "brake": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "x Tire Pressure See Owner's Manual Brake Type Disc Rider Weight Limit 100kg/220lbs Spoke Count 24h Spoke Length (ND"
+            },
+            "freehub": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "warranty to give you peace of mind Shimano freehub body compatible Front Hub HollowGram Road, sealed bearing, 12x100mm, centerlock,"
+            },
+            "tireSystem": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "ying strong and reliable Ready for tubeless setup right out-of-the-box At 1740g a pair the R 45 is performan"
+            },
+            "depthMm": {
+              "url": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+              "excerpt": "45mm deep"
+            }
+          }
         },
         {
           "id": "token-c25ad",
@@ -747,7 +889,33 @@
               "excerpt": "total: 1494 g"
             }
           },
-          "image": "products/token-c25ad.jpg"
+          "image": "products/token-c25ad.jpg",
+          "wheelSpecs": {
+            "depthMm": 25,
+            "usage": "road",
+            "tireSystem": "tubeless",
+            "material": "alloy",
+            "brake": "disc",
+            "freehub": null
+          },
+          "wheelEvidence": {
+            "material": {
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "excerpt": "), total: 1494 g RIM DIAMETER 700c RIM MATERIAL Alloy RIM WIDTH (EXTERNAL) 24 mm RIM WIDTH (INTERNAL) 20 mm RIM HEIGHT"
+            },
+            "brake": {
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "excerpt": "(f) and 4 (r) BEARING TYPE Premium DISC BRAKE COMPATIBLE Yes SPACING Front: 9 x 100 QR and 12 x 100 mm Thru Axle Rear: 10 x 1"
+            },
+            "tireSystem": {
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "excerpt": "further. Specs: TYRE TYPE Clincher Tubeless Ready WEIGHT 660 g (f) / 834 g (r), total: 1494 g RIM DIAMETER 7"
+            },
+            "depthMm": {
+              "url": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+              "excerpt": "RIM HEIGHT 25 mm"
+            }
+          }
         }
       ]
     },

@@ -1,0 +1,286 @@
+{
+  "checkedAt": "2026-10-14",
+  "products": {
+    "allez-sprint": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508",
+        "excerpt": "ed BB Suspension Fork FACT Carbon, 12x100mm thru-axle, flat-mount disc Cockpit"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/za/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/221508",
+        "excerpt": "e, fully internally routed cables, threaded BB Suspension Fork FACT Carbon, 12x10"
+      }
+    },
+    "tarmac-sl8-10r": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+        "excerpt": "c Suspension Fork FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc Cockpit"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+        "excerpt": "eered, Clean Routing, Threaded BB, 12x142mm thru-axle, flat-mount disc Suspens"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/za/en/tarmac-sl8-frameset-fact-10r-carbon/p/4221552",
+        "excerpt": " Tunnel Engineered, Clean Routing, Threaded BB, 12x142mm thru-axle, flat-mount di"
+      }
+    },
+    "tarmac-sl8": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+        "excerpt": "sion Fork S-Works FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc Cockpit"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+        "excerpt": "SLT Headset Bearings, Threaded BB, 12x142mm thru-axle, flat-mount disc Suspens"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl8-frameset-fact-12r-carbon/p/4221575",
+        "excerpt": "eramic Speed SLT Headset Bearings, Threaded BB, 12x142mm thru-axle, flat-mount di"
+      }
+    },
+    "tarmac-sl9": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+        "excerpt": "sion Fork S-Works FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc Cockpit"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+        "excerpt": "SLT headset bearings, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dr"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/za/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+        "excerpt": "eramic Speed SLT headset bearings, Threaded BB, 12x142mm thru-axle, flat-mount di"
+      }
+    },
+    "aethos-2-10r": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+        "excerpt": "ion Fork Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc Cockpit"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+        "excerpt": "Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc Suspens"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+        "excerpt": "r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm th"
+      }
+    },
+    "aethos-2-12r": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+        "excerpt": " S-Works Aethos 2 FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc Cockpit"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+        "excerpt": "Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc Suspens"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/us/en/s-works-aethos-2-frameset-fact-12r-carbon/p/4221567",
+        "excerpt": "eramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm th"
+      }
+    },
+    "roubaix-sl8-12r": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+        "excerpt": "ck 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc Cockpi"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+        "excerpt": " Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc Suspens"
+      },
+      "bottomBracket": {
+        "value": "Threaded",
+        "sourceUrl": "https://www.specialized.com/us/en/s-works-roubaix-sl8-frameset-fact-12r-carbon/p/4263272",
+        "excerpt": "FE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount di"
+      }
+    },
+    "r470": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/dt-swiss-r470-wheelset-oem?variant=51394865922345",
+        "excerpt": "m internal width and the tubeless-ready design, it is ideally equipped for the use of modern road -"
+      }
+    },
+    "rd38": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+        "excerpt": "e lock only - Clincher – Tubeless-ready - Applied terrain – road/gravel - Recommended tyre size – 2"
+      },
+      "recommendedTireWidth": {
+        "value": [
+          28,
+          35
+        ],
+        "sourceUrl": "https://bike-addict.co.za/products/zerotwo-rd38-carbon-race-disc-road-wheelset?variant=44352688750889",
+        "excerpt": "Recommended tyre size – 28-35c"
+      }
+    },
+    "vision-team35": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+        "excerpt": "ailable separately Note: TA12x100 and 12x142 only (not compatible with QR) "
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+        "excerpt": "ately Note: TA12x100 and 12x142 only (not compatible with QR) "
+      },
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/vision-team-35-db-road-wheelset-oem?variant=51298541928745",
+        "excerpt": "d 35mm depth alloy rim - tubeless ready clincher Centerlock rotor mount 24 spoke front and rear, 2:"
+      }
+    },
+    "rd50": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+        "excerpt": "e lock only - Clincher – Tubeless-ready - Applied terrain – road/gravel - Recommended tyre size – 2"
+      },
+      "recommendedTireWidth": {
+        "value": [
+          28,
+          35
+        ],
+        "sourceUrl": "https://bike-addict.co.za/products/zerotwo-rd50-carbon-race-disc-road-wheelset?variant=44352545390889",
+        "excerpt": "Recommended tyre size – 28-35c"
+      }
+    },
+    "hollowgram-r45": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+        "excerpt": "o give you peace of mind 100x12 thru-axle compatible Rear Wheel Highlights: Developed with "
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+        "excerpt": "ear Hub HollowGram Road, 12x142mm, Centerlock, Formula internals, 28h, straight pull Rim De"
+      },
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+        "excerpt": "g and reliable Ready for tubeless setup right out-of-the-box At 1740g a pair the R 45 is performanc"
+      },
+      "hooked": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/cannondale-hollowgram-r45-road-disc-wheelset-oem?variant=51286856171817",
+        "excerpt": "nner Width 21mm Rim Type Carbon clincher, hooked, tubeless ready Nipple Type Sapim Up side down, brass Effec"
+      }
+    },
+    "token-c25ad": {
+      "frontAxle": {
+        "value": "12x100",
+        "sourceUrl": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+        "excerpt": "NG Front: 9 x 100 QR and 12 x 100 mm Thru Axle Rear: 10 x 135 QR and 12 x 142 mm Thru Axle IN"
+      },
+      "rearAxle": {
+        "value": "12x142",
+        "sourceUrl": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+        "excerpt": "le Rear: 10 x 135 QR and 12 x 142 mm Thru Axle INCLUDED EXTRAS Adapters for QR Maximum Tyre P"
+      },
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+        "excerpt": "pecs: TYRE TYPE Clincher Tubeless Ready WEIGHT 660 g (f) / 834 g (r), total: 1494 g RIM DIAMETER 70"
+      },
+      "recommendedTireWidth": {
+        "value": [
+          25,
+          32
+        ],
+        "sourceUrl": "https://bike-addict.co.za/products/token-prime-c25ad-alloy-disc-road-wheelset?variant=49193629843753",
+        "excerpt": "Recommended Tyre Size: 700x25c – 700x32c"
+      }
+    },
+    "pro-plt": {
+      "barClampMm": {
+        "value": 31.8,
+        "sourceUrl": "https://bike-addict.co.za/products/pro-plt-compact-road-handlebar?variant=39741565698132",
+        "excerpt": "Diameter: 31.8mm"
+      },
+      "stemClampMm": {
+        "value": 31.8,
+        "sourceUrl": "https://bike-addict.co.za/products/pro-plt-stem?variant=44628608745769",
+        "excerpt": "Diameter handlebar clamp:31.8mm"
+      }
+    },
+    "pro-vibe": {
+      "barClampMm": {
+        "value": 31.8,
+        "sourceUrl": "https://bike-addict.co.za/products/pro-vibe-di2-carbon-compact-42cm-road-handlebar?variant=44067284549929",
+        "excerpt": "Diameter: 31.8mm"
+      },
+      "stemClampMm": {
+        "value": 31.8,
+        "sourceUrl": "https://bike-addict.co.za/products/pro-plt-stem?variant=44628608745769",
+        "excerpt": "Diameter handlebar clamp:31.8mm"
+      }
+    },
+    "gp5000-str-32": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/continental-gp-5000-s-tr-road-tyre-700-x-32c?variant=49940941701417",
+        "excerpt": "Tubeless Foldable Road Tyre"
+      }
+    },
+    "gp5000-str-30": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/continental-grand-prix-5000-s-tr-road-tyre-700-x-30c?variant=49940937244969",
+        "excerpt": "Tubeless Foldable Road Tyre"
+      }
+    },
+    "pzero-road-30": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/pirelli-p-zero-road-tyre?variant=51188544602409",
+        "excerpt": "tubeless tyre"
+      }
+    },
+    "pzero-race-28": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/pirelli-p-zero-race-road-tyre-1?variant=51188563247401",
+        "excerpt": "PZERO Race TLR"
+      }
+    },
+    "cinturato-32": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/pirelli-cinturato-road-tyre?variant=51188609843497",
+        "excerpt": "Cinturato™ Road TLR"
+      }
+    },
+    "eagle-f1r-30": {
+      "tubelessReady": {
+        "value": true,
+        "sourceUrl": "https://bike-addict.co.za/products/goodyear-eagle-f1-r-tyre-tubeless?variant=53284895818025",
+        "excerpt": "Tubeless Complete"
+      }
+    }
+  }
+}

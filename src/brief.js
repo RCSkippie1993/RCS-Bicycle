@@ -2,13 +2,14 @@ import { catalog, money, checkedDate } from './catalog.js';
 import { riderRows } from './rider.js';
 import { productRatings, ratingVersion } from './ratings.js';
 import { buildRatingText } from './build-ratings.js';
+import { compatibilityText } from './compatibility.js';
 
 export function briefText(build, rider) {
  return [
   'RCS BICYCLE — SOURCING BRIEF', 'South Africa · ZAR', `Price sources checked: ${checkedDate}`, '',
   'RIDER REQUIREMENTS', ...riderRows(rider).map(([label, value]) => `${label}: ${value}`),
   'Measurements supplied by rider. Frame size and fit require review. Budget is a target, not a quote.', '',
-  buildRatingText(build,rider.goal),'',
+  buildRatingText(build,rider.goal),'',...(build.compatibility?[compatibilityText(build.compatibility),'']:[]),
   'SELECTED COMPONENTS', ...Object.entries(build.parts).flatMap(([key, p]) => [
    `${catalog[key].label}: ${p.name} — ${money(p.price)} (${p.pricingLabel})`,
    `Price basis: ${p.priceBasis}. ${p.stockNote}.`,

@@ -131,3 +131,8 @@ Tires are consistently priced as pairs. Cockpits include a bar plus a separately
 ## Reference profiles
 
 See [the ratings method](ratings.md). All 68 records expose a profile: 64 priced packages have a budget-accessibility score; three manufacturer frameset references and the Di2 package remain unpriced. Additional wheel depth, wheel-pair mass, tire-width and complete-bike-mass scores require reviewed specification evidence in `profileEvidence`. Source excerpts and product URLs remain visible alongside the score. No price-derived quality ranking, customer reviews, overall stars or fabricated aero/climbing/comfort performance is supplied.
+
+
+## Wheelset expansion — 15 October 2026
+
+The collection now includes 175 wheelset listing references across seven South African retailers. The [wheelset source register](wheelsets.md) lists the 169 additions, exact product URLs, package prices, builder eligibility, coverage limits and held-back entries. `src/wheel-data.json` holds per-offer variants, quantities, dates, availability, local-photo provenance and specification excerpts. Original reference prices retain their 14 October date; new offers are dated 15 October.

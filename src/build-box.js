@@ -2,6 +2,7 @@ import { catalog, money, checkedDate } from './catalog.js';
 import { findProduct, categoryLabels } from './product-records.js';
 import { riderRows } from './rider.js';
 import { buildRatingText } from './build-ratings.js';
+import { inspectParts, compatibilityText } from './compatibility.js';
 
 export const boxStorageKey = 'rcs-build-box';
 export const maxBoxQuantity = 20;
@@ -41,12 +42,10 @@ export function summarizeBox(items) {
  if(components.some(row=>row.quantity!==1))warnings.push('Component quantities above one represent extra packages, not a single assembled bike. Use one package per category to transfer to the builder.');
  const one=key=>grouped[key].length===1?grouped[key][0].product:null;
  const drivetrain=one('drivetrain'), brakes=one('brakes'), frame=one('frame'), tires=one('tires');
- const errors=[];
- if(drivetrain&&brakes&&drivetrain.controlSystem!==brakes.controlSystem)errors.push('The drivetrain and brake/shift controls use different control systems.');
- if(frame&&tires&&Number.isFinite(frame.maxTire)&&tires.width>frame.maxTire)errors.push(`${tires.width} mm tires exceed the frame’s ${frame.maxTire} mm listed clearance.`);
+ const compatibility=inspectParts(Object.fromEntries(Object.keys(grouped).map(key=>[key,one(key)]))),errors=compatibility.errors;
  if(frame&&!Number.isFinite(frame.maxTire))warnings.push('Tire clearance is not confirmed for this frameset.');
  for(const row of components)if(row.product.missingEssentials?.length)warnings.push(`${row.product.name}: ${row.product.missingEssentials.join(', ')} still required; these costs are excluded.`);
- return {rows,components,bikes,missing,alternatives,warnings,errors,unpriced,
+ return {rows,components,bikes,missing,alternatives,warnings,errors,unpriced,compatibility,
   componentSubtotal:subtotal(components),bikeSubtotal:subtotal(bikes),knownSubtotal:subtotal(rows),
   total:unpriced.length?null:subtotal(rows),packageCount:rows.reduce((sum,row)=>sum+row.quantity,0),
   canApply:components.length>0&&!alternatives.length&&components.every(row=>row.quantity===1)&&!errors.length,
@@ -71,7 +70,7 @@ export function boxText(items,rider) {
   `Unpriced product lines: ${box.unpriced.length}. Final box total: ${box.unpriced.length?'Quote required':money(box.total)}`,
   `Builder categories represented: ${Object.keys(catalog).length-box.missing.length}/${Object.keys(catalog).length}`,
   ...(box.canApply&&!box.missing.length?[buildRatingText({parts:Object.fromEntries(box.components.map(row=>[row.category,row.product])),errors:box.errors},rider?.goal)]:['Overall goal match is available for one package in every builder category without alternatives or detected conflicts.']),
-  ...box.errors,...box.warnings,
+  ...box.errors,...box.warnings,compatibilityText(box.compatibility),
   'Complete bikes are separate products, not donor parts or automatically part of a component build. Multiple alternatives are not one complete bicycle.',
   'Quantities count the displayed package: one tire package already contains two tires; one cockpit package is a bar and stem. No duplicate separate Di2 controls price is assumed.',
   'These are reference prices, not an RCS quote. Confirm VAT treatment, exact variant, availability, package inclusions, full compatibility, missing parts, assembly and delivery.',

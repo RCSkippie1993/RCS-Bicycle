@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync } from 'node:fs';
 import { catalog, completeBikes, defaults, evaluate, money, checkedAt } from './catalog.js';
+import { productRecords } from './product-records.js';
 
 test('default reference subtotal uses actual listed line quantities and excludes complete bikes', () => {
  const b = evaluate(defaults);
@@ -16,18 +17,18 @@ test('default reference subtotal uses actual listed line quantities and excludes
  assert.match(completeBikes.find(p => p.id === 'addict-30-26').sources[0].variant, /Frozen Green \/ M/);
 });
 test('every catalog photo is local and has dated product-level price/source evidence', () => {
- const records = [...Object.values(catalog).flatMap(g => g.items), ...completeBikes];
- assert.equal(records.length, 68);
+ const records = productRecords.map(r=>r.product);
+ assert.equal(records.length, 237);
  assert.equal(catalog.frame.items.length,9);
  assert.equal(new Set(records.map(p=>p.id)).size, records.length);
  for (const p of records) {
   assert.ok(existsSync(new URL('../public/' + p.image, import.meta.url)), p.id);
   assert.match(p.image, /^products\/[a-z0-9-]+\.(png|jpg|webp)$/);
-  assert.equal(p.verification.status, 'listing-reviewed');assert.equal(p.verification.reviewedAt, checkedAt);
+  assert.equal(p.verification.status, 'listing-reviewed');assert.ok(['2026-10-14','2026-10-15'].includes(p.verification.reviewedAt));
   assert.match(p.photoSource.remoteUrl, /^https:\/\//);assert.match(p.photoSource.url, /^https:\/\//);
   for (const source of p.sources) {
-   assert.ok(['www.specialized.com', 'bike-addict.co.za','cwcycles.co.za'].includes(new URL(source.url).hostname));
-   assert.equal(source.checkedAt, checkedAt);assert.ok(source.quantity > 0);
+   assert.ok(['www.specialized.com','bike-addict.co.za','cwcycles.co.za','www.cyclelab.com','www.olympiccycles.co.za','www.lynnwoodcyclery.co.za','evobikes.co.za','solomonscycles.co.za'].includes(new URL(source.url).hostname));
+   assert.equal(source.checkedAt,p.verification.reviewedAt);assert.ok(source.quantity > 0);
    if(source.kind==='manufacturer-specification') {
     assert.equal(source.unitPrice,null);assert.equal(source.currency,null);assert.equal(source.referenceOnly,true);assert.equal(p.price,null);assert.match(p.pricingLabel,/SA quote required/);
    }else {assert.equal(source.currency,'ZAR');assert.ok(source.unitPrice>0);}
@@ -52,13 +53,13 @@ test('retired selections fall back to available reference models', () => {
  const b = evaluate({ frame: 'aethos', wheels: 'e1800', drivetrain: 'electronic' });
  assert.equal(b.parts.frame.id, 'allez-sprint');assert.equal(b.parts.wheels.id, 'r470');assert.equal(b.parts.drivetrain.id, '105-mechanical');
 });
-test('all 95,040 combinations keep partial pricing explicit and detect 47,520 control mismatches', () => {
+test('every builder combination keeps partial pricing explicit and detects control mismatches', () => {
  let cases = [{}];for (const [key, g] of Object.entries(catalog)) cases = cases.flatMap(c => g.items.map(p => ({ ...c, [key]: p.id })));
  let mismatches = 0;for (const c of cases) {
   const b = evaluate(c);assert.ok(Number.isFinite(b.knownSubtotal) && b.knownSubtotal > 0);assert.equal(b.price === null, b.unpriced.length > 0);
   if (b.errors.length) mismatches++;
  }
- assert.equal(cases.length, 95040);assert.equal(mismatches, 47520);
+ assert.equal(cases.length,Object.values(catalog).reduce((n,g)=>n*g.items.length,1));assert.equal(mismatches,cases.length/2);
 });
 test('new frames retain actual SA cents, explicit foreign-reference pricing gaps and missing fork exclusions',()=>{
  const frames=catalog.frame.items;

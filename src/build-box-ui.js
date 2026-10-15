@@ -4,6 +4,7 @@ import { boxStorageKey, maxBoxQuantity, normalizeBox, boxSnapshot, addToBox, set
 import { validateRider } from './rider.js';
 import { escapeHtml as esc, externalArrow } from './view-utils.js';
 import { buildRatingPanel } from './build-ratings-ui.js';
+import { openQuoteRequest } from './quote-ui.js';
 
 let items=[], initialized=false, expanded=false, storageAvailable=true, statusTimer;
 function load() {
@@ -40,7 +41,7 @@ function refresh(preserveProducts=false) {
  ${box.canApply&&!box.missing.length?buildRatingPanel(ratingBuild,goal):'<p class="fine">An overall goal match appears here for one package in all seven component categories, without alternatives or detected conflicts.</p>'}
  ${[...box.errors,...box.warnings].map(note=>`<p class="box-warning">${esc(note)}</p>`).join('')}
  <p class="fine">Complete bikes and components are separate saved products. A full category checklist does not confirm a complete or compatible bicycle. Reference prices exclude unpriced parts and build extras.</p>
- <button class="cta box-export" ${box.rows.length?'':'disabled'}>Download sourcing list ↓</button><button class="box-apply" ${box.canApply?'':'disabled'}>Use box components in builder →</button><p class="fine">Transfers one package per component category. Other builder selections stay as they are. Complete bikes stay in the box.</p><button class="box-clear" ${box.rows.length?'':'disabled'}>Clear build box</button>
+ <button class="cta box-request" ${box.rows.length?'':'disabled'}>Prepare box quote request →</button><button class="cta box-export" ${box.rows.length?'':'disabled'}>Download sourcing list ↓</button><button class="box-apply" ${box.canApply?'':'disabled'}>Use box components in builder →</button><p class="fine">Transfers one package per component category. Other builder selections stay as they are. Complete bikes stay in the box.</p><button class="box-clear" ${box.rows.length?'':'disabled'}>Clear build box</button>
  <p class="fine">No RCS stock reserved or payment taken. Confirm VAT, fit, inclusions, availability, missing parts, assembly and delivery.</p></aside></div>`;
  if(preserveProducts) {
   const template=document.createElement('template');template.innerHTML=markup;
@@ -70,6 +71,10 @@ function refresh(preserveProducts=false) {
   try { let previous={};try{previous=JSON.parse(localStorage.getItem('rcs-build'))||{};}catch{}localStorage.setItem('rcs-build',JSON.stringify({...previous,...box.selection})); }
   catch {dialog.querySelector('#box-dialog-status').textContent='Could not save builder selections. Browser storage must be available to transfer between pages.';return;}
   window.location.assign('./index.html#builder');
+ };
+ dialog.querySelector('.box-request').onclick=()=>{
+  let rider;try{const parsed=validateRider(JSON.parse(localStorage.getItem('rcs-rider')));if(!Object.keys(parsed.errors).length)rider=parsed.value;}catch{}
+  dialog.close();openQuoteRequest({title:'Build box sourcing list',items:box.rows.map(row=>({name:row.product.name,quantity:row.quantity,price:row.product.price,basis:row.product.priceBasis})),knownSubtotal:box.knownSubtotal,unpricedCount:box.unpriced.length,sourceText:boxText(items,rider)});
  };
  dialog.querySelector('.box-export').onclick=()=>{
   let rider;
