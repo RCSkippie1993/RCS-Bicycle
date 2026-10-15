@@ -38,3 +38,8 @@ No source data presently supports comparable aero, climbing, rolling resistance,
 ## Maintenance
 
 Reconfirm the exact source and variant before changing a price or specification. Retain the original image provenance and source excerpt. Update the review date honestly. If a specification cannot be reconfirmed, remove its evidence so its score becomes pending. Changing the scale requires a method version change in `src/ratings.js`, the UI method and this document. Re-run rating, catalog and export tests, build the site and check filters, product dialogs, evidence links and the sourcing export before deployment.
+
+
+## Guided builder specification profiles
+
+The guided builder adds separately labelled package/bare-frame/handlebar mass profiles, frame-purpose intent and pending stiffness tests. These do not replace the reference profiles above or establish measured performance. Fixed endpoints, evidence scope and research-based gravity estimates are documented in [the guided builder method](guided-builder.md). No aerodynamic watt saving is inferred from depth or carbon material.

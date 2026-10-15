@@ -57,3 +57,8 @@ Even 100% of weighted evidence and seven selected categories do not mean a compl
 The home builder shows the live whole-build panel, goal controls, selected-parts list, evidence links, pricing coverage and a compact score link alongside component choices. The sourcing brief uses the same function. A saved build box receives a profile only when it has one package in each of the seven categories without alternatives or detected control conflicts; complete-bike references never enter the component goal match.
 
 `src/build-ratings.js` is the calculation source of truth. `src/build-ratings-ui.js` exposes the full rubric. Tests cover fixed examples, excluded price and frame package mass, missing evidence, incomplete builds, conflict/missing-essential withholding, bounded outputs for every frame/goal combination, and export limitations. Change this method's version, UI and documentation together if points, weights or missing-data behavior change. Product cost/specification profile version 1.0 remains independent.
+
+
+## Guided configuration
+
+The home page now shows the goal match in its live build box, with full evidence in the review step. Only equipped core packages contribute; a new configuration starts empty. Missing categories remain incomplete, and partial evidence remains provisional. Source variant requests, chain standards and known conflicts are checked before an overall label. Added accessory prices and advertised bare-frame masses do not add goal points. See [guided builder](guided-builder.md) for the separately scoped mass subtotal and wheel-mass power calculator.

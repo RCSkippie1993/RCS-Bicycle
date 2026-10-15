@@ -9,7 +9,7 @@ export const wheelGroups={
 export function wheelFacet(product,key){
  const facts=product.wheelSpecs||{};
  if(key==='depth'){
-  const d=facts.depthMm;
+  const d=facts.depthMm??(product.profileEvidence?.rimDepthMm?product.profileFacts?.rimDepthMm:null);
   return Array.isArray(d)?'mixed':!Number.isFinite(d)?'unknown':d<35?'shallow':d<50?'mid':d<65?'deep':'verydeep';
  }
  return facts[key]||'unknown';

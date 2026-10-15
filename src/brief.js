@@ -3,6 +3,8 @@ import { riderRows } from './rider.js';
 import { productRatings, ratingVersion } from './ratings.js';
 import { buildRatingText } from './build-ratings.js';
 import { compatibilityText } from './compatibility.js';
+import { planText } from './build-plan.js';
+import { documentedMass,scienceProfile } from './build-science.js';
 
 export function briefText(build, rider) {
  return [
@@ -15,7 +17,7 @@ export function briefText(build, rider) {
    `Price basis: ${p.priceBasis}. ${p.stockNote}.`,
    ...productRatings(p,key).map(r => `RCS reference profile v${ratingVersion} — ${r.label}: ${r.score === null ? 'Pending' : r.score+'/10'}. ${r.basis}`),
    ...p.sources.map(s => `  ${s.name}: ${s.url} | ${s.variant} | ${s.referenceOnly ? (s.referenceNote||'Package reference only; no separate brake price confirmed') : `${s.quantity} × ${money(s.unitPrice)}`} | checked ${s.checkedAt}`)
-  ]), '', `Known listed parts subtotal: ${money(build.knownSubtotal)}`,
+  ]), '', ...(build.plan?[planText(build),'SPECIFICATION PROFILES',...Object.entries(build.parts).flatMap(([key,p])=>scienceProfile(p,key).map(m=>`${p.name} · ${m.label}: ${m.score===null?'Pending':m.score+'/10'} | ${m.actual} | ${m.basis}${m.source?' | '+m.source:''}`)),'DOCUMENTED MASS SUBTOTAL',`${documentedMass(build).kg.toFixed(3)} kg of reviewed packages only; complete bicycle weight is pending.`,...documentedMass(build).rows.map(p=>`${p.name}: ${p.kg.toFixed(3)} kg | ${p.basis} | ${p.source}`),'No aerodynamic watt saving is inferred from rim depth, material or intent scores.']:[]), `Known listed parts subtotal: ${money(build.knownSubtotal)}`,
   `Unpriced categories: ${build.unpriced.length ? build.unpriced.map(p => p.name).join('; ') : 'None among selected categories; build extras still require a quote'}`,
   'This is a reference subtotal, not a complete-bike quote or an RCS selling price. Manufacturer MSRP and retailer listings are distinguished above.',
   'Confirm VAT treatment, any missing parts, frame size, compatibility, calipers/rotors, bottom bracket, tubes/sealant, tape, pedals, assembly and delivery.',
