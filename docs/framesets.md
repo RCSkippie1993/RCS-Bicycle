@@ -2,6 +2,8 @@
 
 Reviewed: **15 October 2026**. New prices are South African retailer references in ZAR. There are 24 additions, 33 total frame references and 32 road-builder options across 11 brands. The remaining TIME rim-brake offer is collection-only.
 
+The frameset collection groups matching references into alphabetical brand sections. A brand index shows the filtered counts and links to each heading. Larger ranges expand from three preview cards; search, purpose, price-source and brand filters still intersect, with sorting within each brand. This browsing change does not refresh the dated product evidence or prices.
+
 ## Coverage and method
 
 | Retailer | Additions |
