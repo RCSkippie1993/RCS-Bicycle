@@ -1,12 +1,14 @@
 import data from './guided-data.json' with {type:'json'};
-import {catalog, evaluate, money} from './catalog.js';
+import {catalog, evaluate, money,chainOffers,extraOffers,optionRegister,featureRegister} from './catalog.js';
+import {resolvePackages,chainCompatibility} from './product-packages.js';
 import {inspectParts} from './compatibility.js';
 
 export const planKey='rcs-build-plan';
 export const coreSteps=['frame','wheels','tires','drivetrain','brakes','cockpit','saddle'];
 export const buildSteps=[...coreSteps,'chain','extras','review'];
 export const stepLabels={frame:'Frameset',wheels:'Wheelset',tires:'Tyres',drivetrain:'Drivetrain',brakes:'Brakes & levers',cockpit:'Handlebar & stem',saddle:'Saddle',chain:'Chain',extras:'Finishing extras',review:'Review build'};
-export const chainOffers=data.chains,extraOffers=data.extras,optionRegister=data.options,featureRegister=data.features,research=data.research;
+export {chainOffers,extraOffers,optionRegister,featureRegister};
+export const research=data.research;
 const own=(o,k)=>o&&Object.hasOwn(o,k);
 const cleanText=t=>typeof t==='string'?t.replace(/[\x00-\x1f\x7f]/g,' ').trim().slice(0,60):'';
 export function normalizePlan(raw={}){
@@ -33,12 +35,14 @@ export function configureProduct(product,rawPlan){
  let p={...product,chosenOptions:values,variantNote:requested?`Requested ${Object.entries(requested).map(([k,v])=>k+': '+v).join('; ')}. Exact variant, supply and price require confirmation.`:sku?`Source variant: ${sku.title}. Availability needs confirmation.`:'Requested combination: supplier must confirm this combination, price and supply.',requestedOptions:requested||{},weight:changed||requested?null:product.weight};
  if(changed||requested){
   p.price=requested?null:sku?.price??null;
+  p.referenceSpecsOnly=true;
+  if(sku&&!requested){const baseName=product.configurationName||(product.variant&&product.name.endsWith(' · '+product.variant)?product.name.slice(0,-(' · '+product.variant).length):null);if(baseName)p.name=baseName+' · '+sku.title;p.variant=sku.title;Object.assign(p,Object.fromEntries(Object.entries(sku.facts||{}).filter(([key])=>['width','tireFacts','compatibility','frameFacts','frameSpecs','productSpecs','weight','weightBasis'].includes(key))));}
   if(sku&&!requested)p.tag=sku.title+' · source variant';
-  if(sku?.stemUrl&&!requested)p.priceBasis='Handlebar '+sku.values.size+' + PLT stem '+sku.stemVariant;
+  if(sku?.stemUrl&&!requested)p.priceBasis='Handlebar '+sku.values.size+' + separately sourced stem '+sku.stemVariant;
   p.pricingLabel=Number.isFinite(p.price)?'SA variant price reference':'Variant quote required';
   if(sku&&!requested){
    p.sources=product.sources.map((s,i)=>i===0?{...s,url:sku.url,variant:sku.title,unitPrice:sku.sourceUnitPrice??sku.barPrice??sku.price,checkedAt:spec.checkedAt,listedAvailable:sku.listedAvailable}:i===1&&sku.stemUrl?{...s,url:sku.stemUrl,variant:sku.stemVariant,unitPrice:sku.stemPrice,checkedAt:spec.checkedAt,listedAvailable:sku.stemAvailable}:s);
-   p.stockNote=sku.listedAvailable===false?'Source variant listed unavailable; sourcing required':'Source variant only; reconfirm exact size, colour and supply';
+   p.stockNote=sku.listedAvailable===false||sku.stemAvailable===false?'Source variant listed unavailable; sourcing required':'Source variant only; reconfirm exact size, colour and supply';
   }else p.sources=product.sources.map(s=>({...s,referenceOnly:true,referenceNote:'Base reference only; requested combination price unconfirmed'}));
  }
  if(product.id==='winspace-agile'&&values.size==='Medium')p.maxTire=28;
@@ -46,17 +50,18 @@ export function configureProduct(product,rawPlan){
 }
 export function guidedBuild(selection,rawPlan,settings={}){
  const plan=normalizePlan(rawPlan),base=evaluate(selection,settings);
- const parts=Object.fromEntries(plan.chosen.map(key=>[key,configureProduct(base.parts[key],plan)]));
- const additionalLines=extraOffers.filter(p=>plan.extras.includes(p.id)).map(p=>({...p,quantity:1,role:'Optional extra'}));
- const chain=chainOffers.find(p=>p.id===plan.chain),chainChecks=[];
+ const parts=resolvePackages(Object.fromEntries(plan.chosen.map(key=>[key,configureProduct(catalog[key].items.find(p=>p.id===selection[key])||catalog[key].items[0],plan)])));
+ const additionalLines=extraOffers.filter(p=>plan.extras.includes(p.id)).map(raw=>({...configureProduct(raw,plan),quantity:1,role:'Optional extra'}));
+ const rawChain=chainOffers.find(p=>p.id===plan.chain),chain=rawChain?configureProduct(rawChain,plan):null,chainChecks=[];
  if(chain){
   additionalLines.unshift({...chain,quantity:1,role:plan.chainMode==='spare'?'Spare chain · not installed':'Installed chain selection'});
   if(plan.chainMode==='replacement'&&parts.drivetrain){
    const included=parts.drivetrain.sources.find(s=>s.url.includes('shimano-slx-m7100-12-speed-mtb-chain')&&!s.referenceOnly);
-   if(included){parts.drivetrain={...parts.drivetrain,price:parts.drivetrain.price-included.unitPrice*included.quantity,sources:parts.drivetrain.sources.filter(s=>s!==included),name:parts.drivetrain.name+' (chain selected separately)',priceBasis:'Four drivetrain items; selected chain priced separately'};}
+   if(included){parts.drivetrain={...parts.drivetrain,price:parts.drivetrain.price-included.unitPrice*included.quantity,sources:parts.drivetrain.sources.filter(s=>s!==included),name:parts.drivetrain.name+' (chain selected separately)',priceBasis:`${parts.drivetrain.sources.length-1} drivetrain source lines; selected chain priced separately`};}
+   else if(parts.drivetrain.includedCategories?.includes('chain')){additionalLines[0].role='Replacement chain · extra purchase; packaged chain retained';}
    else additionalLines.push({id:'chain-package-review',name:'Bundled chain contents / replacement credit',price:null,sources:[],role:'Supplier package check',weight:null});
-   const conflict=chain.brand==='SRAM';
-   chainChecks.push({id:'chain-system',title:'Selected chain & drivetrain',status:conflict?'conflict':'review',detail:conflict?'SRAM RED Road Flattop has not been approved for the current Shimano HG+ road bundles. Choose the included chain or a reviewed Shimano/KMC option; SRAM AXS drivetrain support is still required.':chain.brand==='KMC'?'The retailer lists Shimano 12-speed compatibility. Confirm the exact Shimano road cassette, chainrings, connector and installed chain length.':'Shimano HG+ 12-speed chain selected. Confirm the exact drivetrain compatibility, correct chain length and new quick-link.',sources:chain.sources.map(s=>({sourceUrl:s.url,excerpt:chain.kind,checkedAt:s.checkedAt}))});
+   const check=chainCompatibility(parts.drivetrain,chain);
+   chainChecks.push({id:'chain-system',title:'Selected chain & drivetrain',status:check.status,detail:check.detail,sources:chain.sources.map(s=>({sourceUrl:s.url,excerpt:chain.kind,checkedAt:s.checkedAt}))});
   }
  }
  const compatibility=inspectParts(parts,settings);compatibility.checks.push(...chainChecks);compatibility.errors=compatibility.checks.filter(c=>c.status==='conflict').map(c=>c.detail);for(const k of ['matched','conflict','review'])compatibility.counts[k]=compatibility.checks.filter(c=>c.status===k).length;
@@ -65,7 +70,7 @@ export function guidedBuild(selection,rawPlan,settings={}){
 }
 export function planText(build){
  if(!build.plan)return '';
- return ['BUILD CONFIGURATION',...Object.values(build.parts).flatMap(p=>[p.variantNote||'',...Object.entries(p.chosenOptions||{}).map(([k,v])=>`${p.name} · ${k}: ${v}`),...Object.entries(p.requestedOptions||{}).map(([k,v])=>`${p.name} · requested ${k}: ${v} (supplier confirmation)`)]),...build.missing.map(k=>'Not yet selected: '+stepLabels[k]),'CHAIN & FINISHING EXTRAS',build.plan.chain==='included'?'Use chain included in drivetrain package; Di2 contents need confirmation.':`Selected chain mode: ${build.plan.chainMode}. Itemised mechanical included-chain line is removed only for replacement; no unverified bundle credit is assumed.`,...build.additionalLines.flatMap(p=>[`${p.role}: ${p.name} — ${money(p.price)}`,...p.sources.map(s=>`${s.name}: ${s.url} | ${s.variant} | ${s.quantity} × ${money(s.unitPrice)} | checked ${s.checkedAt}`),p.weightBasis||''])].filter(Boolean).join('\n');
+ return ['BUILD CONFIGURATION',...Object.values(build.parts).flatMap(p=>[p.variantNote||'',...Object.entries(p.chosenOptions||{}).map(([k,v])=>`${p.name} · ${k}: ${v}`),...Object.entries(p.requestedOptions||{}).map(([k,v])=>`${p.name} · requested ${k}: ${v} (supplier confirmation)`)]),...build.missing.map(k=>'Not yet selected: '+stepLabels[k]),'CHAIN & FINISHING EXTRAS',build.plan.chain==='included'?'Use source-listed drivetrain chain; exact package contents and installed length need confirmation.':`Selected chain mode: ${build.plan.chainMode}. Itemised mechanical included-chain line is removed only for replacement; no unverified bundle credit is assumed.`,...build.additionalLines.flatMap(p=>[`${p.role}: ${p.name} — ${money(p.price)}`,...p.sources.map(s=>`${s.name}: ${s.url} | ${s.variant} | ${s.quantity} × ${money(s.unitPrice)} | checked ${s.checkedAt}`),p.variantNote||'',p.fitNote||'',p.weightBasis||''])].filter(Boolean).join('\n');
 }
 // Share only catalog-backed option values. Free-text fit requests stay in this browser/quote.
 export function shareablePlan(raw){const {requests,...safe}=normalizePlan(raw);return safe;}

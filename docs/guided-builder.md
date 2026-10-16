@@ -1,6 +1,6 @@
 # Guided builder: configuration, evidence and performance
 
-Reviewed: **15 October 2026**. Source prices are dated ZAR references, not RCS inventory or a selling quote. Core catalog reference dates remain 14–15 October. New chain/accessory references are outside the 261-reference collection count.
+Updated: **16 October 2026**. Source prices are dated ZAR references, not RCS inventory or a selling quote. Earlier reference dates remain 14–15 October. The original chain/accessory references are now included in the 447-reference collection. See [the catalogue expansion](catalog-expansion.md) for all 176 new references, exact source register and current category counts.
 
 The main build box has ten steps, starting empty for a new visitor. Equipped core categories, source option choices, optional size/colour requests, chain mode and extras are validated in `build-plan.js`. Product IDs derive price and evidence; stored values never supply a price. Legacy saved components migrate. The separate Saved products drawer retains base reference models and package quantities; configured choices remain in the main build.
 
@@ -10,11 +10,15 @@ Exact recorded Shopify SKUs have source price, option values, variant URL and ob
 
 Winspace arrays identify source attributes, not a verified cartesian product of orderable combinations. Only the recorded reference combination has a price in this register; another size/colour combination is unpriced until verified. Size M Agile enforces the sourced 28 mm nominal limit. Larger/other-size assumptions do not silently establish clearance.
 
+New cockpit SKU combinations retain the exact bar and stem source prices. A bar-only mass with a documented width applies only to that width; a changed width has no inferred mass. Reference specifications and imagery stay labelled after variant changes.
+
 Bar-width and PLT stem-length choices retain separate source variants and prices; stems span source-listed 60–120 mm. Clamp/steerer/routing/fit need review. Crank/gearing choices retain the other recorded bundle lines; changing a crank variant does not silently change cassette, derailleurs or chain. Source photos may depict another variant.
 
 The itemised mechanical bundle includes a R490 M7100 116-link chain. Replacing it removes that one source line and adds the selected chain; a spare keeps it. Di2 has no itemised chain credit, so a separate installed replacement adds its reference price while a package/credit check remains unpriced. SRAM RED Road Flattop cannot become an approved installed chain in these Shimano bundles. A spare is not installed. KMC's broad retailer claim remains a supplier-review item, not blanket approval for every SRAM/Shimano system.
 
-## Chain and extras source register
+New SRAM and Campagnolo groupsets use distinct control and chain families. Confirmed SRAM control/caliper checks resolve to no extra charge only with their exact parent groupset; other package checks remain unpriced. A separately bought replacement chain on an unsplit full groupset adds its price without inventing a chain credit. Known freehub and chain-family/speed mismatches are conflicts. A frame-included cockpit must match its exact source frame; selecting a separate cockpit requires reconciliation.
+
+## Original chain and extras source register
 
 One package of each selected extra is added. Source availability flags are observations, not reservations. Local image provenance retains source and downloaded URLs in `guided-data.json`.
 
@@ -33,7 +37,7 @@ One package of each selected extra is added. Source availability flags are obser
 
 ## Specification bars
 
-All scales are fixed, clamped 1–10 aids. They do not measure quality or establish fit. Package/bare-frame/handlebar scopes must remain visible. New guided mass profiles do not replace the legacy reference-profile version 1.0 method.
+All scales are fixed, clamped 1–10 aids. They do not measure quality or establish fit. Package/bare-frame/handlebar scopes must remain visible. New guided mass profiles do not replace the separate reference-profile version 1.1 method.
 
 | Input | 10 / high endpoint | 1 / low endpoint | Scope |
 | --- | --- | --- | --- |

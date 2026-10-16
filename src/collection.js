@@ -14,9 +14,9 @@ mountBuildBox();
 mountCatalog(document.querySelector('#catalog-browser'),(category,id)=>{
  try {
   let saved={};try{saved=JSON.parse(localStorage.getItem('rcs-build'))||{};}catch{}
-  let raw;try{raw=JSON.parse(localStorage.getItem(planKey));}catch{}const plan=normalizePlan(raw||{chosen:Object.keys(saved)});plan.chosen=[...new Set([...plan.chosen,category])];delete plan.choices[id];delete plan.requests[id];
+  let raw;try{raw=JSON.parse(localStorage.getItem(planKey));}catch{}const plan=normalizePlan(raw||{chosen:Object.keys(saved)});if(category==='chain')plan.chain=id;else if(category==='extras')plan.extras=[...new Set([...plan.extras,id])];else plan.chosen=[...new Set([...plan.chosen,category])];delete plan.choices[id];delete plan.requests[id];
   localStorage.setItem(planKey,JSON.stringify(normalizePlan(plan)));
-  localStorage.setItem('rcs-build',JSON.stringify({...saved,[category]:id}));
+  if(category!=='chain'&&category!=='extras')localStorage.setItem('rcs-build',JSON.stringify({...saved,[category]:id}));
   location.assign('./index.html#builder');
  }catch{
   const status=document.querySelector('.catalog-count');status.textContent='Browser storage is unavailable. Enable storage to transfer a selection to the builder; product details and the build box still work for this visit.';

@@ -44,7 +44,7 @@ test('extras contribute once to the subtotal; sourced pair mass excludes unknown
  const b=guidedBuild(defaults,all({extras:['light-femto-pair','pedals-r7000']}));assert.equal(b.knownSubtotal,54710);assert.ok(Math.abs(documentedMass(b).kg-4.217)<1e-10);assert.equal(documentedMass(b).rows.length,3);
  const metrics=scienceProfile(item('cockpit','pro-plt'),'cockpit');assert.equal(metrics[0].actual,'0.260 kg');assert.equal(metrics[0].label,'Handlebar only');assert.equal(metrics.find(m=>m.key==='stiffness').score,null);
  assert.equal(scienceProfile(item('cockpit','pro-vibe'),'cockpit')[0].score,null);
- for(const p of [...chainOffers,...extraOffers]){assert.ok(existsSync(new URL('../public/'+p.image,import.meta.url)));assert.ok(p.sources.every(s=>s.currency==='ZAR'&&s.checkedAt==='2026-10-15'));assert.equal(p.price,p.sources.reduce((n,s)=>n+s.unitPrice*s.quantity,0));}
+ for(const p of [...chainOffers,...extraOffers]){assert.ok(existsSync(new URL('../public/'+p.image,import.meta.url)));assert.ok(p.sources.every(s=>s.currency==='ZAR'&&s.checkedAt===p.checkedAt));assert.equal(p.price,p.sources.reduce((n,s)=>n+s.unitPrice*s.quantity,0));}
 });
 test('gravity power model has a physical zero/sign, speed scaling and rejects unsupported evidence or scenarios',()=>{
  const a=item('wheels','r470'),b=item('wheels','rd38'),d=climbingPowerDelta(a,b,15,6);
@@ -61,7 +61,7 @@ test('guided export contains configured choices, credits, extras and scope rathe
  const partial=guidedBuild(defaults,normalizePlan({chosen:['frame'],requests:{'allez-sprint':{size:'54',colour:'Blue'}}})),text=briefText(partial,riderDefaults);
  assert.match(text,/requested size: 54/);assert.match(text,/requested colour: Blue/);assert.match(text,/Not yet selected: Wheelset/);assert.doesNotMatch(text,/DT Swiss R470/);
  const full=briefText(guidedBuild(defaults,all({chain:'chain-kmc-x12',extras:['light-femto-pair']})),riderDefaults);
- assert.match(full,/126 Links/);assert.match(full,/FEMTO|Femto/);assert.match(full,/Four drivetrain items/);assert.match(full,/DOCUMENTED MASS SUBTOTAL/);assert.match(full,/complete bicycle weight is pending/);
+ assert.match(full,/126 Links/);assert.match(full,/FEMTO|Femto/);assert.match(full,/4 drivetrain source lines/);assert.match(full,/DOCUMENTED MASS SUBTOTAL/);assert.match(full,/complete bicycle weight is pending/);
 });
 test('checkbox filters intersect; default price ordering and unpriced-last reflect selected variants',()=>{
  const f=newFilters(),p=normalizePlan({choices:{'winspace-agile':{size:'Medium'}}});const sorted=filterItems('frame',f,p);const prices=sorted.filter(p=>Number.isFinite(p.price)).map(p=>p.price);assert.deepEqual(prices,[...prices].sort((a,b)=>a-b));assert.equal(sorted.at(-1).price,null);

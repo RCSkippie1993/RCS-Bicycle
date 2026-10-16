@@ -12,7 +12,7 @@ export function wheelFacet(product,key){
   const d=facts.depthMm??(product.profileEvidence?.rimDepthMm?product.profileFacts?.rimDepthMm:null);
   return Array.isArray(d)?'mixed':!Number.isFinite(d)?'unknown':d<35?'shallow':d<50?'mid':d<65?'deep':'verydeep';
  }
- return facts[key]||'unknown';
+ return facts[key]||(key==='freehub'&&/Shimano.*(?:HG|freehub)|HG.*Shimano/i.test(product.tag||'')?'shimano':'unknown');
 }
 export function matchesWheelFilters(product,filters){
  return Object.keys(wheelGroups).every(key=>!filters['wheel_'+key]||wheelFacet(product,key)===filters['wheel_'+key])&&(!filters.wheel_store||product.sources.some(s=>s.name===filters.wheel_store));

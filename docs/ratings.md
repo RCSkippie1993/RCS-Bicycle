@@ -1,6 +1,6 @@
-# RCS reference profiles — method 1.0
+# RCS reference profiles — method 1.1
 
-Reviewed 14 October 2026. Profiles are editorial comparison aids for the exact displayed package and variant. They describe listed cost and selected dimensions. They are not customer ratings, an overall quality score, independent measurements, value-for-money judgments or predictions of aero, climbing or comfort performance.
+Method scope updated 16 October 2026; original measurements and source dates are retained. Profiles are editorial comparison aids for the exact displayed package and variant. They describe listed cost and selected dimensions. They are not customer ratings, an overall quality score, independent measurements, value-for-money judgments or predictions of aero, climbing or comfort performance.
 
 ## Fixed scales
 
@@ -14,10 +14,14 @@ Reviewed 14 October 2026. Profiles are editorial comparison aids for the exact d
 | Budget accessibility | Handlebar + stem | R7,000 | R1,000 |
 | Budget accessibility | Saddle | R10,000 | R1,000 |
 | Budget accessibility | Complete bike | R220,000 | R20,000 |
+| Budget accessibility | Chain | R3,000 | R300 |
+| Budget accessibility | Finishing extra | R20,000 | R100 |
 | Rim depth profile | Wheelset rim depth | 20 mm | 65 mm |
 | Tire width profile | Nominal selected tire width | 25 mm | 35 mm |
 | Low-mass profile | Listed wheelset pair mass | 2.00 kg | 1.20 kg |
 | Low-mass profile | Listed complete-bike mass | 10.00 kg | 6.50 kg |
+
+Version 1.1 adds chain and finishing-extra cost scales; all earlier endpoints and scores remain unchanged. Included package checks have no independent budget score. Extras have different functions; a cost score does not recommend a tool over a light or pedal.
 
 These are editorial scale endpoints, not market percentiles or engineering thresholds. The scale stays unchanged when products are added. They deliberately do not imply that a more expensive product is better. Budget accessibility is about spend only: package contents and manufacturer MSRP versus retailer price must be checked before comparing. Partial and full drivetrain packages have different inclusions.
 

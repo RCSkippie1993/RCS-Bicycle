@@ -31,13 +31,14 @@ export const removeFromBox = (items,id) => items.filter(item=>item.productId!==i
 
 export function summarizeBox(items) {
  const rows=normalizeBox(boxSnapshot(items)).map(item=>({...item,...findProduct(item.productId)}));
- const components=rows.filter(row=>row.category!=='bike'), bikes=rows.filter(row=>row.category==='bike');
+ const components=rows.filter(row=>row.category!=='bike'), bikes=rows.filter(row=>row.category==='bike'),core=components.filter(row=>Object.hasOwn(catalog,row.category)),supplements=components.filter(row=>['chain','extras'].includes(row.category));
  const subtotal=list=>list.reduce((sum,row)=>sum+(Number.isFinite(row.product.price)?row.quantity*row.product.price:0),0);
  const unpriced=rows.filter(row=>!Number.isFinite(row.product.price));
  const grouped=Object.fromEntries(Object.keys(catalog).map(key=>[key,components.filter(row=>row.category===key)]));
  const missing=Object.keys(grouped).filter(key=>!grouped[key].length);
  const alternatives=Object.keys(grouped).filter(key=>grouped[key].length>1);
  const warnings=[];
+ if(supplements.length)warnings.push('Chains and finishing extras remain saved sourcing references. Equip them from product details or the matching builder step; bulk transfer below applies only to core components.');
  if(alternatives.length)warnings.push(`Multiple alternatives: ${alternatives.map(key=>categoryLabels[key]).join(', ')}. Keep one product per category to use the box in the builder.`);
  if(components.some(row=>row.quantity!==1))warnings.push('Component quantities above one represent extra packages, not a single assembled bike. Use one package per category to transfer to the builder.');
  const one=key=>grouped[key].length===1?grouped[key][0].product:null;
@@ -48,8 +49,8 @@ export function summarizeBox(items) {
  return {rows,components,bikes,missing,alternatives,warnings,errors,unpriced,compatibility,
   componentSubtotal:subtotal(components),bikeSubtotal:subtotal(bikes),knownSubtotal:subtotal(rows),
   total:unpriced.length?null:subtotal(rows),packageCount:rows.reduce((sum,row)=>sum+row.quantity,0),
-  canApply:components.length>0&&!alternatives.length&&components.every(row=>row.quantity===1)&&!errors.length,
-  selection:Object.fromEntries(components.map(row=>[row.category,row.productId])),
+  canApply:core.length>0&&!alternatives.length&&core.every(row=>row.quantity===1)&&!errors.length,
+  selection:Object.fromEntries(core.map(row=>[row.category,row.productId])),
  };
 }
 

@@ -1,10 +1,10 @@
 // RCS reference profiles v1. Fixed scales: catalog additions never change a score.
 // These describe listed cost and dimensions, not tested product performance.
-export const ratingVersion = '1.0';
+export const ratingVersion = '1.1';
 export const budgetBands = {
  frame: [15000, 100000], wheels: [3000, 60000], tires: [800, 4000],
  drivetrain: [5000, 35000], brakes: [5000, 15000], cockpit: [1000, 7000],
- saddle: [1000, 10000], bike: [20000, 220000],
+ saddle: [1000, 10000], bike: [20000, 220000], chain:[300,3000], extras:[100,20000],
 };
 const scale = (value, low, high, reverse = false) => {
  if (!Number.isFinite(value) || value <= 0) return null;
@@ -15,7 +15,7 @@ const scale = (value, low, high, reverse = false) => {
 export function productRatings(product, category) {
  const bands = budgetBands[category];
  if (!bands) throw new Error('Unknown rating category: ' + category);
- const price = product.price;
+ const price = product.includedInSelectedPackage?null:product.price;
  const ratings = [{
   key: 'budget', label: 'Budget accessibility', score: scale(price, ...bands, true),
   basis: Number.isFinite(price)

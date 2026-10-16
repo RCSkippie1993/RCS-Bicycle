@@ -16,7 +16,7 @@ test('expanded wheelset offers preserve exact SA source quantities, dates, photo
   const b=readFileSync(new URL('../public/'+p.image,import.meta.url));assert.ok(b.length>1500);assert.ok(b[0]===0xff||b[0]===0x89||b.toString('ascii',0,4)==='RIFF');
   for(const key of ['material','brake','tireSystem','freehub','depthMm'])if(p.wheelSpecs[key]!==null){assert.ok(p.wheelEvidence[key]?.excerpt,p.id+' '+key);assert.equal(p.wheelEvidence[key].url,p.sources[0].url);}
   if(p.buildEligible){assert.equal(p.wheelSpecs.brake,'disc');assert.equal(p.wheelSpecs.freehub,'shimano');assert.equal(p.wheelSpecs.usage,'road');assert.notEqual(p.wheelSpecs.tireSystem,'tubular');assert.ok(catalog.wheels.items.some(w=>w.id===p.id));}
-  else {assert.ok(p.builderNote);assert.equal(summarizeBox([{productId:p.id,quantity:1}]).canApply,false);}
+  else {assert.ok(p.builderNote);const added=catalog.wheels.items.some(w=>w.id===p.id);if(added){assert.equal(p.wheelSpecs.brake,'disc');assert.equal(p.wheelSpecs.usage,'road');assert.ok(['xdr','n3w','campagnolo'].includes(p.wheelSpecs.freehub));}assert.equal(summarizeBox([{productId:p.id,quantity:1}]).canApply,added);}
  }
  const separate=data.wheelsets.find(p=>p.name==='Roval Rapide CL III');assert.equal(separate.sources.length,2);assert.equal(separate.price,38000);assert.deepEqual(separate.wheelSpecs.depthMm,[51,48]);assert.equal(separate.profileFacts.rimDepthMm,undefined);
  assert.ok(data.coverage.excluded.some(r=>r.reason.includes('Rear wheel only')));

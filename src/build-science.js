@@ -1,12 +1,12 @@
 import {productRatings} from './ratings.js';
 import {frameGoalPoints} from './build-ratings.js';
-import {featureRegister,research} from './build-plan.js';
+import {featureRegister,research,optionRegister} from './build-plan.js';
 
 const scale=(n,low,high)=>Number.isFinite(n)?Math.round((1+9*Math.max(0,Math.min(1,(high-n)/(high-low))))*10)/10:null;
 export function materialOf(p,category){
  const materialEvidence=featureRegister[p.id]?.material;
- const listed=materialEvidence?.value||(category==='frame'&&/Carbon Black|Carbon \/ Gold Pearl/.test(p.frameEvidence?.material?.excerpt||'')?null:p.frameSpecs?.material)||p.wheelSpecs?.material;
- if(listed){if(/carbon/i.test(listed))return 'Carbon';if(/alloy|alumin/i.test(listed))return 'Alloy';}
+ const listed=materialEvidence?.value||p.productSpecs?.material||p.productSpecs?.['Material']||p.productSpecs?.['Body']||(category==='frame'&&/Carbon Black|Carbon \/ Gold Pearl/.test(p.frameEvidence?.material?.excerpt||'')?null:p.frameSpecs?.material)||p.wheelSpecs?.material;
+ if(typeof listed==='string'){if(/carbon/i.test(listed))return 'Carbon';if(/alloy|alumin/i.test(listed))return 'Alloy';}
  const explicit=p.tag+' '+p.name;
  if(/carbon(?!\s*(?:black|\/\s*gold))|FACT (?:10|12)r/i.test(explicit))return 'Carbon';if(/alloy|alumini?um|E5 alloy/i.test(explicit))return 'Alloy';
  return 'Unconfirmed';
@@ -17,7 +17,9 @@ export function scienceProfile(p,category){
  if(category==='frame')massScore=scale(mass,1.2,2.5);
  if(category==='frame'&&mass===null&&featureRegister[p.id]?.bareFrameMass){const b=featureRegister[p.id].bareFrameMass;mass=b.value;basis=b.basis;massLabel='Reference bare frame';massSource=b.url;massScore=scale(mass,.55,1.4);}
  if(category==='wheels')massScore=productRatings(p,'wheels').find(r=>r.key==='mass')?.score??null;
- if(category==='cockpit'&&featureRegister[p.id]?.barMass){const b=featureRegister[p.id].barMass;mass=b.value;basis=b.basis;massLabel='Handlebar only';massScore=scale(mass,.15,.4);}
+ const barMass=featureRegister[p.id]?.barMass,selectedOptions={...optionRegister[p.id]?.reference,...p.chosenOptions};
+ const barMassApplies=barMass&&barMass.referenceSizeKnown!==false&&(barMass.values?Object.entries(barMass.values).every(([key,value])=>selectedOptions[key]===value):!p.referenceSpecsOnly||p.chosenOptions?.size===optionRegister[p.id]?.reference?.size);
+ if(category==='cockpit'&&barMassApplies){const b=barMass;mass=b.value;basis=b.basis;massLabel='Handlebar only';massScore=scale(mass,.15,.4);}
  const focus=p.buildEvidence?.designFocus,points=focus?.url&&focus?.excerpt?frameGoalPoints[focus.value]:null;
  const depth=category==='wheels'?productRatings(p,'wheels').find(r=>r.key==='depth'):null;
  return[{key:'mass',label:massLabel,score:massScore,actual:mass===null?'Unverified':mass.toFixed(3)+' kg',basis:massLabel==='Handlebar only'?basis+' Fixed bar scale: 150 g = 10; 400 g = 1.':massLabel==='Reference bare frame'?basis+' Fixed bare-frame scale: 0.55 kg = 10; 1.40 kg = 1. Separate from the package-mass scale.':category==='frame'?basis+' Fixed package scale: 1.20 kg = 10; 2.50 kg = 1. Package inclusions vary; this is a mass profile, not climbing performance.':basis,source:massSource},
@@ -27,7 +29,7 @@ export function scienceProfile(p,category){
 }
 export function documentedMass(build){
  const rows=Object.entries(build.parts||{}).filter(([key,p])=>['frame','wheels','tires'].includes(key)&&Number.isFinite(p.weight)).map(([key,p])=>({key,name:p.name,kg:p.weight,basis:p.weightBasis,source:p.sources[0]?.url}));
- for(const p of build.additionalLines||[])if(p.role==='Optional extra'&&Number.isFinite(p.weight))rows.push({key:p.id,name:p.name,kg:p.weight,basis:p.weightBasis,source:p.sources[0]?.url});
+ for(const p of build.additionalLines||[])if(p.role==='Optional extra'&&Number.isFinite(p.weight)&&!/(?:tools|spares|sealant|tube|co₂|co2|lube)/i.test(p.kind||''))rows.push({key:p.id,name:p.name,kg:p.weight,basis:p.weightBasis,source:p.sources[0]?.url});
  return{kg:rows.reduce((n,p)=>n+p.kg,0),rows,missing:Object.entries(build.parts||{}).filter(([key,p])=>!['frame','wheels','tires'].includes(key)||!Number.isFinite(p.weight)).map(([key])=>key),complete:false};
 }
 export function climbingPowerDelta(baseline,selected,speedKph=15,gradePercent=6){

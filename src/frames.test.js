@@ -13,8 +13,8 @@ import {defaults} from './catalog.js';
 import {rateBuild} from './build-ratings.js';
 
 test('frame expansion adds distinct model/brake references with actual SA prices, variants and local sourced photos',()=>{
- assert.equal(data.framesets.length,24);assert.equal(catalog.frame.items.length,32);
- const frames=productRecords.filter(r=>r.category==='frame');assert.equal(frames.length,33);assert.equal(new Set(frames.map(r=>r.product.brand)).size,11);
+ assert.equal(data.framesets.length,24);assert.ok(catalog.frame.items.length>=40);
+ const frames=productRecords.filter(r=>r.category==='frame');assert.ok(frames.length>=45);assert.ok(new Set(frames.map(r=>r.product.brand)).size>=15);
  for(const p of data.framesets){
   assert.ok(p.price>0);assert.equal(p.sources.length,1);assert.equal(p.sources[0].unitPrice,p.price);assert.equal(p.sources[0].quantity,1);assert.equal(p.sources[0].currency,'ZAR');assert.equal(p.sources[0].checkedAt,'2026-10-15');assert.ok(p.sources[0].variant);
   assert.equal(p.weight,null);assert.match(p.weightBasis,/bare-frame|bare frame/i);assert.ok(p.frameSpecs.package.length>20);assert.ok(p.fitNote.length>40);
@@ -33,7 +33,7 @@ test('new sourced clearance/axle limits block conflicts while size-dependent cle
  const unknown=evaluate({frame:'winspace-m6'});assert.equal(unknown.compatibility.checks.find(c=>c.id==='frame-brakes').status,'review');
 });
 test('frame purpose filters intersect with price, brand and search without changing wheel filters',()=>{
- const featured=filterProducts(productRecords,{category:'frame',sort:'featured'});assert.equal(new Set(featured.slice(0,12).map(r=>r.product.brand)).size,11);
+ const featured=filterProducts(productRecords,{category:'frame',sort:'featured'});assert.equal(new Set(featured.slice(0,12).map(r=>r.product.brand)).size,12);
  for(const key of Object.keys(frameFocusLabels)){
   const rows=filterProducts(productRecords,{category:'frame',frame_focus:key});assert.ok(rows.every(r=>frameFocus(r.product)===key));
  }

@@ -4,6 +4,7 @@ import '@fontsource/dm-sans/500.css';
 import '@fontsource/dm-sans/700.css';
 import './style.css';
 import './guided.css';
+import {matchingBrakePackage} from './product-packages.js';
 import {catalog,defaults,money,checkedDate} from './catalog.js';
 import {siteHeader,siteFooter} from './site-shell.js';
 import {riderDefaults,validateRider,hasRider} from './rider.js';
@@ -103,7 +104,8 @@ app.addEventListener('click',event=>{
  if(button.id==='download-build'){downloadBuild();return;}
  if(button.id==='share-build'){openShare(shareLink());return;}
  if(button.id==='save-build-box'){saveProductsToBox(Object.values(currentBuild().parts).map(p=>p.id));return;}
- if(button.hasAttribute('data-fix-controls')){const p=currentBuild().parts.drivetrain;if(!p)return;selection.brakes=catalog.brakes.items.find(b=>b.controlSystem===p.controlSystem).id;plan.chosen=[...new Set([...plan.chosen,'brakes'])];persist();render();announce('Brake/control family matched; remaining interfaces need review.');}
+ if(button.hasAttribute('data-fix-cockpit')){const frame=currentBuild().parts.frame,match=catalog.cockpit.items.find(p=>p.includedConfirmed&&p.packageIncludedInFrame?.includes(frame?.id));if(!match)return;selection.cockpit=match.id;plan.chosen=[...new Set([...plan.chosen,'cockpit'])];persist();render();announce('Included frame cockpit selected; confirm dimensions and routing with supplier.');return;}
+ if(button.hasAttribute('data-fix-controls')){const p=currentBuild().parts.drivetrain;if(!p)return;const match=matchingBrakePackage(p,catalog.brakes.items);if(!match){announce('No exact brake/control package is reviewed for this drivetrain. Request supplier advice.');return;}selection.brakes=match.id;plan.chosen=[...new Set([...plan.chosen,'brakes'])];persist();render();announce('Brake/control family matched; remaining interfaces need review.');}
 });
 app.addEventListener('input',event=>{if(event.target.id==='lab-search'){filters[active].query=event.target.value;filters[active].page=1;paintResults();}});
 app.addEventListener('change',event=>{

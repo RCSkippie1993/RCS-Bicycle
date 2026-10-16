@@ -11,7 +11,7 @@ test('export retains price types, variant evidence, pair quantities and scope of
  assert.match(text, /variant=/);assert.match(text, /2026-10-14/);assert.match(text, /Known listed parts subtotal: R\s*51\s*610/);
  assert.match(text, /not a complete-bike quote/);assert.match(text, /VAT/);assert.match(text, /No order, payment or request/);
  assert.doesNotMatch(text, /Bianchi Sprint/);
- assert.match(text, /RCS reference profile v1.0 — Budget accessibility:/);
+ assert.match(text, /RCS reference profile v1.1 — Budget accessibility:/);
  assert.match(text, /RCS BUILD GOAL MATCH v1.0/);
  assert.match(text, /Editorial specification-to-goal estimate only/);
  assert.match(text, /Price is excluded/);
