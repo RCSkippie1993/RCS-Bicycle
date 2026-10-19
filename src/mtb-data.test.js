@@ -13,14 +13,14 @@ test('MTB references retain real local photos, exact source-package prices and r
  assert.ok(data.records.length>=120);
  assert.equal(new Set(data.records.map(r=>r.product.id)).size,data.records.length);
  for(const {category,product:p}of data.records){
-  assert.match(p.id,/^mtb-/);assert.equal(p.verification.status,'listing-reviewed');assert.equal(p.verification.reviewedAt,data.reviewedAt);
+  assert.match(p.id,/^mtb-/);assert.equal(p.verification.status,p.manufacturerReference?'specification-reviewed':'listing-reviewed');if(p.manufacturerReference){assert.equal(category,'frame');assert.equal(p.price,null);assert.ok(p.sources.every(s=>s.referenceOnly&&s.unitPrice===null&&s.currency===null&&s.listedAvailable===null));};assert.equal(p.verification.reviewedAt,data.reviewedAt);
   assert.ok(category&&p.brand&&p.name&&p.priceBasis&&p.fitNote&&p.photoCaption);
   assert.ok(p.sources.length);assert.ok(!productRecords.some(r=>r.product.id===p.id),'road collection must remain separate');
-  for(const s of p.sources){assert.equal(s.checkedAt,data.reviewedAt);assert.equal(s.currency,'ZAR');assert.ok(s.quantity>0&&s.variant);assert.match(s.url,/^https:\/\//);if(!s.referenceOnly)assert.ok(s.unitPrice>0);}
+  for(const s of p.sources){assert.equal(s.checkedAt,data.reviewedAt);assert.equal(s.currency,p.manufacturerReference?null:'ZAR');assert.ok(s.quantity>0&&s.variant);assert.match(s.url,/^https:\/\//);if(!s.referenceOnly)assert.ok(s.unitPrice>0);}
   if(p.price!==null)assert.ok(Math.abs(p.price-p.sources.filter(s=>!s.referenceOnly).reduce((n,s)=>n+s.quantity*s.unitPrice,0))<.005,p.id);
   for(const [key,value]of Object.entries(p.mtb||{}))if(value!==null&&value!==undefined){assert.match(p.mtbEvidence[key].url,/^https:\/\//,p.id+' '+key);assert.ok(p.mtbEvidence[key].excerpt,p.id+' '+key);}
-  assert.match(p.photoSource.remoteUrl,/^https:\/\//);assert.match(p.image,/^products\/mtb-[a-z0-9.-]+\.(?:jpg|png|webp|gif)$/);
-  const bytes=readFileSync(new URL('../public/'+p.image,import.meta.url));assert.ok(bytes.length>500);assert.ok(bytes[0]===0xff||bytes[0]===0x89||bytes.toString('ascii',0,4)==='RIFF'||['GIF87a','GIF89a'].includes(bytes.toString('ascii',0,6)),p.id);
+  assert.match(p.photoSource.remoteUrl,/^https:\/\//);assert.match(p.image,/^products\/mtb-[a-z0-9.-]+\.(?:jpg|png|webp|gif|avif)$/);
+  const bytes=readFileSync(new URL('../public/'+p.image,import.meta.url));assert.ok(bytes.length>500);assert.ok(bytes[0]===0xff||bytes[0]===0x89||bytes.toString('ascii',0,4)==='RIFF'||['GIF87a','GIF89a'].includes(bytes.toString('ascii',0,6))||bytes.toString('ascii',4,8)==='ftyp'&&/avi[fs]/.test(bytes.toString('ascii',8,40)),p.id);
   if(Number.isFinite(p.weight))assert.ok(p.weight>0&&p.weightBasis,p.id);
  }
 });

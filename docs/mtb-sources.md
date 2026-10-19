@@ -1,12 +1,12 @@
 # MTB product sources
 
-Reviewed 19 October 2026. All 236 references retain exact public SA source prices, package quantities, variant URLs, observed availability and local source photos. Separate sizes, offers and packages are not a claim of unique physical models or exhaustive SA coverage. Complete bikes are not frame donors. Source availability and prices require reconfirmation.
+Reviewed 19 October 2026. The 270 references retain source photos, provenance and exact package scope. Of the 49 frames, 25 have reviewed SA prices and 24 are manufacturer specification references requiring an SA quote. Other categories retain their reviewed SA prices. Manufacturer-only sources have no verified SA price, supply or availability; no foreign currency conversion is used. Separate offers/packages are not exhaustive SA coverage or unique physical models. Complete bikes are not frame donors. Reconfirm prices, supply, fit and image-use permission with suppliers.
 
-62 option registers / 340 exact source combinations. Full machine-readable facts and field evidence are in `src/mtb-data.json`; see [workflow, comparisons, accounting and fit limits](mtb-builder.md). The expansion adds 101 records to the initial 135.
+72 option registers / 387 exact priced combinations. Full machine-readable facts and field evidence are in `src/mtb-data.json`; see [workflow and fit limits](mtb-builder.md) and [frame sourcing](mtb-frames.md).
 
-## Framesets and modules (15)
+## Framesets and modules (49)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | Gen 1 Trek Supercaliber Frame Set - (Medium/Large)<br>`mtb-frames-trek-supercaliber-gen1` | R55,990 | [Biket Hillcrest](https://biket.co.za/products/gen-1-trek-supercaliber-frame-set-medium-large?variant=41293932462219) · Medium / Large · 1 × R55,990 |
 | 2023 Trek Top Fuel AL Frame Set<br>`mtb-frames-trek-top-fuel-al-2023` | R39,999 | [Biket Hillcrest](https://biket.co.za/products/2023-top-fuel-al-frame-set?variant=40982307864715) · Medium · 1 × R39,999 |
@@ -23,10 +23,44 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 | Norco Optic Carbon Frame Set<br>`mtb-more-norco-optic-carbon-frame-set` | R19,999 | [Mellow Velo](https://www.mellowvelo.co.za/products/norco-optic-carbon-frame-set?variant=45313405813025) · Default Title · 1 × R19,999 |
 | Norco - Optic A1 FRAME only 2019<br>`mtb-more-norco-optic-a1-2019` | R19,999 | [Mellow Velo](https://www.mellowvelo.co.za/products/norco-optic-a1-2019?variant=39663411757125) · Default Title · 1 × R19,999 |
 | Giant Anthem Advanced SL Frameset 2026<br>`mtb-more-giant-anthem-advanced-sl-frameset-2026` | R73,599 | [Mellow Velo](https://www.mellowvelo.co.za/products/giant-anthem-advanced-sl-frameset-2026?variant=53539413492001) · Default Title · 1 × R73,599 |
+| PYGA MoBu 2 frame<br>`mtb-frameplus-pyga-mobu` | R70,000 | [PYGA Industries](https://pygaindustries.com/products/mobu?variant=41347958997086) · Raw Carbon/Gloss Clear / Medium / Frame Kit (including shock - rear axle - seat clamp) · 1 × R70,000 |
+| PYGA Hyrax V3 frame<br>`mtb-frameplus-pyga-hyrax` | R27,500 | [PYGA Industries](https://pygaindustries.com/products/hyrax?variant=41347959357534) · Brushed Raw Front/Satin Black Rear / Medium / Frame Only (excl shock) · 1 × R27,500 |
+| PYGA Slakline HP4 frame<br>`mtb-frameplus-pyga-slakline` | R36,800 | [PYGA Industries](https://pygaindustries.com/products/slakline?variant=41347958276190) · Brushed Raw Front/Satin Black Rear / Medium / Frame Only (excludes shock) · 1 × R36,800 |
+| Yeti SB120 T-Series frame<br>`mtb-frameplus-yeti-sb120` | R89,995 | [Evo Bikes](https://evobikes.co.za/product/yeti-sb120-t-series-frame-turquoise/?variation_id=67670&attribute_pa_frame-size=frame-size-m) · M · 1 × R89,995 |
+| Yeti SB140 T-Series frame<br>`mtb-frameplus-yeti-sb140` | R94,995 | [Evo Bikes](https://evobikes.co.za/product/yeti-sb140-t-series-frame-raw-carbon/?variation_id=67665&attribute_pa_frame-size=frame-size-m) · M · 1 × R94,995 |
+| Stealth S8 LTD frame<br>`mtb-frameplus-stealth-s8` | R21,995 | [Evo Bikes](https://evobikes.co.za/product/stealth-s8-ltd-ed-carbon-dual-sus-w-fox-ctd-rear-shock-frameset-medium/) · Medium · no shock · 1 × R21,995 |
+| Stealth S8 Gulf Racing Boost frame<br>`mtb-frameplus-stealth-s8-boost` | R22,995 | [Evo Bikes](https://evobikes.co.za/product/stealth-s8-gulf-racing-ltd-ed-frameset/) · Large · Boost reference · 1 × R22,995 · source unavailable |
+| S-Works Stumpjumper frame<br>`mtb-frameplus-sworks-stumpjumper` | R62,000 | [Cycles Direct](https://www.cyclesdirect.co.za/products/s-works-stumpjumper-frame?variant=45089908130068) · S3 / GLOSS OAK GREEN METALLIC / DIAMOND DUST / CARBON · 1 × R62,000 · source unavailable |
+| Specialized Stumpjumper EVO alloy frame<br>`mtb-frameplus-stumpjumper-evo-alloy` | R25,000 | [Revolution Cycles · Bike Hub dealer listing](https://bikehub.co.za/classifieds/item/dual-suspension-mountain-bike-frames/724967/new-specialized-stumpjumper-evo-frame-xl-xxl) · S6 (XXL) · 1 × R25,000 |
+| FARR Twin-T chromoly 29er frame<br>`mtb-frameplus-farr-twin-t` | R5,995 | [Two Wheels Trading · Bike Hub business listing](https://bikehub.co.za/classifieds/item/hardtail-mountain-bike-frames/857368/farr-twin-t-cromo-29er-medium-and-small-size) · Medium (17 inch) · 1 × R5,995 |
+| Yeti SB160 frame reference<br>`mtb-frameplus-yeti-sb160` | SA quote required | [Yeti · manufacturer](https://yeticycles.com/en-us/bikes/sb160) · Specification reference · SA quote required |
+| Yeti SB135 frame reference<br>`mtb-frameplus-yeti-sb135` | SA quote required | [Yeti · manufacturer](https://yeticycles.com/en-us/bikes/sb135) · Specification reference · SA quote required |
+| Yeti ARC frame reference<br>`mtb-frameplus-yeti-arc` | SA quote required | [Yeti · manufacturer](https://yeticycles.com/en-us/bikes/arc) · Specification reference · SA quote required |
+| Ibis Ripley V5 frame reference<br>`mtb-frameplus-ibis-ripley-v5` | SA quote required | [Ibis · manufacturer](https://www.ibiscycles.com/bikes/ripley) · Specification reference · SA quote required |
+| Ibis Ripmo V3 frame reference<br>`mtb-frameplus-ibis-ripmo-v3` | SA quote required | [Ibis · manufacturer](https://www.ibiscycles.com/bikes/ripmo) · Specification reference · SA quote required |
+| Ibis Ripley AF V2 frame reference<br>`mtb-frameplus-ibis-ripley-af-v2` | SA quote required | [Ibis · manufacturer](https://www.ibiscycles.com/bikes/ripley-af) · Specification reference · SA quote required |
+| Ibis Ripmo AF V2 frame reference<br>`mtb-frameplus-ibis-ripmo-af-v2` | SA quote required | [Ibis · manufacturer](https://www.ibiscycles.com/bikes/ripmo-af) · Specification reference · SA quote required |
+| Ibis Ripley SL frame reference<br>`mtb-frameplus-ibis-ripley-sl` | SA quote required | [Ibis · manufacturer](https://www.ibiscycles.com/bikes/ripley-sl) · Specification reference · SA quote required |
+| Transition Spur frame reference<br>`mtb-frameplus-transition-spur` | SA quote required | [Transition · manufacturer](https://www.transitionbikes.com/Bikes/Spur) · Specification reference · SA quote required |
+| Transition Smuggler frame reference<br>`mtb-frameplus-transition-smuggler` | SA quote required | [Transition · manufacturer](https://www.transitionbikes.com/Bikes/Smuggler) · Specification reference · SA quote required |
+| Transition Sentinel frame reference<br>`mtb-frameplus-transition-sentinel` | SA quote required | [Transition · manufacturer](https://www.transitionbikes.com/Bikes/Sentinel) · Specification reference · SA quote required |
+| Transition Spire frame reference<br>`mtb-frameplus-transition-spire` | SA quote required | [Transition · manufacturer](https://www.transitionbikes.com/Bikes/Spire) · Specification reference · SA quote required |
+| Transition Patrol frame reference<br>`mtb-frameplus-transition-patrol` | SA quote required | [Transition · manufacturer](https://www.transitionbikes.com/Bikes/Patrol) · Specification reference · SA quote required |
+| Banshee Prime V3.2 frame reference<br>`mtb-frameplus-banshee-prime-v3-2` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/prime-v32) · Specification reference · SA quote required |
+| Banshee Phantom V3.2 frame reference<br>`mtb-frameplus-banshee-phantom-v3-2` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/phantom-v32) · Specification reference · SA quote required |
+| Banshee Titan V3.2 frame reference<br>`mtb-frameplus-banshee-titan-v3-2` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/titan-v32) · Specification reference · SA quote required |
+| Banshee Rune V3.2 frame reference<br>`mtb-frameplus-banshee-rune-v3-2` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/rune-v32) · Specification reference · SA quote required |
+| Banshee Spitfire V3.2 frame reference<br>`mtb-frameplus-banshee-spitfire-v3-2` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/spitfire-v32) · Specification reference · SA quote required |
+| Banshee Paradox V3 frame reference<br>`mtb-frameplus-banshee-paradox-v3` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/paradox-v3) · Specification reference · SA quote required |
+| Banshee Enigma frame reference<br>`mtb-frameplus-banshee-enigma` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/enigma) · Specification reference · SA quote required |
+| Banshee Anomaly frame reference<br>`mtb-frameplus-banshee-anomaly` | SA quote required | [Banshee · manufacturer](https://www.bansheebikes.com/anomaly) · Specification reference · SA quote required |
+| Cotic Solaris 2025 gloss frame reference<br>`mtb-frameplus-cotic-solaris-2025-gloss` | SA quote required | [Cotic · manufacturer](https://www.cotic.co.uk/product/solaris) · Specification reference · SA quote required |
+| Cotic Jeht Gen3 frame reference<br>`mtb-frameplus-cotic-jeht-gen3` | SA quote required | [Cotic · manufacturer](https://www.cotic.co.uk/product/jeht) · Specification reference · SA quote required |
+| Cotic BFe frame reference<br>`mtb-frameplus-cotic-bfe` | SA quote required | [Cotic · manufacturer](https://www.cotic.co.uk/product/BFe) · Specification reference · SA quote required |
 
 ## Complete mountain bikes (27)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | TITAN RACING Cypher 120 Carbon Comp SE (2025)<br>`mtb-frames-titan-cypher120-carbon-comp-se` | R49,900 | [Bike Addict](https://bike-addict.co.za/products/titan-cypher-120-carbon-comp-se-2024?variant=47309088096553) · S · 1 × R49,900 |
 | CANNONDALE Scalpel Carbon 4 (2026)<br>`mtb-frames-cannondale-scalpel-carbon4-2026` | R69,990 | [Bike Addict](https://bike-addict.co.za/products/cannondale-scalpel-carbon-4-2026?variant=53312530612521) · M · 1 × R69,990 |
@@ -58,7 +92,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Suspension forks (17)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | RockShox Pike Select RC · 29 / 140 mm<br>`mtb-suspension-pike-select-29-140` | R16,190 | [Bike Addict](https://bike-addict.co.za/products/rockshox-pike-select-rc-29-140mm-fork?variant=39686919389268) · Default Title · 1 × R16,190 |
 | RockShox Psylo Gold Isolator RC · 29 / 130 mm<br>`mtb-suspension-psylo-gold-29-130` | R11,190 | [Bike Addict](https://bike-addict.co.za/products/rockshox-psylo-gold-isolator-rc-29-130mm-fork?variant=52415256428841) · Default Title · 1 × R11,190 |
@@ -80,7 +114,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Rear shocks (13)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | RockShox SIDLuxe Ultimate 2P Remote · 165 × 45 mm Trunnion<br>`mtb-suspension-sidluxe-ultimate-165x45-trunnion` | R9,290 | [Bike Addict](https://bike-addict.co.za/products/rockshox-sidluxe-ultimate-165-x-45-2p-rem-pull-out-rear-shock?variant=53807478702377) · Default Title · 1 × R9,290 |
 | RockShox SIDLuxe Ultimate 2P Remote · 190 × 45 mm Eyelet<br>`mtb-suspension-sidluxe-ultimate-190x45-eyelet` | R9,290 | [Bike Addict](https://bike-addict.co.za/products/rockshox-sidluxe-ultimate-190-x-45-2p-rem-pull-out-rear-shock?variant=53809135681833) · Default Title · 1 × R9,290 |
@@ -98,7 +132,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Wheelsets (21)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | SYNCROS X-30 SE MTB Wheelset (OEM)<br>`mtb-wheels-syncros-x30se` | R4,900 | [Bike Addict](https://bike-addict.co.za/products/syncros-x-30-se-wheelset-oem?variant=52942238581033) · Default Title · 1 × R4,900 |
 | SYNCROS Silverton 1.0 Carbon Wheelset (OEM)<br>`mtb-wheels-syncros-silverton10` | R19,900 | [Bike Addict](https://bike-addict.co.za/products/syncros-silverton-1-0-carbon-wheelset-oem?variant=49668518510889) · Default Title · 1 × R19,900 |
@@ -124,7 +158,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Single physical tyres (35)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | MAXXIS Rekon Race 29 x 2.35 MTB Tyre<br>`mtb-wheels-maxxis-rekonrace29` | R750 | [Bike Addict](https://bike-addict.co.za/products/maxxis-rekon-race-29-x-2-35-mtb-tyre?variant=31705132892244) · Default Title · 1 × R750 |
 | MAXXIS Rekon 29 X 2.6 MTB Tyres (Brown Wall)<br>`mtb-wheels-maxxis-rekon29-26` | R950 | [Bike Addict](https://bike-addict.co.za/products/maxxis-rekon-tan-wall-29-x-2-6-tyres?variant=32933738905684) · Default Title · 1 × R950 |
@@ -164,7 +198,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Drivetrain and upgrade packages (12)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | SHIMANO Deore M6100 12-Speed Upgrade Kit<br>`mtb-drives-deore-m6100-kit` | R3,900 | [Bike Addict](https://bike-addict.co.za/products/shimano-deore-m6100-1-x-12-upgrade-kit?variant=32537119293524) · Default Title · 1 × R3,900 |
 | SHIMANO SLX M7100 12-Speed Upgrade Kit<br>`mtb-drives-slx-m7100-kit` | R4,390 | [Bike Addict](https://bike-addict.co.za/products/shimano-slx-1-x-12-upgrade-kit?variant=29371873099860) · Default Title · 1 × R4,390 |
@@ -181,7 +215,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Chains (14)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | SHIMANO Deore M6100 12-Speed MTB Chain<br>`mtb-drives-chain-deore-m6100` | R490 | [Bike Addict](https://bike-addict.co.za/products/shimano-deore-m6100-12-speed-mtb-chain?variant=49751393370409) · 126 Links · 1 × R490 |
 | SHIMANO SLX M7100 12-Speed MTB Chain<br>`mtb-drives-chain-slx-m7100` | R590 | [Bike Addict](https://bike-addict.co.za/products/shimano-slx-m7100-12-speed-mtb-chain?variant=39536094445652) · 126 Links · 1 × R590 |
@@ -200,7 +234,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Brake pairs (9)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | Shimano Deore M6200 2-piston brake pair<br>`mtb-contact-deore-m6200-pair` | R3,940 | [Bike Addict](https://bike-addict.co.za/products/shimano-deore-m6200-left-front-brake?variant=53451070046505) · SHIMANO Deore M6200 Left Front Brake · 1 × R1,890<br>[Bike Addict](https://bike-addict.co.za/products/shimano-deore-m6200-right-rear-brake-lever?variant=53450798399785) · SHIMANO Deore M6200 Right Rear Brake · 1 × R2,050 |
 | Shimano Deore M6220 4-piston brake pair<br>`mtb-contact-deore-m6220-pair` | R5,140 | [Bike Addict](https://bike-addict.co.za/products/shimano-deore-m6220-4-piston-left-front-brake?variant=53451240407337) · SHIMANO Deore M6220 4-Piston Left Front Brake · 1 × R2,490<br>[Bike Addict](https://bike-addict.co.za/products/shimano-deore-m6220-4-piston-right-rear-brake?variant=53451227988265) · SHIMANO Deore M6220 4-Piston Right Rear Brake · 1 × R2,650 |
@@ -214,7 +248,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Handlebar and stem bundles (10)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | Ritchey Comp Flat 720 + Comp Trail 70 cockpit<br>`mtb-contact-ritchey-comp-flat-bundle` | R1,640 | [Bike Addict](https://bike-addict.co.za/products/ritchey-comp-flat-mtb-handlebar?variant=53300457505065) · 720mm / Reversible +/- 5mm Flat Rise · 1 × R850<br>[Bike Addict](https://bike-addict.co.za/products/ritchey-comp-trail-stem?variant=53302293758249) · 70mm · 1 × R790 |
 | Ritchey Comp Trail Rizer 35 + 65 mm stem<br>`mtb-contact-ritchey-rizer35-bundle` | R2,040 | [Bike Addict](https://bike-addict.co.za/products/ritchey-comp-trail-rizer-35-mtb-handlebar?variant=53300426965289) · 800mm / 15mm / 35.0mm · 1 × R850<br>[Bike Addict](https://bike-addict.co.za/products/ritchey-comp-trail-35-stem?variant=53302390063401) · 65mm · 1 × R1,190 |
@@ -229,7 +263,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Seatposts and droppers (13)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | Fox Transfer SL Factory 27.2 × 50 mm<br>`mtb-contact-fox-transfer-sl-272-50` | R5,900 | [Bike Addict](https://bike-addict.co.za/products/fox-transfer-sl-f-s-27-2mm-internal-routing-dropper-post-50mm?variant=45810066915625) · Default Title · 1 × R5,900 |
 | Fox Transfer Neo Factory 31.6 × 150 mm kit<br>`mtb-contact-fox-transfer-neo-316-150` | R21,390 | [Bike Addict](https://bike-addict.co.za/products/fox-transfer-neo-f-s-k-31-6mm-dropper-post-150mm?variant=54202937377065) · Default Title · 1 × R21,390 |
@@ -247,7 +281,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Saddles (10)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | Giant Romero trail saddle<br>`mtb-contact-giant-romero` | R490 | [Bike Addict](https://bike-addict.co.za/products/giant-romero-saddle?variant=39708539158612) · Default Title · 1 × R490 |
 | Giant Romero SL trail saddle<br>`mtb-contact-giant-romero-sl` | R1,450 | [Bike Addict](https://bike-addict.co.za/products/giant-romero-sl-saddle?variant=39625863069780) · Default Title · 1 × R1,450 |
@@ -262,7 +296,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Finishing extras (40)
 
-| Reference | Reference package price | Exact priced source variant(s) |
+| Reference | Reference package price | Source / exact priced variant(s) |
 | --- | ---: | --- |
 | HT PA03A flat MTB pedal pair<br>`mtb-contact-ht-pa03a-flat` | R690 | [Bike Addict](https://bike-addict.co.za/products/ht-pa03a-flat-mtb-pedals?variant=53437129326889) · Black · 1 × R690 |
 | Shimano PD-M520 clipless MTB pedal pair<br>`mtb-contact-shimano-pdm520` | R890 | [Bike Addict](https://bike-addict.co.za/products/shimano-pd-m520-pedals?variant=44100619436329) · Default Title · 1 × R890 |
@@ -307,7 +341,7 @@ Reviewed 19 October 2026. All 236 references retain exact public SA source price
 
 ## Coverage and exclusions
 
-Exact public product/variant feeds were reviewed with retailer cart currency checks. Prices use exact SKU cents/100, never finance instalments or foreign currency conversion. Quantities describe actual source packages; pairs, bundles and multipacks do not silently become individual pieces. All sourced options and photos remain references, requiring supplier reconfirmation.
+Priced exact source variants use verified ZAR currency and actual package quantities. Manufacturer specifications are separately labelled, unpriced and not SA supply commitments. Source photos remain references, with complete-bike illustrations explicitly distinguished from frame-only packages.
 
 ### Frames
 
@@ -378,3 +412,13 @@ Actual public SA product/variant feeds and ZAR cart currency checked. Exact sour
 - shimano-slx-m-7100-12-speed-right-rear-brake-lever: No description confirming a supplied caliper. Lever-only title cannot establish a complete brake pair.
 - tufo-carbon-tyre-sealant-50ml: Source does not establish suitability of this generic Carbon sealant for MTB tubeless tyres.
 - lezyne-e-bike-macro-drive-1000-front-light: Requires an e-bike motor/battery power supply. This builder currently configures unassisted MTBs; replaced with standalone headlight.
+
+### Frameexpansion
+
+Added exact South African PYGA frame-only/frame-kit variants, WooCommerce Yeti/Stealth source prices, one Cycles Direct frame and two explicitly brand-new business/dealer frame listings. Overseas manufacturer references have null price/currency, reference-only sources and unconfirmed SA supply; no currency conversions, complete-bike prices, used/private offers or finance instalments were used. Changed packages retain explicit variant-specific interface/inclusion evidence. Source photos are unchanged; complete-bike illustrations are labelled.
+
+- PYGA complete-build variants are excluded from all frame options.
+- Stealth Medium body says Size L; Medium inherits no Large-only geometry, axle/post/shock facts. Live No Shock title overrides old URL/schema.
+- Yeti retail geometry table has inch-scale values labelled mm; no such geometry dimensions are imported.
+- Banshee V3 archive and V3.2 specs are not mixed.
+- Yeti SB165 / Ibis HD6 archive references, blocked newer Yeti pages, motor-assisted Cotic Rocket, private/used Bike Hub ads and frames with unverifiable price/package scope were not added.
