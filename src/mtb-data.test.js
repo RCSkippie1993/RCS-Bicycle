@@ -19,8 +19,8 @@ test('MTB references retain real local photos, exact source-package prices and r
   for(const s of p.sources){assert.equal(s.checkedAt,data.reviewedAt);assert.equal(s.currency,'ZAR');assert.ok(s.quantity>0&&s.variant);assert.match(s.url,/^https:\/\//);if(!s.referenceOnly)assert.ok(s.unitPrice>0);}
   if(p.price!==null)assert.ok(Math.abs(p.price-p.sources.filter(s=>!s.referenceOnly).reduce((n,s)=>n+s.quantity*s.unitPrice,0))<.005,p.id);
   for(const [key,value]of Object.entries(p.mtb||{}))if(value!==null&&value!==undefined){assert.match(p.mtbEvidence[key].url,/^https:\/\//,p.id+' '+key);assert.ok(p.mtbEvidence[key].excerpt,p.id+' '+key);}
-  assert.match(p.photoSource.remoteUrl,/^https:\/\//);assert.match(p.image,/^products\/mtb-[a-z0-9.-]+\.(?:jpg|png|webp)$/);
-  const bytes=readFileSync(new URL('../public/'+p.image,import.meta.url));assert.ok(bytes.length>500);assert.ok(bytes[0]===0xff||bytes[0]===0x89||bytes.toString('ascii',0,4)==='RIFF',p.id);
+  assert.match(p.photoSource.remoteUrl,/^https:\/\//);assert.match(p.image,/^products\/mtb-[a-z0-9.-]+\.(?:jpg|png|webp|gif)$/);
+  const bytes=readFileSync(new URL('../public/'+p.image,import.meta.url));assert.ok(bytes.length>500);assert.ok(bytes[0]===0xff||bytes[0]===0x89||bytes.toString('ascii',0,4)==='RIFF'||['GIF87a','GIF89a'].includes(bytes.toString('ascii',0,6)),p.id);
   if(Number.isFinite(p.weight))assert.ok(p.weight>0&&p.weightBasis,p.id);
  }
 });
