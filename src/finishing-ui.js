@@ -1,0 +1,11 @@
+import {money} from './catalog.js';
+import {maxExtraQuantity,lineTotal} from './build-plan.js';
+import {escapeHtml as esc,externalArrow} from './view-utils.js';
+
+export function extraQuantityControl(p,quantity=1){
+ return `<label class="lab-extra-quantity">Packages · same variant<select data-extra-quantity="${esc(p.id)}" aria-label="Packages of ${esc(p.name)}">${Array.from({length:maxExtraQuantity},(_,i)=>i+1).map(n=>`<option value="${n}" ${n===quantity?'selected':''}>${n}</option>`).join('')}</select></label>`;
+}
+export function finishingKitMarkup(build,{browse=false}={}){
+ const rows=build.additionalLines.filter(p=>p.role==='Optional extra'),quantity=rows.reduce((n,p)=>n+p.quantity,0);
+ return `<section class="lab-finishing-kit" aria-labelledby="finishing-kit-title"><div class="lab-kit-heading"><div><p class="lab-kicker">THE FINISHING DETAILS</p><h3 id="finishing-kit-title">Your finishing kit<span>.</span></h3><p>${quantity} package${quantity===1?'':'s'} · ${rows.length} product reference${rows.length===1?'':'s'}</p></div>${browse?'<button class="lab-secondary" data-step="extras">Browse extras +</button>':''}</div>${rows.length?`<div class="lab-kit-lines">${rows.map(p=>`<article data-kit-line="${esc(p.id)}"><img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy"><div class="lab-kit-product"><h4>${esc(p.name)}</h4><p>${esc(p.variantNote||p.variant||p.sources.map(s=>s.variant).join(' + '))}</p><small>${money(p.price)} per package</small><div class="lab-kit-actions"><button data-review-inspect="${esc(p.id)}" data-category="extras">Specs & variant ${externalArrow}</button><button data-remove-extra="${esc(p.id)}" aria-label="Remove ${esc(p.name)}">Remove</button></div></div><div class="lab-kit-amount">${extraQuantityControl(p,p.quantity)}<strong>${money(lineTotal(p))}</strong></div></article>`).join('')}</div>`:'<p class="lab-muted">Choose the finishing items you need, or leave them for your supplier quote.</p>'}<p class="lab-muted">Quantity counts packages of the same selected variant. A light set or pedal pair is one package. Different front/rear rotor sizes need a supplier quote.</p>${build.compatibility.checks.some(c=>c.id.startsWith('finishing-')&&c.status==='conflict')?'<button class="lab-kit-conflict" data-review-issues>Accessory conflict · check your build →</button>':''}</section>`;
+}

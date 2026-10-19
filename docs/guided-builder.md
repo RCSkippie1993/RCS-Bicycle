@@ -1,8 +1,14 @@
 # Guided builder: configuration, evidence and performance
 
-Updated: **16 October 2026**. Source prices are dated ZAR references, not RCS inventory or a selling quote. Earlier reference dates remain 14–15 October. The original chain/accessory references are now included in the 447-reference collection. See [the catalogue expansion](catalog-expansion.md) for all 176 new references, exact source register and current category counts.
+Workflow updated: **19 October 2026**. Product source dates are retained; no prices were refreshed in this workflow update. Source prices are dated ZAR references, not RCS inventory or a selling quote. Earlier reference dates remain 14–15 October. The original chain/accessory references are now included in the 447-reference collection. See [the catalogue expansion](catalog-expansion.md) for all 176 new references, exact source register and current category counts.
 
 The main build box has ten steps, starting empty for a new visitor. Equipped core categories, source option choices, optional size/colour requests, chain mode and extras are validated in `build-plan.js`. Product IDs derive price and evidence; stored values never supply a price. Legacy saved components migrate. The separate Saved products drawer retains base reference models and package quantities; configured choices remain in the main build.
+
+## Finishing-kit quantities
+
+The extras step and final review show a selected kit with editable quantities, exact unit/package prices and multiplied line totals. Quantities 1–20 refer to copies of one selected SKU; sets and pairs already count as one package. Downloads, quote drafts, shared links and supported sourcing-package mass rows retain those quantities. Older saved builds and links default to one package per extra. Accessory-only quote preparation is supported. Read [the full quantity, compatibility and mass contract](finishing-kit.md).
+
+Tube-width, rotor and bottom-bracket checks use existing source evidence. Confirmed mismatches become conflicts; absent details and nominal agreement stay supplier reviews. Two single rotors do not certify front/rear diameters or caliper approval, and no separately bought item receives an invented package credit.
 
 ## Variant scope and arithmetic
 

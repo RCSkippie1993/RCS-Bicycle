@@ -2,6 +2,7 @@ import data from './guided-data.json' with {type:'json'};
 import {catalog, evaluate, money,chainOffers,extraOffers,optionRegister,featureRegister} from './catalog.js';
 import {resolvePackages,chainCompatibility} from './product-packages.js';
 import {inspectParts} from './compatibility.js';
+import {inspectFinishing} from './finishing-checks.js';
 
 export const planKey='rcs-build-plan';
 export const coreSteps=['frame','wheels','tires','drivetrain','brakes','cockpit','saddle'];
@@ -11,6 +12,10 @@ export {chainOffers,extraOffers,optionRegister,featureRegister};
 export const research=data.research;
 const own=(o,k)=>o&&Object.hasOwn(o,k);
 const cleanText=t=>typeof t==='string'?t.replace(/[\x00-\x1f\x7f]/g,' ').trim().slice(0,60):'';
+export const maxExtraQuantity=20;
+const packageQuantity=value=>Number.isInteger(value)&&value>=1&&value<=maxExtraQuantity?value:1;
+export const extraQuantity=(plan,id)=>packageQuantity(own(plan?.extraQuantities,id)?plan.extraQuantities[id]:1);
+export const lineTotal=p=>Number.isFinite(p?.price)?p.price*packageQuantity(p.quantity):null;
 export function normalizePlan(raw={}){
  const chosen=coreSteps.filter(k=>Array.isArray(raw?.chosen)&&raw.chosen.includes(k));
  const choices={},requests={};
@@ -23,7 +28,9 @@ export function normalizePlan(raw={}){
   if(!Object.values(catalog).some(g=>g.items.some(p=>p.id===id))||!values)continue;
   const safe=Object.fromEntries(['size','colour'].map(k=>[k,cleanText(values[k])]).filter(([,v])=>v));if(Object.keys(safe).length)requests[id]=safe;
  }
- return{version:1,chosen,choices,requests,chain:chainOffers.some(p=>p.id===raw?.chain)?raw.chain:'included',chainMode:raw?.chainMode==='spare'?'spare':'replacement',extras:extraOffers.filter(p=>Array.isArray(raw?.extras)&&raw.extras.includes(p.id)).map(p=>p.id)};
+ const extras=extraOffers.filter(p=>Array.isArray(raw?.extras)&&raw.extras.includes(p.id)).map(p=>p.id);
+ const extraQuantities=Object.fromEntries(extras.map(id=>[id,extraQuantity(raw,id)]).filter(([,quantity])=>quantity>1));
+ return{version:1,chosen,choices,requests,chain:chainOffers.some(p=>p.id===raw?.chain)?raw.chain:'included',chainMode:raw?.chainMode==='spare'?'spare':'replacement',extras,extraQuantities};
 }
 export function configureProduct(product,rawPlan){
  const plan=normalizePlan(rawPlan),spec=optionRegister[product.id],changes=plan.choices[product.id]||{};
@@ -51,7 +58,7 @@ export function configureProduct(product,rawPlan){
 export function guidedBuild(selection,rawPlan,settings={}){
  const plan=normalizePlan(rawPlan),base=evaluate(selection,settings);
  const parts=resolvePackages(Object.fromEntries(plan.chosen.map(key=>[key,configureProduct(catalog[key].items.find(p=>p.id===selection[key])||catalog[key].items[0],plan)])));
- const additionalLines=extraOffers.filter(p=>plan.extras.includes(p.id)).map(raw=>({...configureProduct(raw,plan),quantity:1,role:'Optional extra'}));
+ const additionalLines=extraOffers.filter(p=>plan.extras.includes(p.id)).map(raw=>({...configureProduct(raw,plan),quantity:extraQuantity(plan,raw.id),role:'Optional extra'}));
  const rawChain=chainOffers.find(p=>p.id===plan.chain),chain=rawChain?configureProduct(rawChain,plan):null,chainChecks=[];
  if(chain){
   additionalLines.unshift({...chain,quantity:1,role:plan.chainMode==='spare'?'Spare chain · not installed':'Installed chain selection'});
@@ -64,19 +71,19 @@ export function guidedBuild(selection,rawPlan,settings={}){
    chainChecks.push({id:'chain-system',title:'Selected chain & drivetrain',status:check.status,detail:check.detail,sources:chain.sources.map(s=>({sourceUrl:s.url,excerpt:chain.kind,checkedAt:s.checkedAt}))});
   }
  }
- const compatibility=inspectParts(parts,settings);compatibility.checks.push(...chainChecks);compatibility.errors=compatibility.checks.filter(c=>c.status==='conflict').map(c=>c.detail);for(const k of ['matched','conflict','review'])compatibility.counts[k]=compatibility.checks.filter(c=>c.status===k).length;
- const rows=[...Object.values(parts),...additionalLines],unpriced=rows.filter(p=>!Number.isFinite(p.price)),knownSubtotal=rows.reduce((n,p)=>n+(Number.isFinite(p.price)?p.price:0),0);
+ const compatibility=inspectParts(parts,settings),finishing=inspectFinishing(parts,additionalLines,compatibility.settings);compatibility.checks.push(...chainChecks,...finishing.checks);compatibility.requiredExtras.push(...finishing.notes);compatibility.errors=compatibility.checks.filter(c=>c.status==='conflict').map(c=>c.detail);for(const k of ['matched','conflict','review'])compatibility.counts[k]=compatibility.checks.filter(c=>c.status===k).length;
+ const rows=[...Object.values(parts),...additionalLines],unpriced=rows.filter(p=>!Number.isFinite(p.price)),knownSubtotal=rows.reduce((n,p)=>n+(lineTotal(p)??0),0);
  return{...base,parts,plan,additionalLines,unpriced,knownSubtotal,price:unpriced.length?null:knownSubtotal,compatibility,errors:compatibility.errors,warnings:Object.values(parts).flatMap(p=>[p.fitNote,p.variantNote].filter(Boolean)),complete:coreSteps.every(k=>parts[k]),missing:coreSteps.filter(k=>!parts[k])};
 }
 export function planText(build){
  if(!build.plan)return '';
- return ['BUILD CONFIGURATION',...Object.values(build.parts).flatMap(p=>[p.variantNote||'',...Object.entries(p.chosenOptions||{}).map(([k,v])=>`${p.name} · ${k}: ${v}`),...Object.entries(p.requestedOptions||{}).map(([k,v])=>`${p.name} · requested ${k}: ${v} (supplier confirmation)`)]),...build.missing.map(k=>'Not yet selected: '+stepLabels[k]),'CHAIN & FINISHING EXTRAS',build.plan.chain==='included'?'Use source-listed drivetrain chain; exact package contents and installed length need confirmation.':`Selected chain mode: ${build.plan.chainMode}. Itemised mechanical included-chain line is removed only for replacement; no unverified bundle credit is assumed.`,...build.additionalLines.flatMap(p=>[`${p.role}: ${p.name} — ${money(p.price)}`,...p.sources.map(s=>`${s.name}: ${s.url} | ${s.variant} | ${s.quantity} × ${money(s.unitPrice)} | checked ${s.checkedAt}`),p.variantNote||'',p.fitNote||'',p.weightBasis||''])].filter(Boolean).join('\n');
+ return ['BUILD CONFIGURATION',...Object.values(build.parts).flatMap(p=>[p.variantNote||'',...Object.entries(p.chosenOptions||{}).map(([k,v])=>`${p.name} · ${k}: ${v}`),...Object.entries(p.requestedOptions||{}).map(([k,v])=>`${p.name} · requested ${k}: ${v} (supplier confirmation)`)]),...build.missing.map(k=>'Not yet selected: '+stepLabels[k]),'CHAIN & FINISHING EXTRAS',build.plan.chain==='included'?'Use source-listed drivetrain chain; exact package contents and installed length need confirmation.':`Selected chain mode: ${build.plan.chainMode}. Itemised mechanical included-chain line is removed only for replacement; no unverified bundle credit is assumed.`,...build.additionalLines.flatMap(p=>[`${p.role}: ${p.name} — ${packageQuantity(p.quantity)} package(s) × ${money(p.price)} = ${money(lineTotal(p))}`,...p.sources.map(s=>`${s.name}: ${s.url} | ${s.variant} | ${s.referenceOnly?'Reference only; price unconfirmed':packageQuantity(p.quantity)*s.quantity+' × '+money(s.unitPrice)} | checked ${s.checkedAt}`),p.variantNote||'',p.fitNote||'',p.weightBasis||'']),'Quantities count copies of the exact source-listed package and selected variant. A package may already contain a pair or set; front/rear sizes and installed quantities need supplier confirmation.'].filter(Boolean).join('\n');
 }
 // Share only catalog-backed option values. Free-text fit requests stay in this browser/quote.
-export function shareablePlan(raw){const {requests,...safe}=normalizePlan(raw);return safe;}
+export function shareablePlan(raw){const {requests,extraQuantities,...safe}=normalizePlan(raw);return Object.keys(extraQuantities).length?{...safe,extraQuantities}:safe;}
 export function validSharedPlan(raw){
  if(!raw||typeof raw!=='object'||Array.isArray(raw))return false;
- const keys=['version','chosen','choices','chain','chainMode','extras'];if(Object.keys(raw).some(k=>!keys.includes(k))||keys.some(k=>!own(raw,k)))return false;
+ const keys=['version','chosen','choices','chain','chainMode','extras'];if(Object.keys(raw).some(k=>![...keys,'extraQuantities'].includes(k))||keys.some(k=>!own(raw,k)))return false;
  const stable=v=>JSON.stringify(v,(_,value)=>value&&typeof value==='object'&&!Array.isArray(value)?Object.fromEntries(Object.entries(value).sort(([a],[b])=>a.localeCompare(b))):value);
  return stable(raw)===stable(shareablePlan(raw));
 }

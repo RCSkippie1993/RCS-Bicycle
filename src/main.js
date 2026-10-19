@@ -18,7 +18,7 @@ import {openShare} from './share-ui.js';
 import {openQuoteRequest} from './quote-ui.js';
 import {ratingMethod} from './ratings-ui.js';
 import {buildRatingMethod} from './build-ratings-ui.js';
-import {planKey,coreSteps,buildSteps,stepLabels,normalizePlan,guidedBuild} from './build-plan.js';
+import {planKey,coreSteps,buildSteps,stepLabels,normalizePlan,guidedBuild,maxExtraQuantity} from './build-plan.js';
 import {productsFor,newFilters,filterMarkup,resultsMarkup,inspectorMarkup,summaryMarkup,reviewMarkup,stepperMarkup} from './guided-ui.js';
 
 let selection={...defaults},settings=normalizeSettings(),rider={...riderDefaults},plan=normalizePlan(),active='frame',sharedPreview=null,notice='',storageAvailable=true,inspection=null;
@@ -44,7 +44,7 @@ function persist(){
  try{localStorage.setItem('rcs-build',JSON.stringify(selection));localStorage.setItem(planKey,JSON.stringify(plan));localStorage.setItem(settingsKey,JSON.stringify(settings));localStorage.setItem('rcs-rider',JSON.stringify(rider));storageAvailable=true;}catch{storageAvailable=false;}
 }
 function shareLink(){return sharedBuildUrl(selection,rider.goal,settings,location.href,plan);}
-function requestBuild(){const build=currentBuild();openQuoteRequest({title:'Your custom road build',items:[...Object.values(build.parts),...build.additionalLines].map(p=>({name:p.name,quantity:1,price:p.price,basis:p.priceBasis||p.role})),knownSubtotal:build.knownSubtotal,unpricedCount:build.unpriced.length,sourceText:briefText(build,rider),shareUrl:shareLink()});}
+function requestBuild(){const build=currentBuild();openQuoteRequest({title:'Your custom road build',items:[...Object.values(build.parts),...build.additionalLines].map(p=>({name:p.name,quantity:p.quantity??1,price:p.price,basis:p.priceBasis||p.role})),knownSubtotal:build.knownSubtotal,unpricedCount:build.unpriced.length,sourceText:briefText(build,rider),shareUrl:shareLink()});}
 function downloadBuild(){const text=briefText(currentBuild(),rider);const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='rcs-road-build.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function goStep(key){if(!buildSteps.includes(key))return;active=key;inspection=null;render();document.querySelector('#lab-step-heading').focus({preventScroll:true});document.querySelector('#builder').scrollIntoView({block:'start'});}
 function equip(id,key=active){
@@ -66,7 +66,7 @@ function openInspector(id,key=active){
  const dialog=document.querySelector('#lab-inspector');dialog.innerHTML=inspectorMarkup(p,key,currentBuild());if(!dialog.open)dialog.showModal();
 }
 function refreshInspector(focus){
- if(!inspection)return;const {id,key}=inspection;openInspector(id,key);document.querySelector(focus)?.focus({preventScroll:true});
+ if(!inspection)return;const {id,key}=inspection;openInspector(id,key);document.querySelector('#lab-inspector').querySelector(focus)?.focus({preventScroll:true});
 }
 function render(){
  const build=currentBuild(),i=buildSteps.indexOf(active);
@@ -83,6 +83,7 @@ function render(){
 const app=document.querySelector('#app');
 app.addEventListener('click',event=>{
  const button=event.target.closest('button,a');if(!button)return;
+ if(button.hasAttribute('data-remove-extra')){plan.extras=plan.extras.filter(id=>id!==button.dataset.removeExtra);plan=normalizePlan(plan);persist();render();announce('Extra removed from your finishing kit.');return;}
  if(button.hasAttribute('data-remove-step')){plan.chosen=plan.chosen.filter(k=>k!==button.dataset.removeStep);persist();render();announce('Component removed from your build.');return;}
  if(button.hasAttribute('data-step')){event.preventDefault();goStep(button.dataset.step);return;}
  if(button.hasAttribute('data-next-step')){goStep(button.dataset.nextStep);return;}
@@ -90,7 +91,7 @@ app.addEventListener('click',event=>{
  if(button.hasAttribute('data-inspect')){openInspector(button.dataset.inspect);return;}
  if(button.hasAttribute('data-review-inspect')){openInspector(button.dataset.reviewInspect,button.dataset.category);return;}
  if(button.hasAttribute('data-inspector-close')){document.querySelector('#lab-inspector').close();return;}
- if(button.hasAttribute('data-inspector-equip')){const {id,key}=inspection;document.querySelector('#lab-inspector').close();equip(id,key);return;}
+ if(button.hasAttribute('data-inspector-equip')){const {id,key}=inspection,keep=key==='extras'&&plan.extras.includes(id);document.querySelector('#lab-inspector').close();if(!keep)equip(id,key);return;}
  if(button.hasAttribute('data-review-issues')){event.preventDefault();goStep('review');document.querySelector('.lab-review-evidence').open=true;document.querySelector('.lab-review-evidence').scrollIntoView({block:'start'});return;}
  if(button.hasAttribute('data-chain-included')){plan.chain='included';persist();render();announce('Bundled chain selected. No separate chain cost added.');return;}
  if(button.hasAttribute('data-lab-page')){filters[active].page=Number(button.dataset.labPage);paintResults();document.querySelector('#lab-result-count').scrollIntoView({block:'start'});return;}
@@ -110,6 +111,7 @@ app.addEventListener('click',event=>{
 app.addEventListener('input',event=>{if(event.target.id==='lab-search'){filters[active].query=event.target.value;filters[active].page=1;paintResults();}});
 app.addEventListener('change',event=>{
  const input=event.target;
+ if(input.hasAttribute('data-extra-quantity')){const id=input.dataset.extraQuantity,value=Number(input.value);if(!plan.extras.includes(id)||!Number.isInteger(value)||value<1||value>maxExtraQuantity)return;plan.extraQuantities={...plan.extraQuantities,[id]:value};plan=normalizePlan(plan);persist();updateSummary();if(active!=='review')paintResults();if(inspection)refreshInspector(`[data-extra-quantity="${id}"]`);else document.querySelector(`[data-extra-quantity="${id}"]`)?.focus({preventScroll:true});announce('Finishing-kit quantity updated.');return;}
  if(input.hasAttribute('data-facet')){const facet=input.dataset.facet;filters[active][facet]=[...document.querySelectorAll(`[data-facet="${facet}"]:checked`)].map(el=>el.value);filters[active].page=1;paintResults();}
  if(input.id==='lab-sort'){filters[active].sort=input.value;filters[active].page=1;paintResults();}
  if(input.hasAttribute('data-option-field')&&inspection){const {id}=inspection;plan.choices[id]={...plan.choices[id],[input.dataset.optionField]:input.value};plan=normalizePlan(plan);persist();updateSummary();if(active!=='review')paintResults();refreshInspector(`[data-option-field="${input.dataset.optionField}"]`);}

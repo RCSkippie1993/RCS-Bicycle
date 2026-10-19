@@ -1,6 +1,6 @@
 import {productRatings} from './ratings.js';
 import {frameGoalPoints} from './build-ratings.js';
-import {featureRegister,research,optionRegister} from './build-plan.js';
+import {featureRegister,research,optionRegister,maxExtraQuantity} from './build-plan.js';
 
 const scale=(n,low,high)=>Number.isFinite(n)?Math.round((1+9*Math.max(0,Math.min(1,(high-n)/(high-low))))*10)/10:null;
 export function materialOf(p,category){
@@ -29,8 +29,11 @@ export function scienceProfile(p,category){
 }
 export function documentedMass(build){
  const rows=Object.entries(build.parts||{}).filter(([key,p])=>['frame','wheels','tires'].includes(key)&&Number.isFinite(p.weight)).map(([key,p])=>({key,name:p.name,kg:p.weight,basis:p.weightBasis,source:p.sources[0]?.url}));
- for(const p of build.additionalLines||[])if(p.role==='Optional extra'&&Number.isFinite(p.weight)&&!/(?:tools|spares|sealant|tube|co₂|co2|lube)/i.test(p.kind||''))rows.push({key:p.id,name:p.name,kg:p.weight,basis:p.weightBasis,source:p.sources[0]?.url});
- return{kg:rows.reduce((n,p)=>n+p.kg,0),rows,missing:Object.entries(build.parts||{}).filter(([key,p])=>!['frame','wheels','tires'].includes(key)||!Number.isFinite(p.weight)).map(([key])=>key),complete:false};
+ for(const p of build.additionalLines||[])if(p.role==='Optional extra'&&Number.isFinite(p.weight)&&!/(?:tools|spares|sealant|tube|co₂|co2|lube)/i.test(p.kind||'')){
+  const quantity=Number.isInteger(p.quantity)&&p.quantity>=1&&p.quantity<=maxExtraQuantity?p.quantity:1;
+  rows.push({key:p.id,name:p.name,quantity,kg:p.weight*quantity,basis:`${quantity} source package(s). ${p.weightBasis||''} Sourcing-package mass; not necessarily all installed.`,source:p.sources[0]?.url});
+ }
+ return{kg:rows.reduce((n,p)=>n+p.kg,0),rows,missing:Object.entries(build.parts||{}).filter(([key,p])=>!['frame','wheels','tires'].includes(key)||!Number.isFinite(p.weight)).map(([key])=>key),complete:false,scope:'Documented sourcing-package mass, not necessarily installed bicycle mass. Spare, consumable and unresolved masses remain excluded.'};
 }
 export function climbingPowerDelta(baseline,selected,speedKph=15,gradePercent=6){
  const valid=p=>p&&Number.isFinite(p.weight)&&p.weight>0&&p.profileEvidence?.weight?.url&&p.profileEvidence?.weight?.excerpt;
