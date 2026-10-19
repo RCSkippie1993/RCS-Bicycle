@@ -5,4 +5,5 @@ export default defineConfig({ base: './', build: { rollupOptions: { input: {
  home: new URL('./index.html', import.meta.url).pathname,
  collection: new URL('./collection.html', import.meta.url).pathname,
  builds: new URL('./builds.html', import.meta.url).pathname,
+ mountain: new URL('./mountain.html', import.meta.url).pathname,
 } } } });

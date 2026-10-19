@@ -23,7 +23,7 @@ export function validateQuote(raw={}) {
 
 export function quoteText(contact,context,{compact=false}={}) {
  return[
-  'RCS BICYCLE — QUOTE REQUEST',`Request for: ${context.title}`,`Reference prices checked: ${checkedDate}`,'',
+  'RCS BICYCLE — QUOTE REQUEST',`Request for: ${context.title}`,`Reference prices checked: ${context.checkedDate||checkedDate}`,'',
   'CONTACT & DELIVERY',`Name: ${contact.name}`,`Reply email: ${contact.email}`,`Phone: ${contact.phone||'Not supplied'}`,
   `Province: ${contact.province}`,`Town/city: ${contact.city||'To confirm'}`,`Fulfilment: ${deliveryMethods[contact.delivery]}`,
   `Requested frame size: ${contact.frameSize||'Fitter/supplier advice requested'}`,

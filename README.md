@@ -1,6 +1,6 @@
 # RCS Bicycle
 
-South African road-bike sourcing configurator. The main experience is a guided build box with real product photos, dated ZAR references, source-backed specifications and a live component summary.
+South African road and mountain-bike sourcing configurator. The main experience is a guided build box with real product photos, dated ZAR references, source-backed specifications and a live component summary.
 
 ## Development
 
@@ -13,7 +13,13 @@ npm test
 npm run build
 ```
 
-Vite builds `index.html`, `collection.html` and `builds.html` with relative assets for GitHub Pages. No credentials or backend services are needed. Fonts and product photos are local. Restart development processes in a new task; check all three HTML entry points. Keep TLS verification enabled.
+Vite builds `index.html`, `collection.html`, `builds.html` and `mountain.html` with relative assets for GitHub Pages. No credentials or backend services are needed. Fonts and product photos are local. Restart development processes in a new task; check all four HTML entry points. Keep TLS verification enabled.
+
+## Mountain-bike builder
+
+`mountain.html` adds a separate guided MTB build path with 135 sourced references: 10 frames/modules, 9 complete bikes, 14 forks, 9 shocks, 16 wheelsets, 26 single tyres and drivetrain, chain, brake, cockpit, seatpost, saddle and finishing references. Prices/photos and exact source variants were reviewed 19 October 2026. Browse all at `mountain.html?view=collection`; complete MTBs stay separate from component pricing. Read [the MTB method](docs/mtb-builder.md) and [full source register](docs/mtb-sources.md).
+
+Front and rear tyres are independent single-tyre selections. Source-confirmed frame/shock/fork/post and drivetrain-chain inclusions are contextual, with no duplicate price or mass. Separately purchased replacements keep their full additional price and require reconciliation. Known axle/wheel/tyre/freehub/UDH/chain/shock/brake/clamp/post mismatches are flagged; unknowns and nominal agreements stay supplier review. Partial upgrade kits retain explicit missing essentials. Source options, private size requests, quantity-aware extras, downloads, quote drafts and isolated MTB sharing/persistence are supported. Road selections and link schemas remain unchanged.
 
 ## Guided build box
 
@@ -61,4 +67,4 @@ The Node suite covers original core combinations, pricing/source arithmetic, mod
 
 The existing schematic Three.js engine and GLB validation remain in source, but the guided home page focuses on source photographs. No real product meshes have been supplied. 3D expansion is paused; read [3D asset contract](docs/3d-assets.md) and [production brief](docs/model-production-brief.md) before future asset work. Schematic geometry never establishes appearance, fit or measured performance.
 
-After authorized changes pass tests/build/browser checks, publish all three HTML pages and shared assets to `gh-pages` with `.nojekyll`, preserving the current deployment parent without force pushing. `main` does not auto-publish. Confirm GitHub Pages built the expected SHA and public HTTPS files match the tested build. Website deployment is separate from cloud-environment configuration review/publication.
+After authorized changes pass tests/build/browser checks, publish all four HTML pages and shared assets to `gh-pages` with `.nojekyll`, preserving the current deployment parent without force pushing. `main` does not auto-publish. Confirm GitHub Pages built the expected SHA and public HTTPS files match the tested build. Website deployment is separate from cloud-environment configuration review/publication.
